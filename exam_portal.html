@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced ITT Exam Portal – ICAI</title>
+<style>
+/* ===== RESET & BASE ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --primary:#1a3a6b;--primary-light:#2a5298;--primary-dark:#0f2242;
+  --secondary:#c8a84b;--secondary-light:#e0c06a;
+  --success:#28a745;--warning:#fd7e14;--danger:#dc3545;
+  --info:#17a2b8;
+  --bg:#f4f6f9;--card:#ffffff;--text:#2c3e50;--muted:#6c757d;
+  --border:#dee2e6;--shadow:0 2px 12px rgba(0,0,0,.1);
+  --radius:8px;--radius-lg:12px;
+}
+html,body{height:100%;font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.6}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;font-family:inherit;font-size:inherit}
+input,select,textarea{font-family:inherit;font-size:inherit}
+.hidden{display:none!important}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:#f1f1f1}
+::-webkit-scrollbar-thumb{background:#bbb;border-radius:4px}
+::-webkit-scrollbar-thumb:hover{background:#888}
+
+/* ===== UTILITY ===== */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 20px;border:none;border-radius:var(--radius);font-weight:600;transition:all .2s;cursor:pointer;white-space:nowrap}
+.btn-primary{background:var(--primary);color:#fff}.btn-primary:hover{background:var(--primary-light)}
+.btn-secondary{background:var(--secondary);color:#fff}.btn-secondary:hover{background:var(--secondary-light);color:#333}
+.btn-success{background:var(--success);color:#fff}.btn-success:hover{filter:brightness(1.1)}
+.btn-danger{background:var(--danger);color:#fff}.btn-danger:hover{filter:brightness(1.1)}
+.btn-warning{background:var(--warning);color:#fff}.btn-warning:hover{filter:brightness(1.1)}
+.btn-outline{background:transparent;border:2px solid var(--primary);color:var(--primary)}.btn-outline:hover{background:var(--primary);color:#fff}
+.btn-sm{padding:5px 12px;font-size:.85rem}
+.btn-lg{padding:12px 28px;font-size:1.05rem}
+.btn-block{width:100%;justify-content:center}
+.card{background:var(--card);border-radius:var(--radius-lg);box-shadow:var(--shadow);padding:20px}
+.badge{display:inline-block;padding:3px 10px;border-radius:50px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.badge-easy{background:#d4edda;color:#155724}
+.badge-medium{background:#fff3cd;color:#856404}
+.badge-hard{background:#f8d7da;color:#721c24}
+.badge-mcq{background:#cce5ff;color:#004085}
+.badge-descriptive{background:#e2d9f3;color:#4a1f8c}
+.text-muted{color:var(--muted)}
+.text-center{text-align:center}
+.flex{display:flex}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-2{gap:8px}.gap-3{gap:12px}.gap-4{gap:16px}
+.mt-1{margin-top:4px}.mt-2{margin-top:8px}.mt-3{margin-top:12px}.mt-4{margin-top:16px}
+.mb-2{margin-bottom:8px}.mb-3{margin-bottom:12px}.mb-4{margin-bottom:16px}
+.p-3{padding:12px}.p-4{padding:16px}
+.w-full{width:100%}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+
+/* ===== HEADER ===== */
+.site-header{background:var(--primary);color:#fff;padding:0 20px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+.site-header .logo{display:flex;align-items:center;gap:10px}
+.site-header .logo-icon{width:36px;height:36px;background:var(--secondary);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px;color:#fff}
+.site-header .logo-text{font-size:1rem;font-weight:700;line-height:1.2}
+.site-header .logo-sub{font-size:.7rem;opacity:.8;font-weight:400}
+.header-nav{display:flex;gap:6px}
+.header-nav button{background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;padding:6px 14px;border-radius:6px;font-size:.85rem;transition:all .2s}
+.header-nav button:hover,.header-nav button.active{background:var(--secondary);border-color:var(--secondary)}
+
+/* ===== SCREENS ===== */
+.screen{display:none;min-height:calc(100vh - 56px);padding:24px 20px}
+.screen.active{display:block}
+
+/* ===== HOME SCREEN ===== */
+.home-hero{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:#fff;border-radius:var(--radius-lg);padding:36px 32px;margin-bottom:24px;position:relative;overflow:hidden}
+.home-hero::after{content:'';position:absolute;right:-40px;top:-40px;width:200px;height:200px;background:rgba(200,168,75,.2);border-radius:50%}
+.home-hero::before{content:'';position:absolute;right:60px;bottom:-60px;width:140px;height:140px;background:rgba(200,168,75,.1);border-radius:50%}
+.home-hero h1{font-size:1.8rem;font-weight:800;margin-bottom:6px}
+.home-hero .subtitle{opacity:.85;font-size:1rem;margin-bottom:20px}
+.home-hero .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:var(--card);border-radius:var(--radius-lg);padding:20px;text-align:center;box-shadow:var(--shadow);border-top:4px solid var(--primary)}
+.stat-card .stat-value{font-size:2rem;font-weight:800;color:var(--primary);line-height:1}
+.stat-card .stat-label{font-size:.8rem;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:.5px}
+.home-actions-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-bottom:24px}
+.action-card{background:var(--card);border-radius:var(--radius-lg);padding:20px;box-shadow:var(--shadow);border:2px solid transparent;cursor:pointer;transition:all .2s;text-align:center}
+.action-card:hover{border-color:var(--primary);transform:translateY(-2px)}
+.action-card .action-icon{font-size:2rem;margin-bottom:10px}
+.action-card h3{font-size:1rem;color:var(--primary);margin-bottom:4px}
+.action-card p{font-size:.8rem;color:var(--muted)}
+.import-instructions{background:#e8f0fe;border:1px solid #bbdefb;border-radius:var(--radius);padding:16px;margin-bottom:24px}
+.import-instructions h4{color:var(--primary);margin-bottom:8px}
+.import-instructions ol{padding-left:20px;font-size:.88rem;color:#444}
+.import-instructions ol li{margin-bottom:4px}
+
+/* ===== FILTER/SETUP SCREEN ===== */
+.setup-container{max-width:720px;margin:0 auto}
+.form-group{margin-bottom:18px}
+.form-group label{display:block;font-weight:600;margin-bottom:6px;color:var(--primary)}
+.form-control{width:100%;padding:9px 14px;border:2px solid var(--border);border-radius:var(--radius);transition:border .2s;background:var(--card)}
+.form-control:focus{outline:none;border-color:var(--primary)}
+.chapter-checkboxes{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;max-height:220px;overflow-y:auto;border:2px solid var(--border);border-radius:var(--radius);padding:12px;background:var(--card)}
+.chapter-checkbox-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:6px;cursor:pointer;transition:background .15s}
+.chapter-checkbox-item:hover{background:#f0f4ff}
+.chapter-checkbox-item input{width:16px;height:16px;cursor:pointer;accent-color:var(--primary)}
+.range-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.setup-actions{display:flex;gap:12px;justify-content:flex-end;margin-top:24px}
+
+/* ===== EXAM SCREEN ===== */
+#screen-exam{padding:0;display:none}
+#screen-exam.active{display:flex;flex-direction:column;height:calc(100vh - 56px)}
+.exam-topbar{background:var(--primary);color:#fff;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.exam-topbar .exam-title{font-weight:700;font-size:.95rem}
+.exam-topbar .exam-progress{font-size:.85rem;opacity:.85}
+.exam-timer{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.15);padding:6px 14px;border-radius:50px;font-weight:700;font-size:1rem}
+.exam-timer.warning{background:rgba(253,126,20,.4)}
+.exam-timer.danger{background:rgba(220,53,69,.5);animation:pulse .8s infinite}
+.exam-timer .pause-btn{background:transparent;border:none;color:#fff;font-size:1rem;padding:0;cursor:pointer;opacity:.8}
+.exam-timer .pause-btn:hover{opacity:1}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.exam-body{flex:1;display:flex;overflow:hidden}
+.exam-palette-panel{width:220px;flex-shrink:0;background:var(--card);border-right:1px solid var(--border);overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+.palette-title{font-weight:700;font-size:.85rem;color:var(--primary);text-transform:uppercase;letter-spacing:.5px}
+.palette-legend{display:flex;flex-direction:column;gap:4px}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:.78rem;color:var(--muted)}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.palette-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.palette-btn{width:36px;height:36px;border-radius:50%;border:2px solid transparent;font-size:.8rem;font-weight:700;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center}
+.palette-btn.unanswered{background:#e9ecef;color:#666;border-color:#ced4da}
+.palette-btn.answered{background:var(--success);color:#fff;border-color:var(--success)}
+.palette-btn.marked{background:var(--warning);color:#fff;border-color:var(--warning)}
+.palette-btn.answered-marked{background:var(--warning);color:#fff;border-color:var(--success);box-shadow:0 0 0 2px var(--success)}
+.palette-btn.current{border-color:var(--danger);box-shadow:0 0 0 3px rgba(220,53,69,.3)}
+.exam-main{flex:1;overflow-y:auto;padding:20px}
+.question-card{background:var(--card);border-radius:var(--radius-lg);box-shadow:var(--shadow);padding:24px;max-width:900px;margin:0 auto}
+.question-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center}
+.question-text{font-size:1.05rem;line-height:1.75;margin-bottom:20px;font-weight:500}
+.options-list{display:flex;flex-direction:column;gap:10px}
+.option-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border:2px solid var(--border);border-radius:var(--radius);cursor:pointer;transition:all .2s;background:var(--card)}
+.option-item:hover{border-color:var(--primary);background:#f0f4ff}
+.option-item.selected{border-color:var(--primary);background:#e8f0fe}
+.option-item input[type=radio]{width:18px;height:18px;accent-color:var(--primary);flex-shrink:0;margin-top:2px}
+.option-label{font-weight:700;color:var(--primary);min-width:20px}
+.option-text{flex:1}
+.desc-textarea{width:100%;min-height:200px;padding:14px;border:2px solid var(--border);border-radius:var(--radius);resize:vertical;line-height:1.6;transition:border .2s}
+.desc-textarea:focus{outline:none;border-color:var(--primary)}
+.desc-info{font-size:.8rem;color:var(--muted);margin-top:6px}
+.exam-bottombar{background:var(--card);border-top:1px solid var(--border);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;flex-wrap:wrap;gap:10px}
+.exam-nav-btns{display:flex;gap:8px;flex-wrap:wrap}
+/* Mobile palette toggle */
+.palette-toggle-btn{display:none;position:fixed;bottom:80px;right:16px;width:50px;height:50px;border-radius:50%;background:var(--primary);color:#fff;border:none;font-size:1.3rem;box-shadow:0 4px 12px rgba(0,0,0,.3);z-index:200}
+.mobile-palette-sheet{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--card);border-radius:16px 16px 0 0;padding:20px;box-shadow:0 -4px 20px rgba(0,0,0,.2);z-index:300;max-height:60vh;overflow-y:auto}
+.mobile-palette-sheet.open{display:block}
+.mobile-sheet-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.mobile-sheet-close{background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--muted)}
+.mobile-palette-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:6px}
+
+/* ===== MODAL ===== */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:500;align-items:center;justify-content:center}
+.modal-overlay.open{display:flex}
+.modal{background:var(--card);border-radius:var(--radius-lg);padding:28px;max-width:500px;width:90%;box-shadow:0 8px 40px rgba(0,0,0,.3);position:relative}
+.modal h2{color:var(--primary);margin-bottom:16px;font-size:1.3rem}
+.submit-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px}
+.submit-stat{text-align:center;padding:14px;border-radius:var(--radius);background:var(--bg)}
+.submit-stat .val{font-size:1.6rem;font-weight:800}
+.submit-stat .lbl{font-size:.75rem;color:var(--muted);text-transform:uppercase}
+.submit-stat.answered .val{color:var(--success)}
+.submit-stat.unanswered .val{color:var(--danger)}
+.submit-stat.marked .val{color:var(--warning)}
+.modal-actions{display:flex;gap:12px;justify-content:flex-end}
+
+/* ===== RESULTS SCREEN ===== */
+.results-container{max-width:1000px;margin:0 auto}
+.score-hero{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:#fff;border-radius:var(--radius-lg);padding:30px;margin-bottom:24px;text-align:center}
+.score-circle{width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.15);border:4px solid var(--secondary);margin:0 auto 16px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.score-circle .pct{font-size:2rem;font-weight:900;line-height:1}
+.score-circle .grade{font-size:.9rem;font-weight:700;color:var(--secondary)}
+.score-details{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;margin-top:16px}
+.score-detail{text-align:center}
+.score-detail .val{font-size:1.5rem;font-weight:800}
+.score-detail .lbl{font-size:.75rem;opacity:.8;text-transform:uppercase}
+.chapter-table{width:100%;border-collapse:collapse;margin-bottom:24px}
+.chapter-table th{background:var(--primary);color:#fff;padding:10px 14px;text-align:left;font-size:.85rem}
+.chapter-table td{padding:10px 14px;border-bottom:1px solid var(--border);font-size:.9rem}
+.chapter-table tr:hover td{background:#f8f9fa}
+.progress-bar-sm{height:6px;background:#e9ecef;border-radius:3px;overflow:hidden;margin-top:4px}
+.progress-bar-fill{height:100%;border-radius:3px;background:var(--success);transition:width .4s}
+.review-section{margin-bottom:24px}
+.review-section h2{font-size:1.1rem;color:var(--primary);margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--border)}
+.review-item{background:var(--card);border-radius:var(--radius-lg);padding:18px;margin-bottom:14px;box-shadow:var(--shadow);border-left:4px solid var(--border)}
+.review-item.correct{border-left-color:var(--success)}
+.review-item.incorrect{border-left-color:var(--danger)}
+.review-item.descriptive{border-left-color:var(--info)}
+.review-item.skipped{border-left-color:var(--muted)}
+.review-q-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;flex-wrap:wrap;gap:6px}
+.review-q-num{font-weight:800;color:var(--primary)}
+.review-q-text{font-size:.95rem;margin-bottom:12px;line-height:1.6}
+.answer-comparison{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.answer-box{padding:12px;border-radius:var(--radius);font-size:.88rem}
+.answer-box.your-answer{background:#e8f0fe;border:1px solid #bbdefb}
+.answer-box.correct-answer{background:#d4edda;border:1px solid #c3e6cb}
+.answer-box h5{font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;opacity:.7}
+.keyword-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.keyword-chip{padding:3px 10px;border-radius:50px;font-size:.78rem;font-weight:600}
+.keyword-chip.found{background:#d4edda;color:#155724}
+.keyword-chip.missing{background:#f8d7da;color:#721c24}
+.ai-disclaimer{background:#fff3cd;border:1px solid #ffc107;border-radius:var(--radius);padding:12px;font-size:.82rem;color:#856404;margin-top:12px}
+.mcq-options-review{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
+.mcq-option-review{padding:8px 12px;border-radius:var(--radius);font-size:.88rem;border:1px solid var(--border)}
+.mcq-option-review.correct-opt{background:#d4edda;border-color:var(--success);font-weight:600}
+.mcq-option-review.wrong-opt{background:#f8d7da;border-color:var(--danger)}
+.results-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+
+/* ===== HISTORY SCREEN ===== */
+.history-container{max-width:900px;margin:0 auto}
+.history-item{background:var(--card);border-radius:var(--radius-lg);padding:18px;margin-bottom:14px;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.history-info .date{font-size:.8rem;color:var(--muted)}
+.history-info .title{font-weight:700;color:var(--primary);margin:2px 0}
+.history-info .meta{font-size:.85rem;color:var(--muted)}
+.history-score{text-align:center}
+.history-score .pct{font-size:1.6rem;font-weight:800;color:var(--primary);line-height:1}
+.history-score .grade{font-size:.8rem;font-weight:600}
+
+/* ===== ADD QUESTIONS SCREEN ===== */
+.add-questions-container{max-width:800px;margin:0 auto}
+.drop-zone{border:3px dashed var(--border);border-radius:var(--radius-lg);padding:40px;text-align:center;cursor:pointer;transition:all .2s;margin-bottom:20px;background:var(--card)}
+.drop-zone:hover,.drop-zone.drag-over{border-color:var(--primary);background:#e8f0fe}
+.drop-zone-icon{font-size:3rem;margin-bottom:12px}
+.drop-zone p{color:var(--muted);margin-bottom:12px}
+
+/* ===== PAGE TITLES ===== */
+.page-title{font-size:1.4rem;font-weight:800;color:var(--primary);margin-bottom:4px}
+.page-subtitle{font-size:.88rem;color:var(--muted);margin-bottom:20px}
+
+/* ===== TOAST ===== */
+.toast-container{position:fixed;bottom:20px;right:20px;z-index:9999;display:flex;flex-direction:column;gap:8px}
+.toast{background:var(--text);color:#fff;padding:12px 20px;border-radius:var(--radius);font-size:.88rem;animation:slideIn .3s ease;max-width:300px;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.toast.success{background:var(--success)}
+.toast.error{background:var(--danger)}
+.toast.warning{background:var(--warning)}
+@keyframes slideIn{from{transform:translateX(100%);opacity:0}to{transform:translateX(0);opacity:1}}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+  .screen{padding:16px}
+  .home-hero{padding:24px 20px}
+  .home-hero h1{font-size:1.4rem}
+  .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .header-nav{display:none}
+  .exam-palette-panel{display:none}
+  .palette-toggle-btn{display:flex;align-items:center;justify-content:center}
+  .answer-comparison{grid-template-columns:1fr}
+  .history-item{flex-direction:column}
+  .submit-stats{grid-template-columns:1fr 1fr}
+  .score-details{gap:16px}
+  .mobile-palette-grid{grid-template-columns:repeat(6,1fr)}
+  .exam-bottombar{justify-content:center}
+  .exam-nav-btns{justify-content:center}
+}
+@media(max-width:480px){
+  .palette-btn,.mobile-palette-grid .palette-btn{width:30px;height:30px;font-size:.7rem}
+  .mobile-palette-grid{grid-template-columns:repeat(5,1fr)}
+  .stat-grid{grid-template-columns:1fr 1fr}
+}
+
+/* ===== SECTION HEADER ===== */
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="logo">
+    <div class="logo-icon">AI</div>
+    <div>
+      <div class="logo-text">Advanced ITT Exam Portal</div>
+      <div class="logo-sub">ICAI – Advanced Integrated Training on Tally</div>
+    </div>
+  </div>
+  <nav class="header-nav">
+    <button onclick="UI.showScreen('home')" id="nav-home">🏠 Home</button>
+    <button onclick="UI.showScreen('history')" id="nav-history">📋 History</button>
+    <button onclick="UI.showScreen('add-questions')" id="nav-add">➕ Add Questions</button>
+  </nav>
+  <button class="btn btn-secondary btn-sm" onclick="UI.showScreen('home')" style="display:block" id="mobile-home-btn">🏠</button>
+</header>
+
+<!-- ============================================================
+     SCREEN 1: HOME / DASHBOARD
+============================================================ -->
+<section class="screen active" id="screen-home">
+  <div class="home-hero">
+    <h1>🎓 Advanced ITT Exam Portal</h1>
+    <div class="subtitle">ICAI – Advanced Integrated Training on Tally | Comprehensive Practice & Assessment</div>
+    <div class="hero-actions">
+      <button class="btn btn-secondary btn-lg" onclick="Exam.startFlow()">🚀 Start Exam</button>
+      <button class="btn btn-outline btn-lg" style="color:#fff;border-color:rgba(255,255,255,.5)" onclick="Exam.startFlow('practice')">📚 Practice Mode</button>
+    </div>
+  </div>
+
+  <div class="stat-grid" id="stats-grid">
+    <!-- filled by JS -->
+  </div>
+
+  <div class="import-instructions">
+    <h4>📂 How to Load Your Question Bank</h4>
+    <ol>
+      <li>Generate <strong>questions_bank.json</strong> using the extraction agent (or place it in the same folder).</li>
+      <li>Click <strong>"Import Questions JSON"</strong> below and select the file.</li>
+      <li>Questions will merge with existing data and be saved locally.</li>
+      <li>Alternatively, place <code>questions_bank.json</code> in the same folder as this HTML file — it will auto-load on start.</li>
+    </ol>
+  </div>
+
+  <div class="home-actions-grid">
+    <div class="action-card" onclick="Exam.startFlow()">
+      <div class="action-icon">📝</div>
+      <h3>Start Exam</h3>
+      <p>Timed examination with full evaluation</p>
+    </div>
+    <div class="action-card" onclick="Exam.startFlow('practice')">
+      <div class="action-icon">📚</div>
+      <h3>Practice Mode</h3>
+      <p>No time limit, see answers immediately</p>
+    </div>
+    <div class="action-card" onclick="document.getElementById('import-json-input').click()">
+      <div class="action-icon">📥</div>
+      <h3>Import Questions JSON</h3>
+      <p>Load questions_bank.json from your computer</p>
+    </div>
+    <div class="action-card" onclick="UI.showScreen('history')">
+      <div class="action-icon">📊</div>
+      <h3>View History</h3>
+      <p>Previous attempts and scores</p>
+    </div>
+    <div class="action-card" onclick="Export.downloadHistory()">
+      <div class="action-icon">💾</div>
+      <h3>Export Progress</h3>
+      <p>Download your exam history as JSON</p>
+    </div>
+    <div class="action-card" onclick="UI.showScreen('add-questions')">
+      <div class="action-icon">➕</div>
+      <h3>Add Questions</h3>
+      <p>Import or paste JSON question data</p>
+    </div>
+  </div>
+
+  <input type="file" id="import-json-input" accept=".json" style="display:none" onchange="Import.fromFileInput(this)">
+</section>
+
+<!-- ============================================================
+     SCREEN 2: FILTER / SETUP
+============================================================ -->
+<section class="screen" id="screen-setup">
+  <div class="setup-container">
+    <div class="page-title">⚙️ Exam Setup</div>
+    <div class="page-subtitle" id="setup-mode-label">Configure your examination session</div>
+
+    <div class="card">
+      <div class="form-group">
+        <label>📖 Select Chapters</label>
+        <div class="chapter-checkboxes" id="chapter-checkboxes">
+          <!-- filled by JS -->
+        </div>
+        <div class="mt-2 flex gap-2">
+          <button class="btn btn-outline btn-sm" onclick="UI.selectAllChapters(true)">Select All</button>
+          <button class="btn btn-outline btn-sm" onclick="UI.selectAllChapters(false)">Deselect All</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>📋 Question Type</label>
+        <select class="form-control" id="filter-type">
+          <option value="all">All Types</option>
+          <option value="MCQ">MCQ Only</option>
+          <option value="descriptive">Descriptive Only</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>🎯 Difficulty</label>
+        <select class="form-control" id="filter-difficulty">
+          <option value="all">All Difficulties</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+
+      <div class="form-group range-row">
+        <div>
+          <label>❓ Number of Questions</label>
+          <input type="number" class="form-control" id="filter-num-questions" min="1" max="200" value="10">
+        </div>
+        <div>
+          <label>⏱️ Time Limit (minutes, 0 = unlimited)</label>
+          <input type="number" class="form-control" id="filter-time" min="0" max="300" value="30">
+        </div>
+      </div>
+
+      <div class="form-group range-row">
+        <div>
+          <label>Min Marks</label>
+          <input type="number" class="form-control" id="filter-marks-min" min="1" value="1">
+        </div>
+        <div>
+          <label>Max Marks</label>
+          <input type="number" class="form-control" id="filter-marks-max" min="1" value="20">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>🔀 Randomize Questions</label>
+        <select class="form-control" id="filter-randomize">
+          <option value="yes">Yes – randomize order</option>
+          <option value="no">No – maintain original order</option>
+        </select>
+      </div>
+
+      <div class="setup-actions">
+        <button class="btn btn-outline" onclick="UI.showScreen('home')">← Back</button>
+        <button class="btn btn-primary btn-lg" onclick="Exam.start()">🚀 Start Session</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SCREEN 3: EXAMINATION
+============================================================ -->
+<section class="screen" id="screen-exam">
+  <!-- TOP BAR -->
+  <div class="exam-topbar">
+    <div>
+      <div class="exam-title" id="exam-title">Advanced ITT Exam</div>
+      <div class="exam-progress" id="exam-progress">Question 1 of 10</div>
+    </div>
+    <div class="exam-timer" id="exam-timer">
+      <span>⏱</span>
+      <span id="timer-display">30:00</span>
+      <button class="pause-btn" id="pause-btn" onclick="Exam.togglePause()" title="Pause/Resume">⏸</button>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="exam-body">
+    <!-- PALETTE PANEL (desktop) -->
+    <div class="exam-palette-panel" id="palette-panel">
+      <div class="palette-title">Question Palette</div>
+      <div class="palette-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:var(--success)"></div>Answered</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--warning)"></div>Marked for Review</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#e9ecef;border:1px solid #aaa"></div>Not Answered</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--danger)"></div>Current</div>
+      </div>
+      <div class="palette-grid" id="palette-grid"></div>
+    </div>
+
+    <!-- MAIN QUESTION AREA -->
+    <div class="exam-main" id="exam-main">
+      <div class="question-card" id="question-card">
+        <!-- rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="exam-bottombar">
+    <div class="exam-nav-btns">
+      <button class="btn btn-outline btn-sm" onclick="Exam.previous()">◀ Previous</button>
+      <button class="btn btn-warning btn-sm" onclick="Exam.markForReview()" id="mark-review-btn">🚩 Mark for Review</button>
+      <button class="btn btn-outline btn-sm" onclick="Exam.clearResponse()">🗑 Clear</button>
+      <button class="btn btn-outline btn-sm" onclick="Exam.next()">Next ▶</button>
+    </div>
+    <div class="flex gap-2">
+      <button class="btn btn-success" onclick="Exam.saveAndNext()">💾 Save &amp; Next</button>
+      <button class="btn btn-danger btn-sm" onclick="Exam.showSubmitModal()">🏁 Submit</button>
+    </div>
+  </div>
+</section>
+
+<!-- Mobile palette toggle -->
+<button class="palette-toggle-btn" id="palette-toggle" onclick="UI.toggleMobilePalette()">🗂</button>
+
+<!-- Mobile palette sheet -->
+<div class="mobile-palette-sheet" id="mobile-palette-sheet">
+  <div class="mobile-sheet-header">
+    <strong>Question Palette</strong>
+    <button class="mobile-sheet-close" onclick="UI.toggleMobilePalette()">✕</button>
+  </div>
+  <div class="palette-legend flex flex-wrap gap-3 mb-3">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--success)"></div>Answered</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--warning)"></div>Marked</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#e9ecef;border:1px solid #aaa"></div>Not Answered</div>
+  </div>
+  <div class="mobile-palette-grid" id="mobile-palette-grid"></div>
+</div>
+
+<!-- ============================================================
+     SUBMIT MODAL
+============================================================ -->
+<div class="modal-overlay" id="submit-modal">
+  <div class="modal">
+    <h2>🏁 Submit Exam</h2>
+    <p class="text-muted mb-3">Are you sure you want to submit? Review your attempt below:</p>
+    <div class="submit-stats">
+      <div class="submit-stat answered">
+        <div class="val" id="submit-answered">0</div>
+        <div class="lbl">Answered</div>
+      </div>
+      <div class="submit-stat unanswered">
+        <div class="val" id="submit-unanswered">0</div>
+        <div class="lbl">Not Answered</div>
+      </div>
+      <div class="submit-stat marked">
+        <div class="val" id="submit-marked">0</div>
+        <div class="lbl">Marked</div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-outline" onclick="UI.closeModal()">◀ Back to Exam</button>
+      <button class="btn btn-danger" onclick="Exam.submit()">✅ Confirm Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SCREEN 5: RESULTS
+============================================================ -->
+<section class="screen" id="screen-results">
+  <div class="results-container" id="results-container">
+    <!-- filled by JS -->
+  </div>
+</section>
+
+<!-- ============================================================
+     SCREEN 6: ADD QUESTIONS
+============================================================ -->
+<section class="screen" id="screen-add-questions">
+  <div class="add-questions-container">
+    <div class="page-title">➕ Add Questions</div>
+    <div class="page-subtitle">Import questions from a JSON file or paste JSON directly</div>
+
+    <div class="drop-zone" id="drop-zone"
+         ondragover="Import.onDragOver(event)" ondragleave="Import.onDragLeave(event)"
+         ondrop="Import.onDrop(event)" onclick="document.getElementById('add-json-input').click()">
+      <div class="drop-zone-icon">📂</div>
+      <p><strong>Click to browse</strong> or drag &amp; drop your <code>questions_bank.json</code> here</p>
+      <button class="btn btn-primary" onclick.stop="document.getElementById('add-json-input').click()">Browse File</button>
+    </div>
+    <input type="file" id="add-json-input" accept=".json" style="display:none" onchange="Import.fromFileInput(this)">
+
+    <div class="card mt-3">
+      <div class="form-group">
+        <label>Or Paste JSON</label>
+        <textarea class="form-control desc-textarea" id="paste-json-area" placeholder='Paste your questions_bank.json content here...' style="min-height:160px;font-family:monospace;font-size:.82rem"></textarea>
+      </div>
+      <button class="btn btn-primary" onclick="Import.fromPastedJSON()">Import Pasted JSON</button>
+    </div>
+
+    <div class="card mt-3">
+      <h4 style="color:var(--primary);margin-bottom:12px">📋 JSON Format Reference</h4>
+      <pre style="background:#f8f9fa;padding:14px;border-radius:var(--radius);font-size:.78rem;overflow-x:auto;line-height:1.5">{
+  "metadata": { "title": "...", "subject": "...", "totalQuestions": 0, "lastUpdated": "2026-11-16", "chapters": [] },
+  "questions": [
+    {
+      "id": "Q001",
+      "type": "MCQ",
+      "chapter": "Chapter Name",
+      "topic": "Sub-topic",
+      "marks": 1,
+      "difficulty": "medium",
+      "question": "Question text?",
+      "options": { "a": "Option A", "b": "Option B", "c": "Option C", "d": "Option D" },
+      "correct_answer": "b",
+      "model_answer": "",
+      "source": "source file",
+      "tags": []
+    }
+  ]
+}</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SCREEN 7: HISTORY
+============================================================ -->
+<section class="screen" id="screen-history">
+  <div class="history-container">
+    <div class="section-header">
+      <div>
+        <div class="page-title">📋 Exam History</div>
+        <div class="page-subtitle">Your previous attempts and performance</div>
+      </div>
+      <div class="flex gap-2">
+        <button class="btn btn-outline btn-sm" onclick="Export.downloadHistory()">💾 Export History</button>
+        <button class="btn btn-danger btn-sm" onclick="DB.clearHistory()">🗑 Clear History</button>
+      </div>
+    </div>
+    <div id="history-list"><!-- filled by JS --></div>
+  </div>
+</section>
+
+<!-- TOAST CONTAINER -->
+<div class="toast-container" id="toast-container"></div>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+'use strict';
+
+// ============================================================
+// SAMPLE QUESTIONS (embedded fallback)
+// ============================================================
+const SAMPLE_QUESTIONS = [
+  // === Chapter 1: Information Systems & IT Controls ===
+  {
+    id:"SQ001",type:"MCQ",chapter:"Information Systems & IT Controls",
+    topic:"IT Controls",marks:1,difficulty:"easy",
+    question:"Which of the following is a type of General IT Control?",
+    options:{a:"Access controls to programs and data",b:"Input validation routines",c:"Automated batch totals",d:"Application-level edit checks"},
+    correct_answer:"a",model_answer:"",source:"sample",tags:["IT Controls","General Controls"]
+  },
+  {
+    id:"SQ002",type:"MCQ",chapter:"Information Systems & IT Controls",
+    topic:"Information Systems",marks:1,difficulty:"medium",
+    question:"Which component of an Information System is responsible for converting raw data into meaningful information?",
+    options:{a:"Input",b:"Processing",c:"Output",d:"Storage"},
+    correct_answer:"b",model_answer:"",source:"sample",tags:["IS Components","Processing"]
+  },
+  {
+    id:"SQ003",type:"MCQ",chapter:"Information Systems & IT Controls",
+    topic:"IT Controls",marks:1,difficulty:"medium",
+    question:"Application Controls in IT systems are designed to ensure:",
+    options:{a:"Physical security of servers",b:"Completeness, accuracy, and validity of data processing",c:"Network bandwidth optimization",d:"Hardware maintenance schedules"},
+    correct_answer:"b",model_answer:"",source:"sample",tags:["Application Controls"]
+  },
+  {
+    id:"SQ004",type:"MCQ",chapter:"Information Systems & IT Controls",
+    topic:"Risks",marks:1,difficulty:"hard",
+    question:"Which of the following best describes 'Inherent Risk' in an IT environment?",
+    options:{a:"Risk remaining after management's response",b:"Risk of material misstatement in absence of related controls",c:"Risk that an auditor will not detect a misstatement",d:"Risk associated with unauthorized system access"},
+    correct_answer:"b",model_answer:"",source:"sample",tags:["Risk Assessment","Audit"]
+  },
+  {
+    id:"SQ005",type:"MCQ",chapter:"Information Systems & IT Controls",
+    topic:"Access Controls",marks:1,difficulty:"easy",
+    question:"Two-factor authentication (2FA) is an example of which type of control?",
+    options:{a:"Detective Control",b:"Corrective Control",c:"Preventive Control",d:"Compensating Control"},
+    correct_answer:"c",model_answer:"",source:"sample",tags:["Access Control","Authentication"]
+  },
+  // === Chapter 2: Audit in IT Environment ===
+  {
+    id:"SQ006",type:"descriptive",chapter:"Audit in IT Environment",
+    topic:"IS Audit Concepts",marks:5,difficulty:"medium",
+    question:"What is Computer Assisted Audit Techniques (CAATs)? Explain any two types of CAATs with examples. (5 Marks)",
+    options:null,correct_answer:null,
+    model_answer:"Computer Assisted Audit Techniques (CAATs) are tools and techniques used by auditors to analyze data stored in IT systems electronically.\n\nTypes of CAATs:\n1. Audit Software (Generalized Audit Software - GAS): Software like ACL, IDEA used to perform audit procedures on large data files. Example: Analyzing all sales transactions to find duplicates or unusual amounts.\n2. Test Data: Auditors submit fictitious transactions to the client's system to verify that controls function correctly. Example: Entering a deliberately incorrect PAN number to test input validation controls.\n3. Embedded Audit Modules (EAM): Audit routines embedded in client's application to continuously monitor specific transactions flagged for auditor review.\n4. Integrated Test Facility (ITF): A fictitious entity created within the system to test transaction processing alongside live data.\n\nKeywords: CAATs, Generalized Audit Software, ACL, IDEA, Test Data, Embedded Audit Module, Integrated Test Facility, audit procedures, data analysis",
+    source:"sample",tags:["CAATs","IS Audit","Audit Tools"]
+  },
+  {
+    id:"SQ007",type:"descriptive",chapter:"Audit in IT Environment",
+    topic:"Audit Trail",marks:4,difficulty:"medium",
+    question:"Explain the concept of Audit Trail in IT systems and its importance for auditors. (4 Marks)",
+    options:null,correct_answer:null,
+    model_answer:"Audit Trail refers to a chronological sequence of records that provides documentary evidence of the sequence of activities in an IT system.\n\nImportance for Auditors:\n1. Accountability: Helps trace every transaction to the user who initiated it, ensuring accountability.\n2. Fraud Detection: Enables detection of unauthorized or fraudulent transactions by reviewing logs.\n3. Error Detection: Helps identify when and where errors occurred in processing.\n4. Regulatory Compliance: Supports compliance with legal and regulatory requirements (e.g., Companies Act, Income Tax Act).\n5. Evidence: Provides evidence for internal and external audit procedures.\n\nAudit trails include system logs, transaction logs, access logs, and error logs.\n\nKeywords: Audit Trail, chronological records, accountability, fraud detection, error detection, regulatory compliance, system logs, transaction logs, access logs",
+    source:"sample",tags:["Audit Trail","Logging","IS Audit"]
+  },
+  {
+    id:"SQ008",type:"descriptive",chapter:"Audit in IT Environment",
+    topic:"IS Audit",marks:6,difficulty:"hard",
+    question:"Describe the key phases of an Information Systems (IS) Audit. What are the major risks an IS auditor evaluates? (6 Marks)",
+    options:null,correct_answer:null,
+    model_answer:"Phases of IS Audit:\n1. Planning: Understanding the IT environment, identifying key systems and risk areas, preparing an audit plan.\n2. Risk Assessment: Evaluating inherent risks, control risks specific to IT environment (e.g., unauthorized access, data integrity).\n3. Evaluation of Internal Controls: Reviewing IT general controls (access, change management, operations) and application controls.\n4. Testing: Using CAATs and manual testing to verify controls are operating effectively.\n5. Reporting: Documenting findings, exceptions, and recommendations in an audit report.\n6. Follow-up: Monitoring remediation of identified deficiencies.\n\nMajor Risks Evaluated:\n- Unauthorized access to systems and data\n- Data integrity and completeness risks\n- System availability and business continuity\n- Change management risks (unauthorized program changes)\n- Cybersecurity threats and data breaches\n- Compliance with IT regulations and policies\n\nKeywords: IS Audit phases, planning, risk assessment, internal controls, testing, reporting, follow-up, unauthorized access, data integrity, change management, cybersecurity, business continuity",
+    source:"sample",tags:["IS Audit Phases","Risk Assessment","IT Controls"]
+  },
+  // === Chapter 3: Data Analytics & ERP ===
+  {
+    id:"SQ009",type:"MCQ",chapter:"Data Analytics & ERP",
+    topic:"ERP Systems",marks:1,difficulty:"easy",
+    question:"In an ERP system, which module is primarily responsible for managing financial transactions and reporting?",
+    options:{a:"Human Resource Management (HRM)",b:"Financial Accounting (FI)",c:"Material Management (MM)",d:"Sales & Distribution (SD)"},
+    correct_answer:"b",model_answer:"",source:"sample",tags:["ERP","SAP","Financial Accounting"]
+  },
+  {
+    id:"SQ010",type:"MCQ",chapter:"Data Analytics & ERP",
+    topic:"Data Analytics",marks:1,difficulty:"medium",
+    question:"Which of the following is a characteristic of 'Big Data'?",
+    options:{a:"Small Volume, Low Velocity",b:"Volume, Velocity, Variety",c:"Structured data only",d:"Limited to financial data"},
+    correct_answer:"b",model_answer:"",source:"sample",tags:["Big Data","Data Analytics","3Vs"]
+  }
+];
+
+// ============================================================
+// AppState – single source of truth
+// ============================================================
+const AppState = {
+  currentScreen: 'home',
+  currentQuestion: 0,
+  answers: {},            // { questionIndex: 'a' | 'text' }
+  markedForReview: new Set(),
+  timer: { total: 0, remaining: 0, interval: null, paused: false },
+  examSession: {
+    questions: [],
+    mode: 'exam',          // 'exam' | 'practice'
+    startTime: null,
+    timeLimit: 30,
+    sessionId: null
+  },
+  questionBank: [],
+  mobilepaletteOpen: false
+};
+
+// ============================================================
+// DB – localStorage wrapper
+// ============================================================
+const DB = {
+  KEY_BANK: 'adv_itt_question_bank',
+  KEY_HISTORY: 'adv_itt_history',
+  KEY_EXAM_SESSION: 'adv_itt_exam_session',
+
+  save(key, value) {
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch(e) { console.warn('LocalStorage save failed:', e); }
+  },
+  load(key, fallback = null) {
+    try {
+      const val = localStorage.getItem(key);
+      return val ? JSON.parse(val) : fallback;
+    } catch(e) { return fallback; }
+  },
+  loadQuestionBank() {
+    const stored = this.load(this.KEY_BANK, null);
+    if (stored && stored.length > 0) return stored;
+    return SAMPLE_QUESTIONS;
+  },
+  saveQuestionBank(questions) {
+    this.save(this.KEY_BANK, questions);
+  },
+  getHistory() {
+    return this.load(this.KEY_HISTORY, []);
+  },
+  addToHistory(entry) {
+    const history = this.getHistory();
+    history.unshift(entry);
+    if (history.length > 50) history.length = 50; // cap
+    this.save(this.KEY_HISTORY, history);
+  },
+  clearHistory() {
+    if (!confirm('Clear all exam history? This cannot be undone.')) return;
+    localStorage.removeItem(this.KEY_HISTORY);
+    UI.renderHistory();
+    UI.toast('History cleared.', 'warning');
+  },
+  saveExamSession() {
+    this.save(this.KEY_EXAM_SESSION, {
+      questions: AppState.examSession.questions,
+      mode: AppState.examSession.mode,
+      startTime: AppState.examSession.startTime,
+      timeLimit: AppState.examSession.timeLimit,
+      sessionId: AppState.examSession.sessionId,
+      currentQuestion: AppState.currentQuestion,
+      answers: AppState.answers,
+      markedForReview: [...AppState.markedForReview],
+      timerRemaining: AppState.timer.remaining
+    });
+  },
+  clearExam() {
+    localStorage.removeItem(this.KEY_EXAM_SESSION);
+  }
+};
+
+// ============================================================
+// UI – rendering helpers
+// ============================================================
+const UI = {
+  showScreen(name) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    const target = document.getElementById('screen-' + name);
+    if (target) target.classList.add('active');
+    AppState.currentScreen = name;
+
+    // hide palette toggle unless in exam
+    document.getElementById('palette-toggle').style.display = (name === 'exam') ? 'flex' : 'none';
+
+    // Update nav active state
+    ['home','history'].forEach(n => {
+      const btn = document.getElementById('nav-' + n);
+      if (btn) btn.classList.toggle('active', n === name);
+    });
+
+    if (name === 'home') this.renderStats();
+    if (name === 'history') this.renderHistory();
+    if (name === 'setup') this.renderSetup();
+    if (name === 'add-questions') { /* nothing extra */ }
+
+    window.scrollTo(0, 0);
+  },
+
+  renderStats() {
+    const bank = AppState.questionBank;
+    const chapters = [...new Set(bank.map(q => q.chapter))];
+    const history = DB.getHistory();
+    const mcqCount = bank.filter(q => q.type === 'MCQ').length;
+    const descCount = bank.filter(q => q.type === 'descriptive').length;
+
+    document.getElementById('stats-grid').innerHTML = `
+      <div class="stat-card"><div class="stat-value">${bank.length}</div><div class="stat-label">Total Questions</div></div>
+      <div class="stat-card"><div class="stat-value">${chapters.length}</div><div class="stat-label">Chapters</div></div>
+      <div class="stat-card"><div class="stat-value">${mcqCount}</div><div class="stat-label">MCQ Questions</div></div>
+      <div class="stat-card"><div class="stat-value">${descCount}</div><div class="stat-label">Descriptive</div></div>
+      <div class="stat-card"><div class="stat-value">${history.length}</div><div class="stat-label">Attempts</div></div>
+      <div class="stat-card"><div class="stat-value">${history.length > 0 ? Math.round(history[0].percentage) + '%' : '--'}</div><div class="stat-label">Last Score</div></div>
+    `;
+  },
+
+  renderSetup() {
+    const bank = AppState.questionBank;
+    const chapters = [...new Set(bank.map(q => q.chapter))].sort();
+    const container = document.getElementById('chapter-checkboxes');
+    container.innerHTML = chapters.map(ch => `
+      <label class="chapter-checkbox-item">
+        <input type="checkbox" class="chapter-chk" value="${this.esc(ch)}" checked>
+        <span>${this.esc(ch)}</span>
+      </label>
+    `).join('');
+
+    const maxMarks = Math.max(...bank.map(q => q.marks || 1), 1);
+    document.getElementById('filter-marks-max').value = maxMarks;
+    document.getElementById('filter-num-questions').max = bank.length;
+    document.getElementById('filter-num-questions').value = Math.min(10, bank.length);
+  },
+
+  selectAllChapters(checked) {
+    document.querySelectorAll('.chapter-chk').forEach(c => c.checked = checked);
+  },
+
+  renderQuestion() {
+    const qs = AppState.examSession.questions;
+    const idx = AppState.currentQuestion;
+    const q = qs[idx];
+    if (!q) return;
+
+    const marked = AppState.markedForReview.has(idx);
+    document.getElementById('exam-progress').textContent = `Question ${idx + 1} of ${qs.length}`;
+    document.getElementById('exam-title').textContent =
+      AppState.examSession.mode === 'practice' ? '📚 Practice Mode' : '📝 Advanced ITT Exam';
+
+    document.getElementById('mark-review-btn').textContent = marked ? '🚩 Unmark Review' : '🚩 Mark for Review';
+    document.getElementById('mark-review-btn').className = 'btn btn-sm ' + (marked ? 'btn-warning' : 'btn-outline');
+
+    const ans = AppState.answers[idx];
+    const card = document.getElementById('question-card');
+
+    let optionsHTML = '';
+    if (q.type === 'MCQ' && q.options) {
+      optionsHTML = `<div class="options-list">` +
+        Object.entries(q.options).map(([key, val]) => `
+          <label class="option-item ${ans === key ? 'selected' : ''}" onclick="Exam.selectOption('${key}')">
+            <input type="radio" name="mcq-opt" value="${key}" ${ans === key ? 'checked' : ''} onclick="event.stopPropagation();Exam.selectOption('${key}')">
+            <span class="option-label">(${key})</span>
+            <span class="option-text">${this.esc(val)}</span>
+          </label>
+        `).join('') + `</div>`;
+    } else {
+      optionsHTML = `
+        <textarea class="desc-textarea" id="desc-answer"
+          placeholder="Type your answer here... (auto-saved every 30 seconds)"
+          onchange="Exam.saveDescriptiveAnswer()"
+          oninput="Exam.saveDescriptiveAnswer()">${this.esc(ans || '')}</textarea>
+        <div class="desc-info">💡 Auto-saved every 30 seconds. Write structured answers with key points.</div>
+      `;
+    }
+
+    card.innerHTML = `
+      <div class="question-meta">
+        <span class="badge badge-${q.type === 'MCQ' ? 'mcq' : 'descriptive'}">${q.type}</span>
+        <span class="badge badge-${q.difficulty || 'medium'}">${q.difficulty || 'medium'}</span>
+        <span style="font-size:.8rem;color:var(--muted)">📖 ${this.esc(q.chapter)}</span>
+        <span style="font-size:.8rem;color:var(--muted)">⚖️ ${q.marks} Mark${q.marks > 1 ? 's' : ''}</span>
+        ${marked ? '<span class="badge" style="background:#fff3cd;color:#856404">🚩 Marked</span>' : ''}
+      </div>
+      <div class="question-text">${this.esc(q.question)}</div>
+      ${optionsHTML}
+    `;
+
+    this.updatePalette();
+  },
+
+  updatePalette() {
+    const qs = AppState.examSession.questions;
+    const paletteHTML = qs.map((q, i) => {
+      let cls = 'unanswered';
+      const hasAnswer = AppState.answers[i] !== undefined && AppState.answers[i] !== '';
+      const marked = AppState.markedForReview.has(i);
+      if (hasAnswer && marked) cls = 'answered-marked';
+      else if (hasAnswer) cls = 'answered';
+      else if (marked) cls = 'marked';
+      const isCurrent = i === AppState.currentQuestion;
+      return `<button class="palette-btn ${cls} ${isCurrent ? 'current' : ''}"
+                onclick="Exam.goTo(${i})" title="Q${i+1}: ${this.esc(q.question.substring(0,40))}">${i + 1}</button>`;
+    }).join('');
+    const grid = document.getElementById('palette-grid');
+    if (grid) grid.innerHTML = paletteHTML;
+    const mgrid = document.getElementById('mobile-palette-grid');
+    if (mgrid) mgrid.innerHTML = paletteHTML;
+  },
+
+  updateTimer() {
+    const rem = AppState.timer.remaining;
+    const display = document.getElementById('timer-display');
+    const timerEl = document.getElementById('exam-timer');
+    if (!display) return;
+
+    if (AppState.examSession.timeLimit === 0) {
+      display.textContent = 'Unlimited';
+      return;
+    }
+
+    const h = Math.floor(rem / 3600);
+    const m = Math.floor((rem % 3600) / 60);
+    const s = rem % 60;
+    display.textContent = h > 0
+      ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`
+      : `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+
+    timerEl.className = 'exam-timer';
+    if (rem <= 300) timerEl.classList.add('warning');
+    if (rem <= 60) timerEl.classList.add('danger');
+  },
+
+  toggleMobilePalette() {
+    const sheet = document.getElementById('mobile-palette-sheet');
+    AppState.mobilepaletteOpen = !AppState.mobilepaletteOpen;
+    sheet.classList.toggle('open', AppState.mobilepaletteOpen);
+    if (AppState.mobilepaletteOpen) this.updatePalette();
+  },
+
+  closeModal() {
+    document.getElementById('submit-modal').classList.remove('open');
+  },
+
+  renderHistory() {
+    const history = DB.getHistory();
+    const container = document.getElementById('history-list');
+    if (history.length === 0) {
+      container.innerHTML = `<div class="card text-center" style="padding:40px;color:var(--muted)">
+        <div style="font-size:3rem;margin-bottom:12px">📋</div>
+        <p>No exam history yet. Start your first exam!</p>
+        <button class="btn btn-primary mt-3" onclick="Exam.startFlow()">Start Exam</button>
+      </div>`;
+      return;
+    }
+    container.innerHTML = history.map((h, i) => `
+      <div class="history-item">
+        <div class="history-info">
+          <div class="date">${new Date(h.date).toLocaleString()}</div>
+          <div class="title">${this.esc(h.mode === 'practice' ? '📚 Practice' : '📝 Exam')} – ${h.totalQuestions} Questions</div>
+          <div class="meta">Chapters: ${this.esc(h.chapters ? h.chapters.join(', ') : 'Mixed')} | Mode: ${h.mode}</div>
+        </div>
+        <div class="history-score">
+          <div class="pct">${Math.round(h.percentage)}%</div>
+          <div class="grade" style="color:${this.gradeColor(h.grade)}">${h.grade}</div>
+          <div style="font-size:.78rem;color:var(--muted)">${h.marksObtained}/${h.totalMarks} marks</div>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="UI.showResultFromHistory(${i})">View</button>
+      </div>
+    `).join('');
+  },
+
+  showResultFromHistory(index) {
+    const history = DB.getHistory();
+    const entry = history[index];
+    if (entry && entry.resultSnapshot) {
+      this.renderResults(entry.resultSnapshot);
+      this.showScreen('results');
+    } else {
+      UI.toast('Full result data not available for this entry.', 'warning');
+    }
+  },
+
+  renderResults(snapshot) {
+    const { session, answers, markedForReview, evaluation } = snapshot;
+    const qs = session.questions;
+    const container = document.getElementById('results-container');
+
+    const { totalMarks, marksObtained, percentage, grade, chapterStats, questionResults } = evaluation;
+
+    // Score hero
+    let heroHTML = `
+      <div class="score-hero">
+        <h2 style="font-size:1.1rem;opacity:.85;margin-bottom:12px">${session.mode === 'practice' ? '📚 Practice Session' : '📝 Exam'} Results</h2>
+        <div class="score-circle">
+          <div class="pct">${Math.round(percentage)}%</div>
+          <div class="grade">${grade}</div>
+        </div>
+        <div class="score-details">
+          <div class="score-detail"><div class="val">${marksObtained.toFixed(1)}</div><div class="lbl">Marks Obtained</div></div>
+          <div class="score-detail"><div class="val">${totalMarks}</div><div class="lbl">Total Marks</div></div>
+          <div class="score-detail"><div class="val">${qs.length}</div><div class="lbl">Questions</div></div>
+          <div class="score-detail"><div class="val">${questionResults.filter(r=>r.status==='correct').length}</div><div class="lbl">Correct</div></div>
+          <div class="score-detail"><div class="val">${questionResults.filter(r=>r.status==='incorrect').length}</div><div class="lbl">Incorrect</div></div>
+        </div>
+      </div>
+    `;
+
+    // Chapter table
+    let chapterHTML = `<div class="card mb-4">
+      <h2 style="color:var(--primary);margin-bottom:14px;font-size:1.1rem">📊 Chapter-wise Performance</h2>
+      <table class="chapter-table">
+        <thead><tr><th>Chapter</th><th>Questions</th><th>Correct</th><th>Marks</th><th>Performance</th></tr></thead>
+        <tbody>
+          ${Object.entries(chapterStats).map(([ch,st]) => {
+            const pct = st.totalMarks > 0 ? (st.marksObtained / st.totalMarks * 100) : 0;
+            return `<tr>
+              <td>${this.esc(ch)}</td>
+              <td>${st.total}</td>
+              <td>${st.correct}</td>
+              <td>${st.marksObtained.toFixed(1)} / ${st.totalMarks}</td>
+              <td style="min-width:120px">
+                ${Math.round(pct)}%
+                <div class="progress-bar-sm"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+              </td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>`;
+
+    // Question-by-question review
+    let reviewHTML = `<div class="review-section">
+      <h2>🔍 Question-by-Question Review</h2>
+      ${questionResults.map((res, i) => {
+        const q = qs[i];
+        let statusClass = res.status;
+        if (res.status === 'skipped') statusClass = 'skipped';
+
+        let answerReview = '';
+        if (q.type === 'MCQ') {
+          const opts = q.options || {};
+          answerReview = `<div class="mcq-options-review">
+            ${Object.entries(opts).map(([k,v]) => {
+              let cls = '';
+              if (k === q.correct_answer) cls = 'correct-opt';
+              else if (k === res.studentAnswer) cls = 'wrong-opt';
+              return `<div class="mcq-option-review ${cls}">(${k}) ${this.esc(v)} ${k === q.correct_answer ? '✅' : ''} ${k === res.studentAnswer && k !== q.correct_answer ? '❌ Your answer' : ''}</div>`;
+            }).join('')}
+          </div>`;
+        } else {
+          // Descriptive
+          const keywords = this.extractKeywords(q.model_answer || '');
+          const studentAns = (res.studentAnswer || '').toLowerCase();
+          const foundKw = keywords.filter(kw => studentAns.includes(kw.toLowerCase()));
+          const missingKw = keywords.filter(kw => !studentAns.includes(kw.toLowerCase()));
+          const kwScore = keywords.length > 0 ? (foundKw.length / keywords.length) : 0;
+          const indicativeMarks = (kwScore * q.marks).toFixed(1);
+
+          answerReview = `
+            <div class="answer-comparison">
+              <div class="answer-box your-answer">
+                <h5>Your Answer</h5>
+                <div>${res.studentAnswer ? this.esc(res.studentAnswer).replace(/\n/g,'<br>') : '<em style="opacity:.6">No answer provided</em>'}</div>
+              </div>
+              <div class="answer-box correct-answer">
+                <h5>Model Answer</h5>
+                <div>${q.model_answer ? this.esc(q.model_answer).replace(/\n/g,'<br>') : '<em style="opacity:.6">Model answer not available</em>'}</div>
+              </div>
+            </div>
+            <div>
+              <strong style="font-size:.85rem">Keywords found (${foundKw.length}/${keywords.length}):</strong>
+              <div class="keyword-list">
+                ${foundKw.map(kw => `<span class="keyword-chip found">✓ ${this.esc(kw)}</span>`).join('')}
+                ${missingKw.map(kw => `<span class="keyword-chip missing">✗ ${this.esc(kw)}</span>`).join('')}
+              </div>
+              <div style="font-size:.85rem;margin-top:8px">
+                <strong>Indicative Marks:</strong> ${indicativeMarks} / ${q.marks}
+              </div>
+            </div>
+            <div class="ai-disclaimer">⚠️ AI evaluation is indicative only, not official ICAI marking. Descriptive answers require examiner judgment.</div>
+          `;
+        }
+
+        return `<div class="review-item ${statusClass}">
+          <div class="review-q-header">
+            <span class="review-q-num">Q${i+1}</span>
+            <div style="display:flex;gap:6px;flex-wrap:wrap">
+              <span class="badge badge-${q.type === 'MCQ' ? 'mcq' : 'descriptive'}">${q.type}</span>
+              <span class="badge badge-${q.difficulty || 'medium'}">${q.difficulty || 'medium'}</span>
+              <span style="font-size:.78rem;color:var(--muted)">${this.esc(q.chapter)}</span>
+              <span style="font-size:.78rem">${q.marks} mk</span>
+              ${res.status === 'correct' ? '<span class="badge" style="background:#d4edda;color:#155724">✓ Correct</span>' : ''}
+              ${res.status === 'incorrect' ? '<span class="badge" style="background:#f8d7da;color:#721c24">✗ Incorrect</span>' : ''}
+              ${res.status === 'skipped' ? '<span class="badge" style="background:#e9ecef;color:#666">⊘ Skipped</span>' : ''}
+              ${res.status === 'descriptive' ? '<span class="badge" style="background:#e2d9f3;color:#4a1f8c">📝 Descriptive</span>' : ''}
+            </div>
+          </div>
+          <div class="review-q-text">${this.esc(q.question)}</div>
+          ${answerReview}
+        </div>`;
+      }).join('')}
+    </div>`;
+
+    // Actions
+    const actionsHTML = `<div class="results-actions">
+      <button class="btn btn-primary" onclick="Exam.startFlow()">🚀 New Exam</button>
+      <button class="btn btn-outline" onclick="Exam.startFlow('practice')">📚 Practice Mode</button>
+      <button class="btn btn-secondary" onclick="Export.downloadResults()">📄 Export Results</button>
+      <button class="btn btn-outline" onclick="UI.showScreen('home')">🏠 Home</button>
+    </div>`;
+
+    container.innerHTML = heroHTML + actionsHTML + chapterHTML + reviewHTML;
+  },
+
+  extractKeywords(modelAnswer) {
+    if (!modelAnswer) return [];
+    // Find "Keywords: ..." line if present
+    const kwMatch = modelAnswer.match(/[Kk]eywords?:\s*(.+?)(?:\n|$)/);
+    if (kwMatch) {
+      return kwMatch[1].split(',').map(k => k.trim()).filter(k => k.length > 2);
+    }
+    // Otherwise, extract significant words (> 5 chars, skip common words)
+    const stopWords = new Set(['about','after','again','against','along','already','although','among','another','answer','because','before','being','between','could','every','from','given','have','here','important','into','more','must','none','only','other','over','same','some','such','that','their','them','then','there','these','they','this','those','through','under','upon','used','using','very','what','when','where','which','while','with','within','without','would']);
+    const words = modelAnswer.split(/[\s,.:;()\[\]{}"'\/\\]+/)
+      .filter(w => w.length > 5 && !stopWords.has(w.toLowerCase()))
+      .map(w => w.replace(/[^a-zA-Z0-9]/g,''));
+    // Deduplicate
+    return [...new Set(words)].slice(0, 20);
+  },
+
+  gradeColor(grade) {
+    const map = { 'A+': '#155724', 'A': '#28a745', 'B+': '#1b6e36', 'B': '#fd7e14', 'C': '#c8a84b', 'D': '#dc3545', 'F': '#721c24' };
+    return map[grade] || '#666';
+  },
+
+  esc(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  },
+
+  toast(msg, type = 'info') {
+    const container = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    toast.className = 'toast ' + type;
+    toast.textContent = msg;
+    container.appendChild(toast);
+    setTimeout(() => toast.remove(), 3500);
+  }
+};
+
+// ============================================================
+// Exam – core exam logic
+// ============================================================
+const Exam = {
+  startFlow(mode = 'exam') {
+    AppState.examSession.mode = mode;
+    document.getElementById('setup-mode-label').textContent =
+      mode === 'practice' ? '📚 Practice Mode – No time limit, review answers after each question' : '📝 Exam Mode – Timed examination with evaluation at the end';
+    UI.showScreen('setup');
+  },
+
+  start() {
+    const selectedChapters = [...document.querySelectorAll('.chapter-chk:checked')].map(c => c.value);
+    if (selectedChapters.length === 0) { UI.toast('Please select at least one chapter.', 'error'); return; }
+
+    const type = document.getElementById('filter-type').value;
+    const difficulty = document.getElementById('filter-difficulty').value;
+    const numQ = parseInt(document.getElementById('filter-num-questions').value) || 10;
+    const timeLimit = parseInt(document.getElementById('filter-time').value) || 0;
+    const minMarks = parseInt(document.getElementById('filter-marks-min').value) || 1;
+    const maxMarks = parseInt(document.getElementById('filter-marks-max').value) || 999;
+    const randomize = document.getElementById('filter-randomize').value === 'yes';
+
+    let filtered = AppState.questionBank.filter(q => {
+      if (!selectedChapters.includes(q.chapter)) return false;
+      if (type !== 'all' && q.type !== type) return false;
+      if (difficulty !== 'all' && q.difficulty !== difficulty) return false;
+      if ((q.marks || 1) < minMarks || (q.marks || 1) > maxMarks) return false;
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      UI.toast('No questions match your filters. Please adjust and try again.', 'error');
+      return;
+    }
+
+    if (randomize) filtered = this._shuffle(filtered);
+    filtered = filtered.slice(0, numQ);
+
+    AppState.examSession.questions = filtered;
+    AppState.examSession.startTime = new Date().toISOString();
+    AppState.examSession.timeLimit = AppState.examSession.mode === 'practice' ? 0 : timeLimit;
+    AppState.examSession.sessionId = Date.now().toString(36);
+    AppState.examSession.chapters = selectedChapters;
+    AppState.currentQuestion = 0;
+    AppState.answers = {};
+    AppState.markedForReview = new Set();
+
+    this._startTimer(AppState.examSession.timeLimit * 60);
+    this._startAutoSave();
+
+    UI.showScreen('exam');
+    UI.renderQuestion();
+    UI.updatePalette();
+  },
+
+  _shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  },
+
+  _startTimer(seconds) {
+    if (AppState.timer.interval) clearInterval(AppState.timer.interval);
+    AppState.timer.total = seconds;
+    AppState.timer.remaining = seconds;
+    AppState.timer.paused = false;
+    if (seconds === 0) { UI.updateTimer(); return; }
+    AppState.timer.interval = setInterval(() => {
+      if (!AppState.timer.paused) {
+        AppState.timer.remaining = Math.max(0, AppState.timer.remaining - 1);
+        UI.updateTimer();
+        if (AppState.timer.remaining === 0) {
+          clearInterval(AppState.timer.interval);
+          UI.toast('⏰ Time is up! Auto-submitting...', 'warning');
+          setTimeout(() => this.submit(), 1500);
+        }
+      }
+    }, 1000);
+    UI.updateTimer();
+  },
+
+  _autoSaveInterval: null,
+  _startAutoSave() {
+    if (this._autoSaveInterval) clearInterval(this._autoSaveInterval);
+    this._autoSaveInterval = setInterval(() => {
+      DB.saveExamSession();
+    }, 30000);
+  },
+
+  togglePause() {
+    if (AppState.examSession.timeLimit === 0) return;
+    AppState.timer.paused = !AppState.timer.paused;
+    document.getElementById('pause-btn').textContent = AppState.timer.paused ? '▶' : '⏸';
+    UI.toast(AppState.timer.paused ? '⏸ Timer paused' : '▶ Timer resumed', 'info');
+  },
+
+  selectOption(key) {
+    AppState.answers[AppState.currentQuestion] = key;
+    DB.saveExamSession();
+    UI.renderQuestion();
+  },
+
+  saveDescriptiveAnswer() {
+    const ta = document.getElementById('desc-answer');
+    if (ta) {
+      AppState.answers[AppState.currentQuestion] = ta.value;
+      DB.saveExamSession();
+      UI.updatePalette();
+    }
+  },
+
+  clearResponse() {
+    delete AppState.answers[AppState.currentQuestion];
+    UI.renderQuestion();
+    DB.saveExamSession();
+  },
+
+  markForReview() {
+    const idx = AppState.currentQuestion;
+    if (AppState.markedForReview.has(idx)) AppState.markedForReview.delete(idx);
+    else AppState.markedForReview.add(idx);
+    UI.renderQuestion();
+    DB.saveExamSession();
+  },
+
+  goTo(index) {
+    if (index >= 0 && index < AppState.examSession.questions.length) {
+      // Save any pending descriptive answer first
+      const ta = document.getElementById('desc-answer');
+      if (ta) AppState.answers[AppState.currentQuestion] = ta.value;
+      AppState.currentQuestion = index;
+      UI.renderQuestion();
+      // Close mobile palette
+      if (AppState.mobilepaletteOpen) UI.toggleMobilePalette();
+    }
+  },
+
+  next() {
+    const ta = document.getElementById('desc-answer');
+    if (ta) AppState.answers[AppState.currentQuestion] = ta.value;
+    if (AppState.currentQuestion < AppState.examSession.questions.length - 1) {
+      AppState.currentQuestion++;
+      UI.renderQuestion();
+    } else {
+      UI.toast('You are on the last question.', 'info');
+    }
+  },
+
+  previous() {
+    const ta = document.getElementById('desc-answer');
+    if (ta) AppState.answers[AppState.currentQuestion] = ta.value;
+    if (AppState.currentQuestion > 0) {
+      AppState.currentQuestion--;
+      UI.renderQuestion();
+    }
+  },
+
+  saveAndNext() {
+    const ta = document.getElementById('desc-answer');
+    if (ta) AppState.answers[AppState.currentQuestion] = ta.value;
+    DB.saveExamSession();
+    UI.toast('Answer saved!', 'success');
+    this.next();
+  },
+
+  showSubmitModal() {
+    const qs = AppState.examSession.questions;
+    const answered = qs.filter((q, i) => AppState.answers[i] !== undefined && AppState.answers[i] !== '').length;
+    const marked = AppState.markedForReview.size;
+    document.getElementById('submit-answered').textContent = answered;
+    document.getElementById('submit-unanswered').textContent = qs.length - answered;
+    document.getElementById('submit-marked').textContent = marked;
+    document.getElementById('submit-modal').classList.add('open');
+  },
+
+  submit() {
+    UI.closeModal();
+    if (AppState.timer.interval) clearInterval(AppState.timer.interval);
+    if (this._autoSaveInterval) clearInterval(this._autoSaveInterval);
+
+    // Save any pending descriptive
+    const ta = document.getElementById('desc-answer');
+    if (ta) AppState.answers[AppState.currentQuestion] = ta.value;
+
+    const evaluation = this.evaluate();
+    const snapshot = {
+      session: {
+        questions: AppState.examSession.questions,
+        mode: AppState.examSession.mode,
+        startTime: AppState.examSession.startTime,
+        timeLimit: AppState.examSession.timeLimit,
+        chapters: AppState.examSession.chapters
+      },
+      answers: { ...AppState.answers },
+      markedForReview: [...AppState.markedForReview],
+      evaluation
+    };
+
+    const historyEntry = {
+      date: new Date().toISOString(),
+      mode: AppState.examSession.mode,
+      totalQuestions: AppState.examSession.questions.length,
+      marksObtained: evaluation.marksObtained,
+      totalMarks: evaluation.totalMarks,
+      percentage: evaluation.percentage,
+      grade: evaluation.grade,
+      chapters: AppState.examSession.chapters,
+      resultSnapshot: snapshot
+    };
+    DB.addToHistory(historyEntry);
+    DB.clearExam();
+
+    UI.renderResults(snapshot);
+    UI.showScreen('results');
+  },
+
+  evaluate() {
+    const qs = AppState.examSession.questions;
+    let totalMarks = 0;
+    let marksObtained = 0;
+    const chapterStats = {};
+    const questionResults = [];
+
+    qs.forEach((q, i) => {
+      const marks = q.marks || 1;
+      totalMarks += marks;
+      const chapter = q.chapter;
+      if (!chapterStats[chapter]) chapterStats[chapter] = { total: 0, correct: 0, totalMarks: 0, marksObtained: 0 };
+      chapterStats[chapter].total++;
+      chapterStats[chapter].totalMarks += marks;
+
+      const studentAns = AppState.answers[i];
+      let status = 'skipped';
+      let earnedMarks = 0;
+
+      if (q.type === 'MCQ') {
+        if (studentAns !== undefined && studentAns !== '') {
+          if (q.correct_answer && studentAns.toLowerCase() === q.correct_answer.toLowerCase()) {
+            status = 'correct';
+            earnedMarks = marks;
+            chapterStats[chapter].correct++;
+          } else {
+            status = 'incorrect';
+          }
+        }
+      } else {
+        // Descriptive – keyword-based indicative marking
+        if (studentAns && studentAns.trim() !== '') {
+          status = 'descriptive';
+          const keywords = UI.extractKeywords(q.model_answer || '');
+          if (keywords.length > 0) {
+            const lowerAns = studentAns.toLowerCase();
+            const found = keywords.filter(kw => lowerAns.includes(kw.toLowerCase())).length;
+            earnedMarks = parseFloat((found / keywords.length * marks).toFixed(1));
+          } else {
+            earnedMarks = 0; // Can't auto-evaluate without model answer keywords
+          }
+        }
+      }
+
+      marksObtained += earnedMarks;
+      chapterStats[chapter].marksObtained += earnedMarks;
+      questionResults.push({ status, studentAnswer: studentAns, earnedMarks, maxMarks: marks });
+    });
+
+    const percentage = totalMarks > 0 ? (marksObtained / totalMarks * 100) : 0;
+    const grade = this._grade(percentage);
+    return { totalMarks, marksObtained: parseFloat(marksObtained.toFixed(1)), percentage, grade, chapterStats, questionResults };
+  },
+
+  _grade(pct) {
+    if (pct >= 90) return 'A+';
+    if (pct >= 75) return 'A';
+    if (pct >= 60) return 'B+';
+    if (pct >= 50) return 'B';
+    if (pct >= 40) return 'C';
+    if (pct >= 30) return 'D';
+    return 'F';
+  }
+};
+
+// ============================================================
+// Import – JSON loading logic
+// ============================================================
+const Import = {
+  fromFileInput(input) {
+    const file = input.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        this.fromJSON(data, file.name);
+      } catch (err) {
+        UI.toast('Invalid JSON file: ' + err.message, 'error');
+      }
+    };
+    reader.readAsText(file);
+    input.value = ''; // reset for re-import
+  },
+
+  fromPastedJSON() {
+    const text = document.getElementById('paste-json-area').value.trim();
+    if (!text) { UI.toast('Please paste JSON content first.', 'error'); return; }
+    try {
+      const data = JSON.parse(text);
+      this.fromJSON(data, 'pasted');
+    } catch (err) {
+      UI.toast('Invalid JSON: ' + err.message, 'error');
+    }
+  },
+
+  fromJSON(data, source) {
+    let questions = [];
+    if (Array.isArray(data)) {
+      questions = data;
+    } else if (data.questions && Array.isArray(data.questions)) {
+      questions = data.questions;
+    } else {
+      UI.toast('JSON must contain a "questions" array.', 'error');
+      return;
+    }
+
+    const validated = questions.map((q, i) => this.validateQuestion(q, i)).filter(Boolean);
+    if (validated.length === 0) {
+      UI.toast('No valid questions found in the JSON.', 'error');
+      return;
+    }
+
+    const merged = this.deduplicate([...AppState.questionBank, ...validated]);
+    AppState.questionBank = merged;
+    DB.saveQuestionBank(merged);
+    UI.toast(`✅ Imported ${validated.length} questions (${merged.length} total after dedup). Source: ${source}`, 'success');
+    UI.renderStats();
+    UI.showScreen('home');
+  },
+
+  validateQuestion(q, idx) {
+    if (!q || typeof q !== 'object') return null;
+    if (!q.question || typeof q.question !== 'string') return null;
+    return {
+      id: q.id || ('IMP' + String(idx + 1).padStart(4, '0')),
+      type: ['MCQ','descriptive'].includes(q.type) ? q.type : (q.options ? 'MCQ' : 'descriptive'),
+      chapter: q.chapter || 'General',
+      topic: q.topic || '',
+      marks: typeof q.marks === 'number' ? q.marks : (q.type === 'MCQ' ? 1 : 5),
+      difficulty: ['easy','medium','hard'].includes(q.difficulty) ? q.difficulty : 'medium',
+      question: q.question.trim(),
+      options: q.options || null,
+      correct_answer: q.correct_answer || null,
+      model_answer: q.model_answer || '',
+      source: q.source || 'imported',
+      tags: Array.isArray(q.tags) ? q.tags : []
+    };
+  },
+
+  deduplicate(questions) {
+    const seen = new Set();
+    return questions.filter(q => {
+      const key = q.question.trim().toLowerCase().substring(0, 80);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  },
+
+  onDragOver(event) {
+    event.preventDefault();
+    document.getElementById('drop-zone').classList.add('drag-over');
+  },
+
+  onDragLeave(event) {
+    document.getElementById('drop-zone').classList.remove('drag-over');
+  },
+
+  onDrop(event) {
+    event.preventDefault();
+    document.getElementById('drop-zone').classList.remove('drag-over');
+    const file = event.dataTransfer.files[0];
+    if (!file || !file.name.endsWith('.json')) {
+      UI.toast('Please drop a .json file.', 'error');
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        this.fromJSON(data, file.name);
+      } catch (err) {
+        UI.toast('Invalid JSON: ' + err.message, 'error');
+      }
+    };
+    reader.readAsText(file);
+  }
+};
+
+// ============================================================
+// Export
+// ============================================================
+const Export = {
+  downloadHistory() {
+    const history = DB.getHistory();
+    const json = JSON.stringify(history, null, 2);
+    this._download('adv_itt_history.json', json, 'application/json');
+    UI.toast('History exported!', 'success');
+  },
+
+  downloadResults() {
+    // Find latest history entry
+    const history = DB.getHistory();
+    if (history.length === 0) { UI.toast('No results to export.', 'warning'); return; }
+    const latest = history[0];
+    const ev = latest.resultSnapshot ? latest.resultSnapshot.evaluation : null;
+    if (!ev) { UI.toast('Result details not available.', 'warning'); return; }
+
+    let text = `ADVANCED ITT EXAM RESULTS\n`;
+    text += `${'-'.repeat(50)}\n`;
+    text += `Date: ${new Date(latest.date).toLocaleString()}\n`;
+    text += `Mode: ${latest.mode}\n`;
+    text += `Score: ${ev.marksObtained}/${ev.totalMarks} (${Math.round(ev.percentage)}%) - Grade: ${ev.grade}\n\n`;
+    text += `CHAPTER-WISE PERFORMANCE\n${'='.repeat(40)}\n`;
+    Object.entries(ev.chapterStats).forEach(([ch, st]) => {
+      text += `${ch}: ${st.marksObtained.toFixed(1)}/${st.totalMarks} (${st.correct}/${st.total} correct)\n`;
+    });
+    text += `\nQUESTION DETAILS\n${'='.repeat(40)}\n`;
+    if (latest.resultSnapshot) {
+      latest.resultSnapshot.session.questions.forEach((q, i) => {
+        const r = ev.questionResults[i];
+        text += `\nQ${i+1}: ${q.question}\n`;
+        text += `Type: ${q.type} | Marks: ${q.marks} | Status: ${r.status}\n`;
+        if (q.type === 'MCQ') {
+          text += `Your Answer: ${r.studentAnswer || '(none)'} | Correct: ${q.correct_answer}\n`;
+        } else {
+          text += `Your Answer: ${r.studentAnswer || '(none)'}\n`;
+          text += `Model Answer: ${q.model_answer || '(none)'}\n`;
+        }
+      });
+    }
+    text += `\n${'='.repeat(50)}\n`;
+    text += `AI evaluation is indicative only, not official ICAI marking.\n`;
+    text += `Generated by Advanced ITT Exam Portal\n`;
+
+    this._download('adv_itt_results.txt', text, 'text/plain');
+    UI.toast('Results exported!', 'success');
+  },
+
+  _download(filename, content, mime) {
+    const blob = new Blob([content], { type: mime });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+};
+
+// ============================================================
+// AUTO-FETCH questions_bank.json from same folder
+// ============================================================
+async function tryFetchQuestionBank() {
+  try {
+    const res = await fetch('questions_bank.json', { method: 'GET', cache: 'no-cache' });
+    if (!res.ok) return;
+    const data = await res.json();
+    Import.fromJSON(data, 'questions_bank.json (auto-loaded)');
+  } catch (e) {
+    // File not found or fetch blocked – use sample data, that's fine
+  }
+}
+
+// ============================================================
+// INIT
+// ============================================================
+function init() {
+  AppState.questionBank = DB.loadQuestionBank();
+  UI.showScreen('home');
+  tryFetchQuestionBank();
+
+  // Bind mobile home btn only on small screens
+  const mobileBtn = document.getElementById('mobile-home-btn');
+  if (window.innerWidth > 768) mobileBtn.style.display = 'none';
+  window.addEventListener('resize', () => {
+    mobileBtn.style.display = window.innerWidth <= 768 ? 'block' : 'none';
+  });
+
+  // Keyboard shortcuts in exam
+  document.addEventListener('keydown', (e) => {
+    if (AppState.currentScreen !== 'exam') return;
+    if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+    switch(e.key) {
+      case 'ArrowRight': case 'n': Exam.next(); break;
+      case 'ArrowLeft': case 'p': Exam.previous(); break;
+      case 'm': Exam.markForReview(); break;
+      case 's': Exam.saveAndNext(); break;
+      case '1': case 'a': Exam.selectOption('a'); break;
+      case '2': case 'b': Exam.selectOption('b'); break;
+      case '3': case 'c': Exam.selectOption('c'); break;
+      case '4': case 'd': Exam.selectOption('d'); break;
+    }
+  });
+
+  // Click outside modal to close
+  document.getElementById('submit-modal').addEventListener('click', function(e) {
+    if (e.target === this) UI.closeModal();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

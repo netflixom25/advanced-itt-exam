@@ -616,14 +616,6 @@ input,select,textarea{font-family:inherit;font-size:inherit}
 // SAMPLE QUESTIONS (embedded fallback)
 // ============================================================
 const SAMPLE_QUESTIONS = [
-  // === Chapter 1: Information Systems & IT Controls ===
-  {
-    id:"SQ001",type:"MCQ",chapter:"Information Systems & IT Controls",
-    topic:"IT Controls",marks:1,difficulty:"easy",
-    question:"Which of the following is a type of General IT Control?",
-    options:{a:"Access controls to programs and data",b:"Input validation routines",c:"Automated batch totals",d:"Application-level edit checks"},
-    correct_answer:"a",model_answer:"",source:"sample",tags:["IT Controls","General Controls"]
-  },
   {
     id:"SQ002",type:"MCQ",chapter:"Information Systems & IT Controls",
     topic:"Information Systems",marks:1,difficulty:"medium",
@@ -651,39 +643,6 @@ const SAMPLE_QUESTIONS = [
     question:"Two-factor authentication (2FA) is an example of which type of control?",
     options:{a:"Detective Control",b:"Corrective Control",c:"Preventive Control",d:"Compensating Control"},
     correct_answer:"c",model_answer:"",source:"sample",tags:["Access Control","Authentication"]
-  },
-  // === Chapter 2: Audit in IT Environment ===
-  {
-    id:"SQ006",type:"descriptive",chapter:"Audit in IT Environment",
-    topic:"IS Audit Concepts",marks:5,difficulty:"medium",
-    question:"What is Computer Assisted Audit Techniques (CAATs)? Explain any two types of CAATs with examples. (5 Marks)",
-    options:null,correct_answer:null,
-    model_answer:"Computer Assisted Audit Techniques (CAATs) are tools and techniques used by auditors to analyze data stored in IT systems electronically.\n\nTypes of CAATs:\n1. Audit Software (Generalized Audit Software - GAS): Software like ACL, IDEA used to perform audit procedures on large data files. Example: Analyzing all sales transactions to find duplicates or unusual amounts.\n2. Test Data: Auditors submit fictitious transactions to the client's system to verify that controls function correctly. Example: Entering a deliberately incorrect PAN number to test input validation controls.\n3. Embedded Audit Modules (EAM): Audit routines embedded in client's application to continuously monitor specific transactions flagged for auditor review.\n4. Integrated Test Facility (ITF): A fictitious entity created within the system to test transaction processing alongside live data.\n\nKeywords: CAATs, Generalized Audit Software, ACL, IDEA, Test Data, Embedded Audit Module, Integrated Test Facility, audit procedures, data analysis",
-    source:"sample",tags:["CAATs","IS Audit","Audit Tools"]
-  },
-  {
-    id:"SQ007",type:"descriptive",chapter:"Audit in IT Environment",
-    topic:"Audit Trail",marks:4,difficulty:"medium",
-    question:"Explain the concept of Audit Trail in IT systems and its importance for auditors. (4 Marks)",
-    options:null,correct_answer:null,
-    model_answer:"Audit Trail refers to a chronological sequence of records that provides documentary evidence of the sequence of activities in an IT system.\n\nImportance for Auditors:\n1. Accountability: Helps trace every transaction to the user who initiated it, ensuring accountability.\n2. Fraud Detection: Enables detection of unauthorized or fraudulent transactions by reviewing logs.\n3. Error Detection: Helps identify when and where errors occurred in processing.\n4. Regulatory Compliance: Supports compliance with legal and regulatory requirements (e.g., Companies Act, Income Tax Act).\n5. Evidence: Provides evidence for internal and external audit procedures.\n\nAudit trails include system logs, transaction logs, access logs, and error logs.\n\nKeywords: Audit Trail, chronological records, accountability, fraud detection, error detection, regulatory compliance, system logs, transaction logs, access logs",
-    source:"sample",tags:["Audit Trail","Logging","IS Audit"]
-  },
-  {
-    id:"SQ008",type:"descriptive",chapter:"Audit in IT Environment",
-    topic:"IS Audit",marks:6,difficulty:"hard",
-    question:"Describe the key phases of an Information Systems (IS) Audit. What are the major risks an IS auditor evaluates? (6 Marks)",
-    options:null,correct_answer:null,
-    model_answer:"Phases of IS Audit:\n1. Planning: Understanding the IT environment, identifying key systems and risk areas, preparing an audit plan.\n2. Risk Assessment: Evaluating inherent risks, control risks specific to IT environment (e.g., unauthorized access, data integrity).\n3. Evaluation of Internal Controls: Reviewing IT general controls (access, change management, operations) and application controls.\n4. Testing: Using CAATs and manual testing to verify controls are operating effectively.\n5. Reporting: Documenting findings, exceptions, and recommendations in an audit report.\n6. Follow-up: Monitoring remediation of identified deficiencies.\n\nMajor Risks Evaluated:\n- Unauthorized access to systems and data\n- Data integrity and completeness risks\n- System availability and business continuity\n- Change management risks (unauthorized program changes)\n- Cybersecurity threats and data breaches\n- Compliance with IT regulations and policies\n\nKeywords: IS Audit phases, planning, risk assessment, internal controls, testing, reporting, follow-up, unauthorized access, data integrity, change management, cybersecurity, business continuity",
-    source:"sample",tags:["IS Audit Phases","Risk Assessment","IT Controls"]
-  },
-  // === Chapter 3: Data Analytics & ERP ===
-  {
-    id:"SQ009",type:"MCQ",chapter:"Data Analytics & ERP",
-    topic:"ERP Systems",marks:1,difficulty:"easy",
-    question:"In an ERP system, which module is primarily responsible for managing financial transactions and reporting?",
-    options:{a:"Human Resource Management (HRM)",b:"Financial Accounting (FI)",c:"Material Management (MM)",d:"Sales & Distribution (SD)"},
-    correct_answer:"b",model_answer:"",source:"sample",tags:["ERP","SAP","Financial Accounting"]
   },
   {
     id:"SQ010",type:"MCQ",chapter:"Data Analytics & ERP",

@@ -14404,10 +14404,11 @@
         "c": "Forensic accounting ▪",
         "d": "Data mining"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[forensic-accounting-definition] Answer: c) Forensic accounting ▪"
     },
     {
       "id": "Q0756",
@@ -14480,10 +14481,11 @@
         "c": "Describing built-in reporting capabilities ▪",
         "d": "Learning advanced Excel functions (Note: The correct answer is not provided in the source for this specific question). • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: c) Describing built-in reporting capabilities ▪"
     },
     {
       "id": "Q0760",
@@ -14784,10 +14786,11 @@
         "c": "Cleaning data ▪",
         "d": "Publishing reports"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Extracting data ▪"
     },
     {
       "id": "Q0776",
@@ -14955,10 +14958,11 @@
         "c": "In the Transform tab ▪",
         "d": "In the Queries pane"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-query-steps] Answer: b) In the Query Settings pane ▪"
     },
     {
       "id": "Q0785",
@@ -14993,10 +14997,11 @@
         "c": "Microsoft SQL Server ▪",
         "d": "Microsoft Azure"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-power-query] Answer: b) Microsoft Power Query for Excel ▪"
     },
     {
       "id": "Q0787",
@@ -15012,10 +15017,11 @@
         "c": "Print the report ▪",
         "d": "Export the report to Excel"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Upload them to the Power BI service ▪"
     },
     {
       "id": "Q0788",
@@ -15088,10 +15094,11 @@
         "c": "Power Query Editor ▪",
         "d": "Report Builder"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-query-editor] Answer: c) Power Query Editor ▪"
     },
     {
       "id": "Q0792",
@@ -15240,10 +15247,11 @@
         "c": "By using the \"Print\" option ▪",
         "d": "By clicking \"Refresh All\""
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: a) By clicking \"Save As\" ▪"
     },
     {
       "id": "Q0800",
@@ -15259,10 +15267,11 @@
         "c": "File content type ▪",
         "d": "File date of creation"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-combine-files] Answer: c) File content type ▪"
     },
     {
       "id": "Q0801",
@@ -15297,10 +15306,11 @@
         "c": "Conditional query ▪",
         "d": "Aggregate query"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-exemplar-query] Answer: a) Function query ▪"
     },
     {
       "id": "Q0803",
@@ -15354,10 +15364,11 @@
         "c": "To initiate file combination ▪",
         "d": "To change file formats"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: c) To initiate file combination ▪"
     },
     {
       "id": "Q0806",
@@ -15563,10 +15574,11 @@
         "c": "Database ▪",
         "d": "SharePoint"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-folder-connector] Answer: b) Folder ▪"
     },
     {
       "id": "Q0817",
@@ -15601,10 +15613,11 @@
         "c": "A query can be linked to a custom function, allowing updates to propagate. ▪",
         "d": "It reduces the size of the query."
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-custom-function] Answer: c) A query can be linked to a custom function, allowing updates to propagate. ▪"
     },
     {
       "id": "Q0819",
@@ -15639,10 +15652,11 @@
         "c": "The parameter value is ignored. ▪",
         "d": "Power Query prompts you to correct the error."
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-parameter-error] Answer: a) It results in an error. ▪"
     },
     {
       "id": "Q0821",
@@ -15753,10 +15767,11 @@
         "c": "The applied steps ▪",
         "d": "The parameter list • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-multiple-parameters] Answer: b) The custom function ▪"
     },
     {
       "id": "Q0827",
@@ -15943,10 +15958,11 @@
         "c": "Valid, Error, Empty, Unknown, Unexpected Error ▪",
         "d": "Correct, Incorrect, Missing, Unidentified, Abnormal (Note: The correct • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[power-bi-column-quality] Answer: a) Good, Bad, Empty, Unknown, Undecided ▪"
     },
     {
       "id": "Q0837",
@@ -16000,10 +16016,11 @@
         "c": "Visual Studio ▪",
         "d": "Windows Operating System"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: c) Visual Studio ▪"
     },
     {
       "id": "Q0840",
@@ -16038,10 +16055,11 @@
         "c": "Values within tables ▪",
         "d": "Functions within expressions"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[M-language-metadata] Answer: b) Access metadata records for values ▪"
     },
     {
       "id": "Q0842",
@@ -16057,10 +16075,11 @@
         "c": "Errors are handled using the try expression ▪",
         "d": "Errors terminate the evaluation process"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[M-language-error-handling] Answer: c) Errors are handled using the try expression ▪"
     },
     {
       "id": "Q0843",
@@ -16095,10 +16114,11 @@
         "c": "Organizing records ▪",
         "d": "Modularity (not yet leveraged by Power Query)"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[M-language-sections] Answer: d) Modularity (not yet leveraged by Power Query)"
     },
     {
       "id": "Q0845",
@@ -16114,10 +16134,11 @@
         "c": "Imperative programming ▪",
         "d": "Procedural programming"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[M-language-functional] Answer: a) Pure functional programming ▪"
     },
     {
       "id": "Q0846",
@@ -16133,10 +16154,11 @@
         "c": "Lazy evaluations ▪",
         "d": "Record values indicating error handling • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[M-language-try] Answer: d) Record values indicating error handling • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
     },
     {
       "id": "Q0847",
@@ -16171,10 +16193,11 @@
         "c": "Date and time values only ▪",
         "d": "Logical values only (Note: The correct answers are not provided in the source for these specific questions). • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[M-table-sort] Answer: a) Numeric values, key selectors, comparer functions, and custom logic ▪"
     },
     {
       "id": "Q0849",
@@ -16475,10 +16498,11 @@
         "c": "Exporting data to PowerPoint ▪",
         "d": "Embedding in custom applications"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Collaboration and sharing with other users ▪"
     },
     {
       "id": "Q0865",
@@ -16532,10 +16556,11 @@
         "c": "for ▪",
         "d": "loop"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) begin ▪"
     },
     {
       "id": "Q0868",
@@ -16608,10 +16633,11 @@
         "c": "Mode calculation ▪",
         "d": "Z-Score calculation (Note: The correct answers are not provided in the source for these specific questions). KNIME • CHAPTER 1 Multiple Choice Questions (MCQ) for Practice"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[outlier-detection-IQR] Answer: b) Interquartile Range (IQR) ▪"
     },
     {
       "id": "Q0872",
@@ -16722,10 +16748,11 @@
         "c": "Connecting nodes ▪",
         "d": "Running the workflow"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: a) Adding nodes ▪"
     },
     {
       "id": "Q0878",
@@ -16760,10 +16787,11 @@
         "c": "It creates clear data flow. ▪",
         "d": "A network connection"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: c) It creates clear data flow. ▪"
     },
     {
       "id": "Q0880",
@@ -16817,10 +16845,11 @@
         "c": "By sending an email ▪",
         "d": "By adding more nodes"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-configure-input] Answer: b) By configuring node parameters ▪"
     },
     {
       "id": "Q0883",
@@ -16855,10 +16884,11 @@
         "c": "By using the \"File\" menu options ▪",
         "d": "By copying and pasting nodes • CHAPTER 3 Multiple Choice Questions (MCQ) for Practice"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-save-export] Answer: c) By using the \"File\" menu options ▪"
     },
     {
       "id": "Q0885",
@@ -16874,10 +16904,11 @@
         "c": "By configuring node parameters ▪",
         "d": "By changing the canvas size"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-import-data] Answer: c) By configuring node parameters ▪"
     },
     {
       "id": "Q0886",
@@ -16950,10 +16981,11 @@
         "c": "By deleting the entire dataset ▪",
         "d": "By changing the font size"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-missing-data] Answer: b) By replacing missing values with appropriate data ▪"
     },
     {
       "id": "Q0890",
@@ -17007,10 +17039,11 @@
         "c": "By exporting it in various formats ▪",
         "d": "By playing a video"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-share-data] Answer: c) By exporting it in various formats ▪"
     },
     {
       "id": "Q0893",
@@ -17026,10 +17059,11 @@
         "c": "Data ▪",
         "d": "Help • CHAPTER 4 Multiple Choice Questions (MCQ) for Practice"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-export-menu] Answer: a) File ▪"
     },
     {
       "id": "Q0894",
@@ -17064,10 +17098,11 @@
         "c": "Establishing connections to large-scale data systems ▪",
         "d": "Printing documents"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-bigdata] Answer: c) Establishing connections to large-scale data systems ▪"
     },
     {
       "id": "Q0896",
@@ -17083,10 +17118,11 @@
         "c": "To access and analyse massive datasets ▪",
         "d": "To change node colors (Note: The correct answers are not provided in the source for these specific questions). • CHAPTER 5 Multiple Choice Questions (MCQ) for Practice"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-bigdata-why] Answer: c) To access and analyse massive datasets ▪"
     },
     {
       "id": "Q0897",
@@ -17121,10 +17157,11 @@
         "c": "The process of extracting hidden knowledge and patterns from data ▪",
         "d": "The process of sending emails"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-data-mining] Answer: c) The process of extracting hidden knowledge and patterns from data ▪"
     },
     {
       "id": "Q0899",
@@ -17197,10 +17234,11 @@
         "c": "Editing images ▪",
         "d": "Creating websites"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[predictive-analytics] Answer: b) Extracting valuable patterns and insights from data ▪"
     },
     {
       "id": "Q0903",
@@ -17273,10 +17311,11 @@
         "c": "Treason.",
         "d": "Fraud."
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[fraud-definition] Answer: d) Fraud."
     },
     {
       "id": "Q0907",
@@ -17311,10 +17350,11 @@
         "c": "Senior level management",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Mid level management"
     },
     {
       "id": "Q0909",
@@ -17330,10 +17370,11 @@
         "c": "The victim relied on the statement & The victim is injured financially or otherwise",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[fraud-elements] Answer: d) All of the above"
     },
     {
       "id": "Q0910",
@@ -17349,10 +17390,11 @@
         "c": "Phishing",
         "d": "None of the above."
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[phishing-definition] Answer: c) Phishing"
     },
     {
       "id": "Q0911",
@@ -17368,10 +17410,11 @@
         "c": "Shot gunning",
         "d": "Skimming"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[shot-gunning-fraud] Answer: c) Shot gunning"
     },
     {
       "id": "Q0912",
@@ -17387,10 +17430,11 @@
         "c": "Commitment",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: a) Rationalization"
     },
     {
       "id": "Q0913",
@@ -17406,10 +17450,11 @@
         "c": "Amber flag",
         "d": "White flag"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: a) Red flag"
     },
     {
       "id": "Q0914",
@@ -17425,10 +17470,11 @@
         "c": "Amber flag",
         "d": "White flag"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Green flag"
     },
     {
       "id": "Q0915",
@@ -17462,10 +17508,11 @@
         "c": "Amber flag",
         "d": "White flag"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: a) Red flag"
     },
     {
       "id": "Q0917",
@@ -17500,10 +17547,11 @@
         "c": "Fraud model",
         "d": "Fraud tree"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) Fraud tree"
     },
     {
       "id": "Q0919",
@@ -17519,10 +17567,11 @@
         "c": "rationalization",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: c) rationalization"
     },
     {
       "id": "Q0920",
@@ -17538,10 +17587,11 @@
         "c": "Shot gunning",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) All of the above"
     },
     {
       "id": "Q0921",
@@ -17557,10 +17607,11 @@
         "c": "Disbursement fraud",
         "d": "Skimming"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Forgery"
     },
     {
       "id": "Q0922",
@@ -17612,10 +17663,11 @@
         "c": "ICAI",
         "d": "ACFE"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) RBI"
     },
     {
       "id": "Q0925",
@@ -17650,10 +17702,11 @@
         "c": "Red flag in payroll",
         "d": "Red flag in AR"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Red flag in purchase"
     },
     {
       "id": "Q0927",
@@ -17669,10 +17722,11 @@
         "c": "Check Kitting",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Larceny"
     },
     {
       "id": "Q0928",
@@ -17707,10 +17761,11 @@
         "c": "Steganography",
         "d": "Data hiding"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: c) Steganography"
     },
     {
       "id": "Q0930",
@@ -17764,10 +17819,11 @@
         "c": "Falsifying commission",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) All of the above"
     },
     {
       "id": "Q0933",
@@ -17783,10 +17839,11 @@
         "c": "Lapping",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: c) Lapping"
     },
     {
       "id": "Q0934",
@@ -17840,10 +17897,11 @@
         "c": "To maintain personal income/wealth",
         "d": "All the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) All the above"
     },
     {
       "id": "Q0937",
@@ -17935,10 +17993,11 @@
         "c": "The procedure & policy will be drafted",
         "d": "A & B Both"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) The procedures have to be written and everyone needs to be trained to use them."
     },
     {
       "id": "Q0942",
@@ -17954,10 +18013,11 @@
         "c": "Theft",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: a) Identity fraud"
     },
     {
       "id": "Q0943",
@@ -17973,10 +18033,11 @@
         "c": "Less times",
         "d": "Less times but in huge amounts"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) Less times but in huge amounts"
     },
     {
       "id": "Q0944",
@@ -18011,10 +18072,11 @@
         "c": "Pressure on management to perform",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) All of the above"
     },
     {
       "id": "Q0946",
@@ -18087,10 +18149,11 @@
         "c": "Interrogation",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: a) Interview"
     },
     {
       "id": "Q0950",
@@ -18106,10 +18169,11 @@
         "c": "Whether he is telling the facts",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) All of the above"
     },
     {
       "id": "Q0951",
@@ -18125,10 +18189,11 @@
         "c": "Creating widespread monitoring by employees",
         "d": "Eliminating protections for whistle blowers"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: d) Eliminating protections for whistle blowers"
     },
     {
       "id": "Q0952",
@@ -18580,10 +18645,11 @@
         "c": "Pressure",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Opportunity"
     },
     {
       "id": "Q0976",
@@ -18846,10 +18912,11 @@
         "c": "Pressure",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Opportunity"
     },
     {
       "id": "Q0990",
@@ -19625,10 +19692,11 @@
         "c": "Operation Power On",
         "d": "Operation Power Global"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Operation Power Off"
     },
     {
       "id": "Q1031",
@@ -19644,10 +19712,11 @@
         "c": "Internet of Tomorrow",
         "d": "Internet of Things"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[IoT] Answer: d) Internet of Things"
     },
     {
       "id": "Q1032",
@@ -19758,10 +19827,11 @@
         "c": "Knife Phishing",
         "d": "Sword Phishing"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Spear Phishing"
     },
     {
       "id": "Q1038",
@@ -20841,10 +20911,11 @@
         "c": "bitlocker",
         "d": "FileVault"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) truecrypt"
     },
     {
       "id": "Q1095",
@@ -20860,10 +20931,11 @@
         "c": "bitlocker",
         "d": "FileVault"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) truecrypt"
     },
     {
       "id": "Q1096",
@@ -21639,10 +21711,11 @@
         "c": "Visual Studio",
         "d": "Photoshop ERP"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: a) UiPath"
     },
     {
       "id": "Q1137",
@@ -21715,10 +21788,11 @@
         "c": "A type of report",
         "d": "A programming language Python"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) A database table"
     },
     {
       "id": "Q1141",
@@ -21943,10 +22017,11 @@
         "c": "Report View",
         "d": "Dashboard"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Data Model"
     },
     {
       "id": "Q1153",
@@ -22114,10 +22189,11 @@
         "c": "Creative tasks",
         "d": "Strategic planning"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Routine, rule-based processes"
     },
     {
       "id": "Q1162",
@@ -22133,10 +22209,11 @@
         "c": "An ERP system",
         "d": "A database"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) An RPA tool"
     },
     {
       "id": "Q1163",
@@ -22171,10 +22248,11 @@
         "c": "A type of virus",
         "d": "A programming language"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) A software robot automating tasks"
     },
     {
       "id": "Q1165",
@@ -22190,10 +22268,11 @@
         "c": "Human Resources",
         "d": "IT Support"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Finance"
     },
     {
       "id": "Q1166",
@@ -22570,10 +22649,11 @@
         "c": "Delete data",
         "d": "Refresh data"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: a) Zoom into a visual for detailed data"
     },
     {
       "id": "Q1186",
@@ -22645,10 +22725,11 @@
         "b": "Software bot performing tasksC) Mobile device",
         "d": "Hardware device"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Software bot performing tasksC) Mobile device"
     },
     {
       "id": "Q1190",
@@ -23157,10 +23238,11 @@
         "c": "Error",
         "d": "None Power BI"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) True"
     },
     {
       "id": "Q1217",
@@ -23233,10 +23315,11 @@
         "c": "Creates new data",
         "d": "Deletes data"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Filters data dynamically"
     },
     {
       "id": "Q1221",
@@ -23271,10 +23354,11 @@
         "c": "Data import speed",
         "d": "None of these"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: a) Pre-built calculations"
     },
     {
       "id": "Q1223",
@@ -23499,10 +23583,11 @@
         "c": "Designing UI",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Programming bots"
     },
     {
       "id": "Q1235",
@@ -23898,10 +23983,11 @@
         "c": "venv create",
         "d": "env create"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) createenv"
     },
     {
       "id": "Q1256",
@@ -24145,10 +24231,11 @@
         "c": "Send Hotkey",
         "d": "Get Text"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Type Into"
     },
     {
       "id": "Q1269",
@@ -24905,10 +24992,11 @@
         "c": "Both A and B",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Loops and Conditions"
     },
     {
       "id": "Q1309",
@@ -25266,10 +25354,11 @@
         "c": "A processing step in a workflow",
         "d": "A Python package"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: c) A processing step in a workflow"
     },
     {
       "id": "Q1328",
@@ -25418,10 +25507,11 @@
         "c": "Java",
         "d": "All of the above Advanced"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) R"
     },
     {
       "id": "Q1336",
@@ -25570,10 +25660,11 @@
         "c": "Math Formula",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: a) Normalizer"
     },
     {
       "id": "Q1344",
@@ -25855,10 +25946,11 @@
         "c": "Visual Studio",
         "d": "SharePoint"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Azure DevOps"
     },
     {
       "id": "Q1359",
@@ -25874,10 +25966,11 @@
         "c": "Reporting tool",
         "d": "Security gateway"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Development environment"
     },
     {
       "id": "Q1360",
@@ -25950,10 +26043,11 @@
         "c": "FTP",
         "d": "JDBC"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) SOAP only"
     },
     {
       "id": "Q1364",
@@ -25969,10 +26063,11 @@
         "c": "A database backup",
         "d": "A user license type"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) A bug fix patch"
     },
     {
       "id": "Q1365",
@@ -26026,10 +26121,11 @@
         "c": "Power Apps",
         "d": "Azure DevOps"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Power Automate"
     },
     {
       "id": "Q1368",
@@ -26083,10 +26179,11 @@
         "c": "Power BI",
         "d": "Excel Power Query"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) SQL Server Management Studio"
     },
     {
       "id": "Q1371",
@@ -26102,10 +26199,11 @@
         "c": "User authentication tool",
         "d": "Database management tool"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Used for report creation"
     },
     {
       "id": "Q1372",
@@ -26159,10 +26257,11 @@
         "c": "They allow direct database access",
         "d": "They are used only in development environments"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) They are free"
     },
     {
       "id": "Q1375",
@@ -26216,10 +26315,11 @@
         "c": "X++",
         "d": "Python"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) C#"
     },
     {
       "id": "Q1378",
@@ -26254,10 +26354,11 @@
         "c": "Third-party software only",
         "d": "No updates allowed"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) Manual installation by users"
     },
     {
       "id": "Q1380",
@@ -26368,10 +26469,11 @@
         "c": "Used for on-premises installation",
         "d": "Backup tool"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: a) Provides cloud platform and services hosting Fusion applications"
     },
     {
       "id": "Q1386",
@@ -26539,10 +26641,11 @@
         "c": "Overlayering base code",
         "d": "External applications only"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Direct database edits"
     },
     {
       "id": "Q1395",
@@ -26558,10 +26661,11 @@
         "c": "Hybrid only",
         "d": "Desktop software"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) On-premises only"
     },
     {
       "id": "Q1396",
@@ -26615,10 +26719,11 @@
         "c": "Only Excel exports",
         "d": "Only dashboards"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) Only ad-hoc reports"
     },
     {
       "id": "Q1399",
@@ -26691,10 +26796,11 @@
         "c": "Manual data entry",
         "d": "Email integration"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) FTP transfers only"
     },
     {
       "id": "Q1403",
@@ -26767,10 +26873,11 @@
         "c": "Only firewall protection",
         "d": "Manual password management only"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) No encryption"
     },
     {
       "id": "Q1407",
@@ -26900,10 +27007,11 @@
         "c": "To block unauthorized access.",
         "d": "To backup data. In the year 2020, how many data breaches were reported in the United States?"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "aicitss_module_1.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-based] Answer: b) To scan for malware."
     },
     {
       "id": "Q1414",
@@ -26938,10 +27046,11 @@
         "c": "To ensure sufficient budget funds are available for planned or actual purchases What are some of the key functionalities covered in the expense management module of Dynamics 365 Finance? How does Dynamics 365 Finance handle bank account management and reconciliation? What is the purpose of a deposit slip in the context of financial management? Describe the major business processes associated with cash and bank management in Dynamics 365 Finance. What is a letter of guarantee, and how does Dynamics 365 Finance assist in managing them? How does the \"Expense reports reimagined\" feature improve the expense reporting process in Dynamics 365 Finance? What factors should an organization consider during the planning phase for implementing expense management in Dynamics 365 Finance? Explain the concept of per diems and their importance in expense management. What are some decisions that need to be made when implementing per diems in Dynamics 365 Finance? What is the significance of depreciation in fixed asset management, and how is it typically calculated in the system? 1 2 3 4 5 6 7 8 9 10 SELF-EXAMINATION QUESTIONS FOR PRACTICE: MS DYNAMICS 365 412 TASK & KNOWLEDGE STATEMENTS ROBOTIC PROCESS AUTOMATION 1 TASK STATEMENT Execute basic web automation tasks.",
         "d": "The organization's hierarchy and financial background"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "aicitss_module_1.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[web-verified] Answer: b) To calculate the depreciation of fixed assets"
     }
   ]
 }

@@ -20702,10 +20702,11 @@
         "c": "Dynamic web page",
         "d": "Domain Name Server"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Message ID"
     },
     {
       "id": "Q1084",
@@ -23067,10 +23068,11 @@
         "c": "To create marketing content",
         "d": "To edit videos Python"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) To design websites"
     },
     {
       "id": "Q1208",
@@ -26622,10 +26624,11 @@
         "c": "Workflow management",
         "d": "Email automation"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Data backup"
     },
     {
       "id": "Q1394",
@@ -26700,10 +26703,11 @@
         "c": "Report generation",
         "d": "Email marketing"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Database administration"
     },
     {
       "id": "Q1398",
@@ -26816,10 +26820,11 @@
         "c": "User interface design",
         "d": "Report creation"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[knowledge-base] Answer: b) Database management"
     },
     {
       "id": "Q1404",

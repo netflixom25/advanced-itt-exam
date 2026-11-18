@@ -15114,10 +15114,11 @@
         "c": "By choosing \"Close & Apply\" ▪",
         "d": "By publishing the report"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Close & Apply saves changes from Power Query Editor back to Power BI Desktop"
     },
     {
       "id": "Q0793",
@@ -15133,10 +15134,11 @@
         "c": ".pbix ▪",
         "d": ".pdf"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI Desktop saves files in .pbix format"
     },
     {
       "id": "Q0794",
@@ -15152,10 +15154,11 @@
         "c": "Connecting to data ▪",
         "d": "Publishing reports"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] First step in Power BI Desktop is Connecting to data (Get Data)"
     },
     {
       "id": "Q0795",
@@ -15326,10 +15329,11 @@
         "c": "When files share the same file type and structure ▪",
         "d": "When files have different file names"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Combine Files works when files share the same file type and structure"
     },
     {
       "id": "Q0804",
@@ -15345,10 +15349,11 @@
         "c": "Connect to a folder and access its files ▪",
         "d": "Rename folders"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Folder connector allows you to connect to a folder and access its files"
     },
     {
       "id": "Q0805",
@@ -15384,10 +15389,11 @@
         "c": "To apply advanced transformations ▪",
         "d": "To perform data extraction and ensure changes propagate"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Linked exemplar and function queries perform data extraction and ensure changes propagate"
     },
     {
       "id": "Q0807",
@@ -15422,10 +15428,11 @@
         "c": "Filter grouping and Sort grouping ▪",
         "d": "Aggregate grouping and Join grouping"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Two primary types: Column grouping and Row grouping"
     },
     {
       "id": "Q0809",
@@ -15441,10 +15448,11 @@
         "c": "Only on the shortcut menu ▪",
         "d": "In three places: Home tab, Transform tab, and shortcut menu"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Group By button appears in three places: Home tab, Transform tab, and shortcut menu"
     },
     {
       "id": "Q0810",
@@ -15460,10 +15468,11 @@
         "c": "Advanced option ▪",
         "d": "Premium option"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Advanced option allows selecting multiple columns for grouping"
     },
     {
       "id": "Q0811",
@@ -15479,10 +15488,11 @@
         "c": "Sum ▪",
         "d": "Maximum"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Use Sum aggregate function for total units sold"
     },
     {
       "id": "Q0812",
@@ -15517,10 +15527,11 @@
         "c": "By sorting the data by product name ▪",
         "d": "By using the Remove Duplicates operation"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Use Table.Max function in a custom column to extract top-performing product"
     },
     {
       "id": "Q0814",
@@ -15672,10 +15683,11 @@
         "c": "Excel ▪",
         "d": "Database"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Web connector is used to access data from a web source"
     },
     {
       "id": "Q0822",
@@ -15787,10 +15799,11 @@
         "c": "Data connection errors and data transformation errors ▪",
         "d": "Input errors and output errors"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Two primary error types: Step-level errors and cell-level errors"
     },
     {
       "id": "Q0828",
@@ -15863,10 +15876,11 @@
         "c": "Ignore the errors and proceed with the query. ▪",
         "d": "Convert errors into step-level errors."
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Replace errors with a fixed value is one approach to handle cell-level errors"
     },
     {
       "id": "Q0832",
@@ -15882,10 +15896,11 @@
         "c": "Delete all rows with errors. ▪",
         "d": "Convert cell-level errors into step-level errors."
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Keep errors retains rows with cell-level errors for review"
     },
     {
       "id": "Q0833",
@@ -15939,10 +15954,11 @@
         "c": "Through the View tab ▪",
         "d": "Through the Home tab"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Data profiling tools are enabled through the View tab in Power Query Editor"
     },
     {
       "id": "Q0836",
@@ -15997,10 +16013,11 @@
         "c": "R ▪",
         "d": "M"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] M is the programming language used by Power Query (informally called M)"
     },
     {
       "id": "Q0839",
@@ -16232,10 +16249,11 @@
         "c": "In the Transform ribbon ▪",
         "d": "In the Navigator window"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Steps for shaping data are recorded in the Applied Steps list"
     },
     {
       "id": "Q0851",
@@ -16251,10 +16269,11 @@
         "c": "Right-click the column header and select \"Change Type\" ▪",
         "d": "Click the column header and press Enter"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Right-click the column header and select Change Type to change data type"
     },
     {
       "id": "Q0852",
@@ -16289,10 +16308,11 @@
         "c": "Use the Ctrl key to select the step and press Delete ▪",
         "d": "Select the step and press Enter"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Right-click the step and select Delete to remove it from Applied Steps"
     },
     {
       "id": "Q0854",
@@ -16327,10 +16347,11 @@
         "c": "Select the rows and press Enter ▪",
         "d": "Use the \"Remove rows > Remove Top Rows\" option"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Use Remove rows > Remove Top Rows option to remove top 3 rows"
     },
     {
       "id": "Q0856",
@@ -16384,10 +16405,11 @@
         "c": "Shaping and transforming ▪",
         "d": "Merging and appending"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Two primary ways of combining queries: Merging and Appending"
     },
     {
       "id": "Q0859",
@@ -16403,10 +16425,11 @@
         "c": "To combine data from different sources ▪",
         "d": "To delete queries"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Use Merge Queries to combine data from different sources based on matching columns"
     },
     {
       "id": "Q0860",
@@ -16441,10 +16464,11 @@
         "c": "Remove the \"Expand\" step from the Applied Steps list ▪",
         "d": "Close and reopen Power Query Editor"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Remove the Expand step from Applied Steps list to undo unwanted expansion"
     },
     {
       "id": "Q0862",
@@ -16460,10 +16484,11 @@
         "c": "Save and Exit ▪",
         "d": "Reset and Reopen"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Close and Apply is the final step to load changes from Power Query Editor into Power BI"
     },
     {
       "id": "Q0863",
@@ -16518,10 +16543,11 @@
         "c": "Publish to Web ▪",
         "d": "Power BI Embedded (Note: The correct answers are not provided in the source for these specific questions). Python • MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Export to PDF creates static snapshots best suited for sharing/printing/archiving"
     },
     {
       "id": "Q0866",
@@ -16595,10 +16621,11 @@
         "c": "Number Processing ▪",
         "d": "Numeric Manipulation"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] NumPy stands for Numerical Python"
     },
     {
       "id": "Q0870",
@@ -16614,10 +16641,11 @@
         "c": "Arrays ▪",
         "d": "Dictionaries"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] Arrays (ndarray) are fundamental to NumPy for numerical data handling"
     },
     {
       "id": "Q0871",
@@ -17177,10 +17205,11 @@
         "c": "Data visualization ▪",
         "d": "Data manipulation"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-forensic] Answer: a) Descriptive statistics ▪"
     },
     {
       "id": "Q0900",
@@ -17215,10 +17244,11 @@
         "c": "Sending emails ▪",
         "d": "Creating 3D animations"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Clustering = grouping data points into similar clusters or groups [google-verified]"
     },
     {
       "id": "Q0902",
@@ -17331,10 +17361,11 @@
         "c": "Juxtaposition test",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Juxtaposition test = when auditor tests documents by keeping them side by side [google-verified]"
     },
     {
       "id": "Q0908",
@@ -17489,10 +17520,11 @@
         "c": "Amber flag",
         "d": "White flag"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Significant increase in working capital borrowing is a Red flag [google-verified]"
     },
     {
       "id": "Q0916",
@@ -17528,10 +17560,11 @@
         "c": "a & b both",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Analysing non-verbal cues important during both interviewing and interrogating = a & b both [google-verified]"
     },
     {
       "id": "Q0918",
@@ -17644,10 +17677,11 @@
         "c": "Both a & b",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-module] Answer: c) Both a & b"
     },
     {
       "id": "Q0924",
@@ -17742,10 +17776,11 @@
         "c": "General Red Flag",
         "d": "None of above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Weakness in internal control = General Red Flag [google-verified]"
     },
     {
       "id": "Q0929",
@@ -17781,10 +17816,11 @@
         "c": "Inverse logic",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-module] Answer: d) All of the above"
     },
     {
       "id": "Q0931",
@@ -17917,10 +17953,11 @@
         "c": "Cased on the SOX Act and SAS 99",
         "d": "Dynamic and changes over time"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Interrelationship among auditing, fraud examination, and financial forensics is dynamic [google-verified]"
     },
     {
       "id": "Q0938",
@@ -17955,10 +17992,11 @@
         "c": "Kickback payments",
         "d": "Bidding agreements"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Bid pooling = several bidders conspire to split contracts [google-verified]"
     },
     {
       "id": "Q0940",
@@ -18053,10 +18091,11 @@
         "c": "Relationships with others",
         "d": "All of the choices are included in the Fraud Exposure Rectangle"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Fraud Exposure Rectangle includes Relationships with others [google-verified]"
     },
     {
       "id": "Q0945",
@@ -18092,10 +18131,11 @@
         "c": "Fraud Triangle",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-fraud-exposure-rect] Answer: b) Fraud Exposure Rectangle"
     },
     {
       "id": "Q0947",
@@ -18130,10 +18170,11 @@
         "c": "Surly and angry but good in work",
         "d": "Very slow in work that he/she is used to doing for years together"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Very friendly but self centered and egoistic is a red flag example [google-verified]"
     },
     {
       "id": "Q0949",
@@ -18247,10 +18288,11 @@
         "c": "Conduct surprise checks",
         "d": "All of the above improve detection of fraud"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "All of the above improve detection of fraud [google-verified]"
     },
     {
       "id": "Q0955",
@@ -18266,10 +18308,11 @@
         "c": "Company management",
         "d": "The company’s auditors"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-forensic] Answer: c) Company management"
     },
     {
       "id": "Q0956",
@@ -18285,10 +18328,11 @@
         "c": "Without the advice of legal counsel since the confidentiality of strategy is compromised.",
         "d": "Without the advice of legal counsel since they have no role to play till the fraud is established."
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: a) With the advice of legal counsel only if there is need to prosecute the fraudster later."
     },
     {
       "id": "Q0957",
@@ -18304,10 +18348,11 @@
         "c": "Insider information",
         "d": "Proceedings"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-forensic] Answer: a) Disgorgement"
     },
     {
       "id": "Q0958",
@@ -18323,10 +18368,11 @@
         "c": "Lapping",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: b) Gunpowder effect"
     },
     {
       "id": "Q0959",
@@ -18342,10 +18388,11 @@
         "c": "Shaving off unnecessary data",
         "d": "None of the above."
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-forensic] Answer: c) Shaving off unnecessary data"
     },
     {
       "id": "Q0960",
@@ -18361,10 +18408,11 @@
         "c": "Green flags at macro level",
         "d": "Green flags at micro level"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: a) Red flags at macro level"
     },
     {
       "id": "Q0961",
@@ -18380,10 +18428,11 @@
         "c": "Green flags at macro level",
         "d": "Green flags at micro level"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: b) Red flags at micro level"
     },
     {
       "id": "Q0962",
@@ -18418,10 +18467,11 @@
         "c": "Leading",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Interview question types = all of the above (open, closed, leading) [google-verified]"
     },
     {
       "id": "Q0964",
@@ -18437,10 +18487,11 @@
         "c": "Leading",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-verified] Answer: c) Leading"
     },
     {
       "id": "Q0965",
@@ -18456,10 +18507,11 @@
         "c": "Leading",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-verified] Answer: a) Open ended"
     },
     {
       "id": "Q0966",
@@ -18475,10 +18527,11 @@
         "c": "Leading",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Yes/No question = Closed ended question [google-verified]"
     },
     {
       "id": "Q0967",
@@ -18494,10 +18547,11 @@
         "c": "Make a direct accusation",
         "d": "None of the above."
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: b) Present partial evidences"
     },
     {
       "id": "Q0968",
@@ -18513,10 +18567,11 @@
         "c": "Negotiating",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Things to be avoided during interview = all of the above [google-verified]"
     },
     {
       "id": "Q0969",
@@ -18532,10 +18587,11 @@
         "c": "Unjustified transactions",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Red flags for payroll = all of the above [google-verified]"
     },
     {
       "id": "Q0970",
@@ -18551,10 +18607,11 @@
         "c": "Investigation",
         "d": "Prosecution"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Prevention is most cost-effective way to minimize fraud [google-verified]"
     },
     {
       "id": "Q0971",
@@ -18570,10 +18627,11 @@
         "c": "Error",
         "d": "Forgery"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Unintentional mistake = Error (not fraud) [google-verified]"
     },
     {
       "id": "Q0972",
@@ -18607,10 +18665,11 @@
         "b": "Green flag",
         "c": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Employee not taking holiday = Red flag at micro level [google-verified]"
     },
     {
       "id": "Q0974",
@@ -18626,10 +18685,11 @@
         "c": "Pressure",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: c) Pressure"
     },
     {
       "id": "Q0975",
@@ -18665,10 +18725,11 @@
         "c": "Assist you in case the interviewee changes his/ her statement at a later stage",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: d) All of the above"
     },
     {
       "id": "Q0977",
@@ -18703,10 +18764,11 @@
         "c": "Green Flag",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: a) Red flag"
     },
     {
       "id": "Q0979",
@@ -18722,10 +18784,11 @@
         "c": "Green Flag",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Excessive payment to consultants & auditors is an example of Red flag [google-verified]"
     },
     {
       "id": "Q0980",
@@ -18741,10 +18804,11 @@
         "c": "CARO, Clause x",
         "d": "All of the above."
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-verified] Answer: d) All of the above."
     },
     {
       "id": "Q0981",
@@ -18760,10 +18824,11 @@
         "c": "Third parties",
         "d": "Only a & b"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Section 143(12) deals with Officers and Employees = Only a & b [google-verified]"
     },
     {
       "id": "Q0982",
@@ -18779,10 +18844,11 @@
         "c": "Rationalisation",
         "d": "Threat"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: b) Opportunity"
     },
     {
       "id": "Q0983",
@@ -18798,10 +18864,11 @@
         "c": "Green Flag",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: a) Red flag"
     },
     {
       "id": "Q0984",
@@ -18817,10 +18884,11 @@
         "c": "Inflated Cash & bank balances",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: d) All of the above"
     },
     {
       "id": "Q0985",
@@ -18855,10 +18923,11 @@
         "c": "SA 250",
         "d": "SA 299"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SA 240 covers auditor's responsibility relating to fraud in financial statements [google-verified]"
     },
     {
       "id": "Q0987",
@@ -18874,10 +18943,11 @@
         "c": "Money Laundering",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-verified] Answer: c) Money Laundering"
     },
     {
       "id": "Q0988",
@@ -18893,10 +18963,11 @@
         "c": "Follow up",
         "d": "Outdated"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: a) New"
     },
     {
       "id": "Q0989",
@@ -18932,10 +19003,11 @@
         "c": "Pressure",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[ICAI-forensic] Answer: b) Opportunity"
     },
     {
       "id": "Q0991",
@@ -19369,10 +19441,11 @@
         "c": "FAT32",
         "d": "FAT16"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "NTFS provides most security among Microsoft file systems [google-verified]"
     },
     {
       "id": "Q1014",
@@ -19407,10 +19480,11 @@
         "c": "integrity",
         "d": "durability"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: d) durability"
     },
     {
       "id": "Q1016",
@@ -19426,10 +19500,11 @@
         "c": "Layer 3",
         "d": "Layer 4"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Routers reside at Layer 3 (Network Layer) of OSI model [google-verified]"
     },
     {
       "id": "Q1017",
@@ -19445,10 +19520,11 @@
         "c": "government espionage",
         "d": "business espionage"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Corporate espionage = espionage for commercial purposes [google-verified]"
     },
     {
       "id": "Q1018",
@@ -19483,10 +19559,11 @@
         "c": "phone eavesdropping",
         "d": "all of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: d) all of the above"
     },
     {
       "id": "Q1020",
@@ -19502,10 +19579,11 @@
         "c": "Server time Protocol (STP)",
         "d": "Client time Protocol (CTP)"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: a) Network Time Protocol (NTP)"
     },
     {
       "id": "Q1021",
@@ -19521,10 +19599,11 @@
         "c": "Host Detection",
         "d": "Host Prevention"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Intrusion Detection = tracking unauthorized activity using inspection of user actions/logs [google-verified]"
     },
     {
       "id": "Q1022",
@@ -19540,10 +19619,11 @@
         "c": "IAC",
         "d": "HAC"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "MAC = unique 48-bit serial number for network interface card [google-verified]"
     },
     {
       "id": "Q1023",
@@ -19559,10 +19639,11 @@
         "c": "Chain of Custody",
         "d": "Chain of Forensics"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: c) Chain of Custody"
     },
     {
       "id": "Q1024",
@@ -19578,10 +19659,11 @@
         "c": "Resource Denial attack",
         "d": "Server down attacks"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: a) Denial-of-service attack"
     },
     {
       "id": "Q1025",
@@ -19597,10 +19679,11 @@
         "c": "Identity Theft",
         "d": "Person Theft"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: c) Identity Theft"
     },
     {
       "id": "Q1026",
@@ -19616,10 +19699,11 @@
         "c": "May 2000",
         "d": "Aug 2000"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: c) May 2000"
     },
     {
       "id": "Q1027",
@@ -19635,10 +19719,11 @@
         "c": "Grameen Bank",
         "d": "Bangladesh Bank"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Bangladesh Bank suffered major cyber-attack in February 2016 [google-verified]"
     },
     {
       "id": "Q1028",
@@ -19732,10 +19817,11 @@
         "c": "Vendors",
         "d": "Unknown Hackers"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Most cyber-attacks on corporates are performed by Insiders [google-verified]"
     },
     {
       "id": "Q1033",
@@ -19751,10 +19837,11 @@
         "c": "Hybrid Write Blocker",
         "d": "Forensic Write Blocker"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Hardware Write Blocker = sits between evidence drive and forensic workstation [google-verified]"
     },
     {
       "id": "Q1034",
@@ -19770,10 +19857,11 @@
         "c": "Hybrid Write Blocker",
         "d": "Forensic Write Blocker"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Software Write Blocker = built into forensic suite or OS configured [google-verified]"
     },
     {
       "id": "Q1035",
@@ -19789,10 +19877,11 @@
         "c": "Loading",
         "d": "Plugging"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: b) Mounting"
     },
     {
       "id": "Q1036",
@@ -19808,10 +19897,11 @@
         "c": "Caller ID Spoofing",
         "d": "Caller ID Rigging"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: c) Caller ID Spoofing"
     },
     {
       "id": "Q1037",
@@ -19847,10 +19937,11 @@
         "c": "Unknown Web",
         "d": "HardWeb"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: b) Darkweb"
     },
     {
       "id": "Q1039",
@@ -19866,10 +19957,11 @@
         "c": "Sandbox",
         "d": "Sandtrap"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-cyber-verified] Answer: a) Honeypot"
     },
     {
       "id": "Q1040",
@@ -19885,10 +19977,11 @@
         "c": "IMAP",
         "d": "TCP"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "IMAP = Internet protocol for accessing email on mail server [google-verified]"
     },
     {
       "id": "Q1041",
@@ -19904,10 +19997,11 @@
         "c": "IMAP",
         "d": "TCP"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "POP = Internet protocol to retrieve/download email from server [google-verified]"
     },
     {
       "id": "Q1042",
@@ -19923,10 +20017,11 @@
         "c": "Swap",
         "d": "Cache"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Cache = duplicate data in temporary location for fast access [google-verified]"
     },
     {
       "id": "Q1043",
@@ -19942,10 +20037,11 @@
         "c": "DHCP",
         "d": "ICMP"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "DHCP = service where server assigns IP address to client upon request [google-verified]"
     },
     {
       "id": "Q1044",
@@ -19961,10 +20057,11 @@
         "c": "sender and receiver",
         "d": "all the connected devices to the network"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "In asymmetric cryptography, private key kept by Receiver [google-verified]"
     },
     {
       "id": "Q1045",
@@ -19980,10 +20077,11 @@
         "c": "Spoof",
         "d": "Hashing"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Steganography = secret message hidden in unencrypted text/images [google-verified]"
     },
     {
       "id": "Q1046",
@@ -19999,10 +20097,11 @@
         "c": "Encrypt the message with a private key so the recipient can decrypt with the corresponding public key",
         "d": "Create a checksum, append it to the message, encrypt the message, then send to recipient."
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "For message integrity: create checksum, append, encrypt, then send [google-verified]"
     },
     {
       "id": "Q1047",
@@ -20018,10 +20117,11 @@
         "c": "White hat hacker",
         "d": "Grey hat hacker"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Hacktivist = hacker who sends social/religious/political messages [google-verified]"
     },
     {
       "id": "Q1048",
@@ -20037,10 +20137,11 @@
         "c": "White hat hacker",
         "d": "Grey hat hacker"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "White hat hacker = gains access to fix identified weaknesses [google-verified]"
     },
     {
       "id": "Q1049",
@@ -20056,10 +20157,11 @@
         "c": "Malware",
         "d": "Keylogger"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Trojan Horse = program allowing attacker to control computer remotely [google-verified]"
     },
     {
       "id": "Q1050",
@@ -20075,10 +20177,11 @@
         "c": "Caller ID Spoofing",
         "d": "Reverse Engineering"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Social Engineering = art of exploiting human elements for unauthorized access [google-verified]"
     },
     {
       "id": "Q1051",
@@ -20094,10 +20197,11 @@
         "c": "24",
         "d": "128"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "IPv6 uses 128 bits [google-verified]"
     },
     {
       "id": "Q1052",
@@ -20113,10 +20217,11 @@
         "c": "24",
         "d": "128"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "IPv4 uses 32 bits [google-verified]"
     },
     {
       "id": "Q1053",
@@ -20132,10 +20237,11 @@
         "c": "FTP",
         "d": "SMTP"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "FTP runs on port 21 [google-verified]"
     },
     {
       "id": "Q1054",
@@ -20151,10 +20257,11 @@
         "c": "FTP",
         "d": "SMTP"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "HTTP runs on port 80 [google-verified]"
     },
     {
       "id": "Q1055",
@@ -20170,10 +20277,11 @@
         "c": "FTP",
         "d": "SMTP"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "HTTPS runs on port 443 [google-verified]"
     },
     {
       "id": "Q1056",
@@ -20189,10 +20297,11 @@
         "c": "Passive Sniffing",
         "d": "Network Sniffing"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Passive Sniffing = intercept packages as transmitted over network [google-verified]"
     },
     {
       "id": "Q1057",
@@ -20208,10 +20317,11 @@
         "c": "DOS attack",
         "d": "Cross Site Scripts"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "DOS attack is used to crash Web Server [google-verified]"
     },
     {
       "id": "Q1058",
@@ -20227,10 +20337,11 @@
         "c": "DoS Attack",
         "d": "SQL Injection"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Sniffing = eavesdropping on network and capturing sensitive information [google-verified]"
     },
     {
       "id": "Q1059",
@@ -20265,10 +20376,11 @@
         "c": "People reuse passwords across multiple accounts",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "All of the above - passwords inadequate because people choose simple, share, reuse [google-verified]"
     },
     {
       "id": "Q1061",
@@ -20284,10 +20396,11 @@
         "c": "SSO",
         "d": "user profile"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SSO = Single Sign-On = one name and password to access multiple applications [google-verified]"
     },
     {
       "id": "Q1062",
@@ -20303,10 +20416,11 @@
         "c": "Data that is hidden",
         "d": "Operating system data"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Metadata = data about data [google-verified]"
     },
     {
       "id": "Q1063",
@@ -20322,10 +20436,11 @@
         "c": "symmetric",
         "d": "secure"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Asymmetric encryption = different key to encrypt vs decrypt [google-verified]"
     },
     {
       "id": "Q1064",
@@ -20417,10 +20532,11 @@
         "c": "Start typing",
         "d": "Flip the switch"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "If computer is turned off, leave it off (preserve state for forensics) [google-verified]"
     },
     {
       "id": "Q1069",
@@ -20436,10 +20552,11 @@
         "c": "Start typing",
         "d": "Log the user off"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "If computer is turned on, unplug it (pull the plug, preserve volatile state) [google-verified]"
     },
     {
       "id": "Q1070",
@@ -20455,10 +20572,11 @@
         "c": "Gather evidence",
         "d": "Make sure computer is on"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "When first securing area: make sure crime scene is safe [google-verified]"
     },
     {
       "id": "Q1071",
@@ -20474,10 +20592,11 @@
         "c": "Dead spots",
         "d": "Triangulation"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Triangulation = locating phones by distance from 3 towers [google-verified]"
     },
     {
       "id": "Q1072",
@@ -20531,10 +20650,11 @@
         "c": "hybrid attack",
         "d": "brute-force attack"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Brute-force attack = uses every possible letter, number, and character [google-verified]"
     },
     {
       "id": "Q1075",
@@ -20550,10 +20670,11 @@
         "c": "steganography",
         "d": "digital certificates"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Validate tools and verify evidence with hashing algorithms [google-verified]"
     },
     {
       "id": "Q1076",
@@ -20569,10 +20690,11 @@
         "c": "log purging",
         "d": "log cycling"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Circular logging = overwrites log file when it reaches specified size/time [google-verified]"
     },
     {
       "id": "Q1077",
@@ -20588,10 +20710,11 @@
         "c": "OSForensics",
         "d": "Sleuth Kit"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Kali Linux = updated version of BackTrack with 300+ tools [google-verified]"
     },
     {
       "id": "Q1078",
@@ -20607,10 +20730,11 @@
         "c": "ifconfig",
         "d": "tcpdump"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "tcpdump = command line program for examining network traffic [google-verified]"
     },
     {
       "id": "Q1079",
@@ -20626,10 +20750,11 @@
         "c": "placing the device into airplane mode",
         "d": "turning the device off"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Placing device into plastic evidence bag is NOT effective for isolating signals [google-verified]"
     },
     {
       "id": "Q1080",
@@ -20645,10 +20770,11 @@
         "c": "Conficker virus",
         "d": "Iloveyou Scam"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "419 scam = Nigerian Scam [google-verified]"
     },
     {
       "id": "Q1081",
@@ -20664,10 +20790,11 @@
         "c": "Whois",
         "d": "Cookies"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Whois = search query to identify individuals/companies associated with domain [google-verified]"
     },
     {
       "id": "Q1082",
@@ -20683,10 +20810,11 @@
         "c": "Whois",
         "d": "Cookies"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Cookies = small text file deposited on user's computer by web server [google-verified]"
     },
     {
       "id": "Q1083",
@@ -20722,10 +20850,11 @@
         "c": "Web Cache",
         "d": "Cookies"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Peer-to-Peer = used primarily as means to share files [google-verified]"
     },
     {
       "id": "Q1085",
@@ -20741,10 +20870,11 @@
         "c": "Binary",
         "d": "Hexadecimal"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Hexadecimal = Base 16 system using 0-9 and A-F [google-verified]"
     },
     {
       "id": "Q1086",
@@ -20760,10 +20890,11 @@
         "c": "BitLocker",
         "d": "Pretty Good Privacy (PGP)"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "BitLocker = platform-specific encryption tool (Windows) [google-verified]"
     },
     {
       "id": "Q1087",
@@ -20779,10 +20910,11 @@
         "c": "verifiable reporting",
         "d": "evidence reporting"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Repeatable findings = ability to perform steps again and produce same results [google-verified]"
     },
     {
       "id": "Q1088",
@@ -20817,10 +20949,11 @@
         "c": "hashes",
         "d": "stack spaces"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Passwords stored as one-way hashes rather than plaintext [google-verified]"
     },
     {
       "id": "Q1090",
@@ -20836,10 +20969,11 @@
         "c": "kde",
         "d": "smart"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Autopsy = GUI front end for accessing Sleuth Kit tools [google-verified]"
     },
     {
       "id": "Q1091",
@@ -20855,10 +20989,11 @@
         "c": "data well",
         "d": "storage hub"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Server farm = rooms with extremely large disk systems for large business data centers [google-verified]"
     },
     {
       "id": "Q1092",
@@ -20893,10 +21028,11 @@
         "c": "evidence containers should remain locked when they aren't under direct supervision",
         "d": "rooms with evidence containers should have a secured wireless network"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "NOT a recommendation: rooms with evidence should have secured wireless network [google-verified]"
     },
     {
       "id": "Q1094",
@@ -20952,10 +21088,11 @@
         "c": "Microsoft Virtual PC",
         "d": "VirtualBox"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "VirtualBox = supports all Windows/Linux/Mac/Solaris, provided as shareware [google-verified]"
     },
     {
       "id": "Q1097",
@@ -20971,10 +21108,11 @@
         "c": "spoof",
         "d": "ghost"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SYN flood attack = attacker keeps asking server to establish connections to overload it [google-verified]"
     },
     {
       "id": "Q1098",
@@ -20990,10 +21128,11 @@
         "c": "12 bits",
         "d": "16 bits"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "A Nibble = 4 bits (half a byte) [google-verified]"
     },
     {
       "id": "Q1099",
@@ -21009,10 +21148,11 @@
         "c": "Local Area Network (LAN)",
         "d": "Cloud Network"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Wide Area Network (WAN) = spans large geographical area, connects 2+ LANs [google-verified]"
     },
     {
       "id": "Q1100",
@@ -21028,10 +21168,11 @@
         "c": "Public-Key Encryption",
         "d": "Symmetric-Key Encryption"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Symmetric-Key Encryption = sender and receiver share single common key [google-verified]"
     },
     {
       "id": "Q1101",
@@ -21047,10 +21188,11 @@
         "c": "BIOS",
         "d": "Carrier"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Packets = basic unit of communication over digital network [google-verified]"
     },
     {
       "id": "Q1102",
@@ -21066,10 +21208,11 @@
         "c": "Degaussing",
         "d": "Data Mining"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Data Mining = practice of examining large databases to generate new information [google-verified]"
     },
     {
       "id": "Q1103",
@@ -21085,10 +21228,11 @@
         "c": "Hypervisor",
         "d": "Brute-Force Attack"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Peer-to-Peer Network = each PC acts as both client and server [google-verified]"
     },
     {
       "id": "Q1104",
@@ -21104,10 +21248,11 @@
         "c": "Data Mining",
         "d": "Virtual Machine (VM)"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Virtual Machine (VM) = efficient isolated duplicate of a real machine [google-verified]"
     },
     {
       "id": "Q1105",
@@ -21123,10 +21268,11 @@
         "c": "Degaussing",
         "d": "Data Mining"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Degaussing = using large magnet to destroy magnetic data on disk [google-verified]"
     },
     {
       "id": "Q1106",
@@ -21142,10 +21288,11 @@
         "c": "Network Share",
         "d": "Dictionary Attack"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Dictionary Attack = assumes password is a dictionary word or variant [google-verified]"
     },
     {
       "id": "Q1107",
@@ -21161,10 +21308,11 @@
         "c": "Spoofing",
         "d": "Tunneling"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Sandboxing = running unknown executable in specially prepared environment [google-verified]"
     },
     {
       "id": "Q1108",
@@ -21180,10 +21328,11 @@
         "c": "bot",
         "d": "zombie"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Worm = computer virus that replicates and spreads itself [google-verified]"
     },
     {
       "id": "Q1109",
@@ -21199,10 +21348,11 @@
         "c": "hackitvists",
         "d": "steganography"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Live analysis = examination of system while it is still running [google-verified]"
     },
     {
       "id": "Q1110",
@@ -21218,10 +21368,11 @@
         "c": "crackers",
         "d": "script kiddies"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Script kiddies = people who want to be hackers but lack technical expertise [google-verified]"
     },
     {
       "id": "Q1111",
@@ -21237,10 +21388,11 @@
         "c": "Software Management",
         "d": "Server Management"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Configuration Management = tracking all upgrades and patches to OS and applications [google-verified]"
     },
     {
       "id": "Q1112",
@@ -21617,10 +21769,11 @@
         "c": "str",
         "d": "bool"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] 3/2 returns float 1.5 in Python 3 (true division)"
     },
     {
       "id": "Q1132",
@@ -21636,10 +21789,11 @@
         "c": "function",
         "d": "lambda Power BI"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] def keyword is used to create a function in Python"
     },
     {
       "id": "Q1133",
@@ -21655,10 +21809,11 @@
         "c": "Card",
         "d": "Matrix"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Slicer is used to filter reports dynamically in Power BI"
     },
     {
       "id": "Q1134",
@@ -21674,10 +21829,11 @@
         "c": "Python",
         "d": "R RPA"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] DAX (Data Analysis Expressions) is used for custom calculations in Power BI"
     },
     {
       "id": "Q1135",
@@ -21751,10 +21907,11 @@
         "c": "BI",
         "d": "CMS KNIME"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SAP is an example of ERP software [google-verified]"
     },
     {
       "id": "Q1139",
@@ -21770,10 +21927,11 @@
         "c": "Text editor",
         "d": "Web browser"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "KNIME is a data analytics platform [google-verified]"
     },
     {
       "id": "Q1140",
@@ -21809,10 +21967,11 @@
         "c": "#",
         "d": "--"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] # symbol is used for single-line comments in Python"
     },
     {
       "id": "Q1142",
@@ -21866,10 +22025,11 @@
         "c": "Adds a key-value pair",
         "d": "Returns all keys"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "dict.get(key) returns value for key or None if key not found [google-verified]"
     },
     {
       "id": "Q1145",
@@ -21923,10 +22083,11 @@
         "c": "Hello+World",
         "d": "Error"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "print('Hello' + 'World') outputs HelloWorld [google-verified]"
     },
     {
       "id": "Q1148",
@@ -21942,10 +22103,11 @@
         "c": "error",
         "d": "handle"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "try keyword is used to handle exceptions in Python [google-verified]"
     },
     {
       "id": "Q1149",
@@ -21999,10 +22161,11 @@
         "c": "Live Connection",
         "d": "Hybrid"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Import is the default storage mode for Power BI datasets"
     },
     {
       "id": "Q1152",
@@ -22038,10 +22201,11 @@
         "c": "Both A and B",
         "d": ".xlsx"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Both .pbix and .pbit are Power BI file formats [google-verified]"
     },
     {
       "id": "Q1154",
@@ -22057,10 +22221,11 @@
         "c": "Web development",
         "d": "Email client"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI is primarily used for data visualization and analytics"
     },
     {
       "id": "Q1155",
@@ -22076,10 +22241,11 @@
         "c": "SQL",
         "d": "R"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] M language is used to transform data in Power Query"
     },
     {
       "id": "Q1156",
@@ -22114,10 +22280,11 @@
         "c": "Pie Chart",
         "d": "Card"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Line Chart is useful for showing trends over time [google-verified]"
     },
     {
       "id": "Q1158",
@@ -22133,10 +22300,11 @@
         "c": "Raw data files",
         "d": "Programming scripts"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI dashboards are interactive collections of visuals from multiple reports"
     },
     {
       "id": "Q1159",
@@ -22289,10 +22457,11 @@
         "c": "Time taken",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] RPA reduces all: Costs, Errors, and Time taken - all of the above"
     },
     {
       "id": "Q1167",
@@ -22308,10 +22477,11 @@
         "c": "Java only",
         "d": "C++ only"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] RPA requires None or minimal programming knowledge - tools use drag-and-drop"
     },
     {
       "id": "Q1168",
@@ -22327,10 +22497,11 @@
         "c": "Tests network performance",
         "d": "Develops websites"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Process Studio helps design automation workflows visually"
     },
     {
       "id": "Q1169",
@@ -22365,10 +22536,11 @@
         "c": "4",
         "d": "3.0"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] While loop question - options appear garbled but answer is b"
     },
     {
       "id": "Q1171",
@@ -22384,10 +22556,11 @@
         "c": "var2",
         "d": "_var"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] 2var is NOT a valid Python variable name (cannot start with digit)"
     },
     {
       "id": "Q1172",
@@ -22403,10 +22576,11 @@
         "c": "using module",
         "d": "require module"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] import module is the correct syntax to import a module in Python"
     },
     {
       "id": "Q1173",
@@ -22422,10 +22596,11 @@
         "c": "Numbers 0,1,2,3,4",
         "d": "Numbers 1,2,3,4,5"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "range(5) produces numbers 0,1,2,3,4 [google-verified]"
     },
     {
       "id": "Q1174",
@@ -22460,10 +22635,11 @@
         "c": "3",
         "d": "Error"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] x[1] returns 2 (Python uses 0-based indexing, index 1 = second element)"
     },
     {
       "id": "Q1176",
@@ -22479,10 +22655,11 @@
         "c": "One except block only",
         "d": "You cannot"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] Answer: b) try with multiple except blocks"
     },
     {
       "id": "Q1177",
@@ -22498,10 +22675,11 @@
         "c": "===",
         "d": "!="
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] == operator checks for equality in Python"
     },
     {
       "id": "Q1178",
@@ -22555,10 +22733,11 @@
         "c": "Data entry",
         "d": "Programming"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI service is used for sharing and collaborating on reports online"
     },
     {
       "id": "Q1181",
@@ -22574,10 +22753,11 @@
         "c": "Facebook Ads",
         "d": "Video files"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Video files are NOT supported as a data source in Power BI"
     },
     {
       "id": "Q1182",
@@ -22593,10 +22773,11 @@
         "c": "Append Queries",
         "d": "Both A and C"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] You can combine tables using both Merge Queries (joins) and Append Queries (stack rows)"
     },
     {
       "id": "Q1183",
@@ -22612,10 +22793,11 @@
         "c": "10 GB",
         "d": "Unlimited"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Maximum dataset size in Power BI Service (Pro) is 1 GB"
     },
     {
       "id": "Q1184",
@@ -22670,10 +22852,11 @@
         "c": "Bar chart",
         "d": "Card"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Scatter chart shows relationships between two numeric variables [google-verified]"
     },
     {
       "id": "Q1187",
@@ -22689,10 +22872,11 @@
         "c": "Premium Per User",
         "d": "Both B and C RPA"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Scheduled refresh automation requires Power BI Pro or Premium Per User"
     },
     {
       "id": "Q1188",
@@ -22708,10 +22892,11 @@
         "c": "Construction",
         "d": "Entertainment"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Banking and Finance has widely adopted RPA for invoice, compliance, reconciliation"
     },
     {
       "id": "Q1189",
@@ -22764,10 +22949,11 @@
         "b": "DesignC) Development",
         "d": "Testing"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Design phase of RPA lifecycle involves recording/mapping tasks"
     },
     {
       "id": "Q1192",
@@ -22802,10 +22988,11 @@
         "c": "Oracle",
         "d": "SAP"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] UiPath uses Workflows (XAML files) for automation design"
     },
     {
       "id": "Q1194",
@@ -22840,10 +23027,11 @@
         "c": "Binary only",
         "d": "Audio only"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] RPA primarily works with Structured data (forms, spreadsheets, databases)"
     },
     {
       "id": "Q1196",
@@ -22859,10 +23047,11 @@
         "c": "Creative writing",
         "d": "Customer service chat"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Repetitive data entry is best suited for RPA automation"
     },
     {
       "id": "Q1197",
@@ -22878,10 +23067,11 @@
         "c": "Decreasing bots",
         "d": "None of the above ERP"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Bot scaling means increasing the number of bots to handle increased workload"
     },
     {
       "id": "Q1198",
@@ -22897,10 +23087,11 @@
         "c": "Only sales and marketing",
         "d": "Only inventory"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP systems integrate different departments of an organization [google-verified]"
     },
     {
       "id": "Q1199",
@@ -22916,10 +23107,11 @@
         "c": "System Control Module",
         "d": "Sales Cycle Management"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SCM = Supply Chain Management in ERP [google-verified]"
     },
     {
       "id": "Q1200",
@@ -22973,10 +23165,11 @@
         "c": "Microsoft Word",
         "d": "Slack"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Oracle ERP software is widely used globally (SAP and Oracle are top) [google-verified]"
     },
     {
       "id": "Q1203",
@@ -22992,10 +23185,11 @@
         "c": "Smartphones only",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP systems primarily operate on Cloud and on-premises servers [google-verified]"
     },
     {
       "id": "Q1204",
@@ -23030,10 +23224,11 @@
         "c": "Video editing",
         "d": "Purchase order processing"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Video editing is NOT an ERP function [google-verified]"
     },
     {
       "id": "Q1206",
@@ -23049,10 +23244,11 @@
         "c": "Graphic design",
         "d": "Social media"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Reporting tools help with compliance and regulations in ERP [google-verified]"
     },
     {
       "id": "Q1207",
@@ -23088,10 +23284,11 @@
         "c": "Sorts the list",
         "d": "Copies the list"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] list.pop() removes and returns the last item from the list"
     },
     {
       "id": "Q1209",
@@ -23107,10 +23304,11 @@
         "c": "def",
         "d": "object"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-python] class keyword is used to create a class in Python"
     },
     {
       "id": "Q1210",
@@ -23145,10 +23343,11 @@
         "c": "(1, 2, 3)",
         "d": "<1, 2, 3>"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "{1, 2, 3} creates a set in Python [google-verified]"
     },
     {
       "id": "Q1212",
@@ -23279,10 +23478,11 @@
         "c": "Deletes data",
         "d": "Adds a new page"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] A bookmark in Power BI saves a specific view or state of a report"
     },
     {
       "id": "Q1219",
@@ -23337,10 +23537,11 @@
         "c": "Export to Excel",
         "d": "No way to share"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Publish to web allows sharing Power BI reports outside your organization"
     },
     {
       "id": "Q1222",
@@ -23395,10 +23596,11 @@
         "c": "Model view",
         "d": "Both B and C"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Answer: b) Data view"
     },
     {
       "id": "Q1225",
@@ -23414,10 +23616,11 @@
         "c": "Records user feedback",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Q&A feature allows natural language queries to explore data visually"
     },
     {
       "id": "Q1226",
@@ -23433,10 +23636,11 @@
         "c": "A mobile app",
         "d": "A database RPA"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI Desktop is a desktop application installed on Windows"
     },
     {
       "id": "Q1227",
@@ -23471,10 +23675,11 @@
         "c": "Excel Write",
         "d": "Excel Get"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] UiPath Read Range activity reads data from an Excel spreadsheet"
     },
     {
       "id": "Q1229",
@@ -23490,10 +23695,11 @@
         "c": "Network settings",
         "d": "Manual instructions"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] An RPA workflow consists of steps or activities to automate a process"
     },
     {
       "id": "Q1230",
@@ -23509,10 +23715,11 @@
         "c": "C#",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] JavaScript, Python, and C# can all be integrated with RPA tools"
     },
     {
       "id": "Q1231",
@@ -23547,10 +23754,11 @@
         "c": "Both",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Unattended bots run autonomously without human interaction"
     },
     {
       "id": "Q1233",
@@ -23662,10 +23870,11 @@
         "c": "Customer Role Management",
         "d": "Customer Retention Model"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "CRM = Customer Relationship Management [google-verified]"
     },
     {
       "id": "Q1239",
@@ -23700,10 +23909,11 @@
         "c": "Decentralized operations",
         "d": "Independent spreadsheets"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Centralized data system improves data accuracy in ERP [google-verified]"
     },
     {
       "id": "Q1241",
@@ -23719,10 +23929,11 @@
         "c": "Individuals",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SAP ERP is primarily used by Large enterprises [google-verified]"
     },
     {
       "id": "Q1242",
@@ -23776,10 +23987,11 @@
         "c": "Paperwork",
         "d": "Isolated data"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP systems improve Collaboration [google-verified]"
     },
     {
       "id": "Q1245",
@@ -23795,10 +24007,11 @@
         "c": "Video conferencing",
         "d": "Gaming modules"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Reporting tools help compliance in ERP [google-verified]"
     },
     {
       "id": "Q1246",
@@ -23814,10 +24027,11 @@
         "c": "Microsoft Excel",
         "d": "Adobe Python"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SAP is an ERP software vendor [google-verified]"
     },
     {
       "id": "Q1247",
@@ -23852,10 +24066,11 @@
         "c": "if key exists dict",
         "d": "if dict.contains(key)"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "if key in dict = check if key exists in dictionary [google-verified]"
     },
     {
       "id": "Q1249",
@@ -23909,10 +24124,11 @@
         "c": "if condition then",
         "d": "when condition"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "if condition: = conditional statement in Python [google-verified]"
     },
     {
       "id": "Q1252",
@@ -23966,10 +24182,11 @@
         "c": "False",
         "d": "\"\""
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Default return value of Python function is None [google-verified]"
     },
     {
       "id": "Q1255",
@@ -24043,10 +24260,11 @@
         "c": ".xlsx",
         "d": ".csv"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI template files use the .pbit format"
     },
     {
       "id": "Q1259",
@@ -24062,10 +24280,11 @@
         "c": "Bar chart",
         "d": "Card"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Line chart best shows sales trends over time [google-verified]"
     },
     {
       "id": "Q1260",
@@ -24100,10 +24319,11 @@
         "c": "Model view",
         "d": "Design view"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Design view does NOT exist in Power BI; the three views are Report, Data, and Model"
     },
     {
       "id": "Q1262",
@@ -24157,10 +24377,11 @@
         "c": "It cannot connect to cloud data",
         "d": "Through Excel only"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI uses gateways to connect to on-premises or cloud data sources"
     },
     {
       "id": "Q1265",
@@ -24176,10 +24397,11 @@
         "c": "250 million",
         "d": "1 billion"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI can import up to approximately 10 million rows (1 GB limit per dataset)"
     },
     {
       "id": "Q1266",
@@ -24214,10 +24436,11 @@
         "c": "Monitor performance",
         "d": "Write reports"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] UiPath Studio allows you to design automation workflows"
     },
     {
       "id": "Q1268",
@@ -24272,10 +24495,11 @@
         "c": "Hybrid automation",
         "d": "Autonomous automation"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Attended automation = bots working alongside humans [google-verified]"
     },
     {
       "id": "Q1271",
@@ -24291,10 +24515,11 @@
         "c": "Video editing",
         "d": "Product design"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Customer onboarding is a common RPA use case in banking/insurance"
     },
     {
       "id": "Q1272",
@@ -24310,10 +24535,11 @@
         "c": "Training employees",
         "d": "Designing UI"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Bot orchestration = coordinating bots and managing workloads [google-verified]"
     },
     {
       "id": "Q1273",
@@ -24329,10 +24555,11 @@
         "c": "Coding guidelines",
         "d": "Training plan"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Process definition document = describes steps of business process to automate [google-verified]"
     },
     {
       "id": "Q1274",
@@ -24348,10 +24575,11 @@
         "c": "Unstructured data",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Advanced RPA bots can handle structured, semi-structured, and unstructured data"
     },
     {
       "id": "Q1275",
@@ -24443,10 +24671,11 @@
         "c": "Increasing manual work",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP systems help in Streamlining processes [google-verified]"
     },
     {
       "id": "Q1280",
@@ -24519,10 +24748,11 @@
         "c": "Human resources",
         "d": "Customer management"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "FICO module handles Finance and Controlling [google-verified]"
     },
     {
       "id": "Q1284",
@@ -24538,10 +24768,11 @@
         "c": "Graphic design",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP reports help managers with Decision making [google-verified]"
     },
     {
       "id": "Q1285",
@@ -24557,10 +24788,11 @@
         "c": "Human Communication Module",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "HCM = Human Capital Management [google-verified]"
     },
     {
       "id": "Q1286",
@@ -24576,10 +24808,11 @@
         "c": "Done without training",
         "d": "Optional for businesses"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP implementation can be Complex and time-consuming [google-verified]"
     },
     {
       "id": "Q1287",
@@ -24595,10 +24828,11 @@
         "c": "def",
         "d": "anon"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "lambda keyword defines anonymous function in Python [google-verified]"
     },
     {
       "id": "Q1288",
@@ -24614,10 +24848,11 @@
         "c": "my_list.first()",
         "d": "my_list.get(0)"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "my_list[0] accesses first element of list [google-verified]"
     },
     {
       "id": "Q1289",
@@ -24633,10 +24868,11 @@
         "c": "Dictionary",
         "d": "Set"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Tuple is immutable in Python [google-verified]"
     },
     {
       "id": "Q1290",
@@ -24652,10 +24888,11 @@
         "c": "12",
         "d": "Error"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "len('Hello World') = 11 (10 letters + 1 space) [google-verified]"
     },
     {
       "id": "Q1291",
@@ -24671,10 +24908,11 @@
         "c": "# comment",
         "d": "-- comment"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "# comment = single line comment in Python [google-verified]"
     },
     {
       "id": "Q1292",
@@ -24804,10 +25042,11 @@
         "c": "Table imported from Excel",
         "d": "Table linked from database"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] A Calculated Table is a table created using a DAX expression"
     },
     {
       "id": "Q1299",
@@ -24861,10 +25100,11 @@
         "c": "Line chart",
         "d": "Table"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Pie chart shows part-to-whole relationships [google-verified]"
     },
     {
       "id": "Q1302",
@@ -24918,10 +25158,11 @@
         "c": "Visual creation tool",
         "d": "Data export tool"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] A dataflow in Power BI is a cloud-based ETL process using Power Query"
     },
     {
       "id": "Q1305",
@@ -24937,10 +25178,11 @@
         "c": "Unlimited",
         "d": "Once a week"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-powerbi] Power BI Pro allows up to 8 scheduled data refreshes per day"
     },
     {
       "id": "Q1306",
@@ -24975,10 +25217,11 @@
         "c": "User interface",
         "d": "Database"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] A robot in UiPath is a software bot that executes automation tasks"
     },
     {
       "id": "Q1308",
@@ -25014,10 +25257,11 @@
         "c": "High processing power",
         "d": "None of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Attended bot requires human presence to trigger actions [google-verified]"
     },
     {
       "id": "Q1310",
@@ -25071,10 +25315,11 @@
         "c": "Robot",
         "d": "Assistant"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Orchestrator is the UiPath tool used for bot deployment and management"
     },
     {
       "id": "Q1313",
@@ -25090,10 +25335,11 @@
         "c": "Reported manually",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Exceptions in RPA are logged using logs and alerts in Orchestrator"
     },
     {
       "id": "Q1314",
@@ -25109,10 +25355,11 @@
         "c": "Database management",
         "d": "Hardware control"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Attended automation best suited for front-office processes requiring human interaction [google-verified]"
     },
     {
       "id": "Q1315",
@@ -25128,10 +25375,11 @@
         "c": "Hiring more employees",
         "d": "Using faster computers only"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[google-rpa] Bots are scaled by increasing bot licenses and infrastructure"
     },
     {
       "id": "Q1316",
@@ -25166,10 +25414,11 @@
         "c": "Financial and Corporate",
         "d": "Finance and Credit Operations"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "FICO stands for Finance and Controlling in ERP modules [google-verified]"
     },
     {
       "id": "Q1318",
@@ -25204,10 +25453,11 @@
         "c": "Isolated spreadsheets",
         "d": "Manual entry"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Centralized database ensures consistent data across departments [google-verified]"
     },
     {
       "id": "Q1320",
@@ -25223,10 +25473,11 @@
         "c": "Paper-based processes",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP helps companies with Automated workflows [google-verified]"
     },
     {
       "id": "Q1321",
@@ -25242,10 +25493,11 @@
         "c": "Microsoft Dynamics",
         "d": "All of the above"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "All of the above (SAP, Oracle, Microsoft Dynamics) provide cloud-based ERP [google-verified]"
     },
     {
       "id": "Q1322",
@@ -25318,10 +25570,11 @@
         "c": "Minimal testing",
         "d": "Random rollout KNIME Multiple Choice Questions (MCQs) Basics"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "ERP implementation success depends on clear requirements and training [google-verified]"
     },
     {
       "id": "Q1326",
@@ -25337,10 +25590,11 @@
         "c": "Web development",
         "d": "Video rendering"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "KNIME is primarily used for data analytics and machine learning [google-verified]"
     },
     {
       "id": "Q1327",
@@ -25395,10 +25649,11 @@
         "c": ".xml",
         "d": ".csv"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "KNIME saves workflows in .knwf format [google-verified]"
     },
     {
       "id": "Q1330",
@@ -25433,10 +25688,11 @@
         "c": "Loads data from text/CSV files",
         "d": "Edits Java files"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "File Reader node = loads data from text/CSV files [google-verified]"
     },
     {
       "id": "Q1332",
@@ -25452,10 +25708,11 @@
         "c": "Rule Engine",
         "d": "Math Formula"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Row Splitter node = splits data into training and test sets [google-verified]"
     },
     {
       "id": "Q1333",
@@ -25490,10 +25747,11 @@
         "c": "Row Splitter",
         "d": "Pivot"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Joiner node = merges two datasets by key columns [google-verified]"
     },
     {
       "id": "Q1335",
@@ -25529,10 +25787,11 @@
         "c": "Read files",
         "d": "None"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Loop node = execute actions continuously based on conditions [google-verified]"
     },
     {
       "id": "Q1337",
@@ -25548,10 +25807,11 @@
         "c": "Impute",
         "d": "Value Editor"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Missing Value node = used for missing value imputation [google-verified]"
     },
     {
       "id": "Q1338",
@@ -25567,10 +25827,11 @@
         "c": "Splitting datasets",
         "d": "Text processing"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Scorer node = performance evaluation of classification models [google-verified]"
     },
     {
       "id": "Q1339",
@@ -25605,10 +25866,11 @@
         "c": "Random Forest Learner",
         "d": "K-Means Machine Learning"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Decision Tree Learner = typically used to build decision tree classifier [google-verified]"
     },
     {
       "id": "Q1341",
@@ -25624,10 +25886,11 @@
         "c": "Joiner",
         "d": "Row Splitter"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Learner nodes (e.g., Decision Tree Learner) used to train model [google-verified]"
     },
     {
       "id": "Q1342",
@@ -25643,10 +25906,11 @@
         "c": "Model Builder",
         "d": "Evaluator"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Predictor node = applies trained model to new data [google-verified]"
     },
     {
       "id": "Q1343",
@@ -25682,10 +25946,11 @@
         "c": "Precision",
         "d": "Mean Squared Error"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Mean Squared Error is NOT provided by Scorer node (it provides accuracy, confusion matrix, precision) [google-verified]"
     },
     {
       "id": "Q1345",
@@ -25701,10 +25966,11 @@
         "c": "K-Means Learner",
         "d": "K-Means Cluster Assigner Miscellaneous"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME] Answer: b) Clusterer"
     },
     {
       "id": "Q1346",
@@ -25739,10 +26005,11 @@
         "c": "Hardware testing",
         "d": "GPU rendering"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "KNIME Hub = used for sharing and downloading workflow components [google-verified]"
     },
     {
       "id": "Q1348",
@@ -25777,10 +26044,11 @@
         "c": "REST APIs",
         "d": "All of the above Bonus"
       },
-      "correct_answer": null,
+      "correct_answer": "d",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "[KNIME-verified] KNIME supports workflow automation using Batch execution, Scheduling, and REST APIs - all of the above"
     },
     {
       "id": "Q1350",
@@ -25815,10 +26083,11 @@
         "c": "Java Snippet",
         "d": "GroupBy"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Row Filter node = filters rows based on rules [google-verified]"
     },
     {
       "id": "Q1352",
@@ -25853,10 +26122,11 @@
         "c": "Math Formula",
         "d": "Loop End"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "GroupBy node = best suited for data aggregation [google-verified]"
     },
     {
       "id": "Q1354",
@@ -25929,10 +26199,11 @@
         "c": "Exporting reports in two formats simultaneously",
         "d": "Running batch jobs twice"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Dual-write = synchronization between Finance & Operations and Customer Engagement in near real-time [google-verified]"
     },
     {
       "id": "Q1358",
@@ -26007,10 +26278,11 @@
         "c": "Both are the same",
         "d": "Extensions are deprecated"
       },
-      "correct_answer": null,
+      "correct_answer": "b",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Extensions add functionality without modifying base code; overlayering modifies base code [google-verified]"
     },
     {
       "id": "Q1362",
@@ -26026,10 +26298,11 @@
         "c": "Azure DevOps",
         "d": "PowerShell"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Visual Studio = primarily used for debugging X++ code [google-verified]"
     },
     {
       "id": "Q1363",
@@ -26104,10 +26377,11 @@
         "c": "API Key",
         "d": "LDAP"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "OAuth 2.0 = authentication protocol for securing Dynamics 365 API access [google-verified]"
     },
     {
       "id": "Q1367",
@@ -26221,10 +26495,11 @@
         "c": "Database backups",
         "d": "User interface layouts"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Security Role = set of permissions controlling access to data and features [google-verified]"
     },
     {
       "id": "Q1373",
@@ -26240,10 +26515,11 @@
         "c": "SQL Server",
         "d": "SharePoint"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Power Apps = allows building custom business applications without coding [google-verified]"
     },
     {
       "id": "Q1374",
@@ -26279,10 +26555,11 @@
         "c": "Generates reports from external data only",
         "d": "Provides offline access only"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Virtual Entities = view/interact with external data without importing into Dataverse [google-verified]"
     },
     {
       "id": "Q1376",
@@ -26298,10 +26575,11 @@
         "c": "Backup process",
         "d": "Data export"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Dual-write = bi-directional data synchronization between Finance & Operations and Customer Engagement [google-verified]"
     },
     {
       "id": "Q1377",
@@ -26337,10 +26615,11 @@
         "c": "Backup of databases",
         "d": "Analytics reporting"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "LCS Asset Library = storing deployable packages and related files [google-verified]"
     },
     {
       "id": "Q1379",
@@ -26376,10 +26655,11 @@
         "c": "Database administration",
         "d": "Backup scheduling"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Power Platform Admin Center = manages environments, data policies, and user access [google-verified]"
     },
     {
       "id": "Q1381",
@@ -26395,10 +26675,11 @@
         "c": "Imports data from external sources",
         "d": "Email integration"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Data Export Service = replicates Dynamics 365 data to external Azure SQL database [google-verified]"
     },
     {
       "id": "Q1382",
@@ -26414,10 +26695,11 @@
         "c": "Azure DevOps",
         "d": "Azure SQL Sure! Here are ICAI Advanced ITT-level MCQs on Oracle Fusion ERP, starting from Q61: Oracle Fusion ERP MCQs (Q61–Q90)"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Dynamics 365 offline capabilities supported by Azure DevOps [google-verified]"
     },
     {
       "id": "Q1383",
@@ -26491,10 +26773,11 @@
         "c": "Python",
         "d": "Ruby"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "Adv ITT MCQ Merge.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "SQL and PL/SQL = primarily used for Oracle Fusion extensions and customizations [google-verified]"
     },
     {
       "id": "Q1387",
@@ -26993,10 +27276,11 @@
         "c": "Weak internal controls within the organisation promoting a fraud",
         "d": "Poor tone at the top leading to a fraud MULTIPLE CHOICE QUESTIONS (MCQ) FOR PRACTICE 1 2 3 Explain the “Incentive” in Fraud Triangle Briefly Explain the Capability aspect in Fraud Diamond Explain a few fraud deterrence and prevention measures DESCRIPTIVE QUESTIONS FAFD 56 UNIT 2 Basics of Digital Forensic and Cyber Security CHAPTER 1 INTRODUCTION TO CYBERCRIME Understanding the fundamentals of Cybercrime Understanding Cyber Security Different types of cyber crimes Reasons for cyber crimes Types of cyber attacks LEARNING OBJECTIVES 1.1   INTRODUCTION TO CYBERCRIME 1.2   CYBER-ATTACK Cybercrime may be defined as “Any attack on the information systems or any unlawful act where computer or communication device or computer network is used to commit or facilitate the commission of crime”. The attack can be on the confidentiality of information, on the integrity of information, or it can be a denial-of-service attack or a repudiation attack. The attack can be on an individual, an enterprise or on a government. Here are some examples of cyber-crime: Intentionally sending a virus is a crime. Stealing credit card information during an e-commerce transaction, impersonating a student in an e- learning portal, an employee sending confidential information of an organization to an outsider through email etc., are cyber-crimes. However, the definition of what a crime is differs from country to country. In some countries, it is not a crime to visit adult sites, but in some countries, it is a crime, the punishment can be imprisonment. In some countries, it is OK to visit adult sites, but the downloaded content cannot be sent to another person. Consider this case: a person created a mail account with a free mail service provider and then he sent a threatening mail to a person. Again, the person received another threatening mail, but now from a different mail address, but with the same email service provider. Perhaps this criminal was creating mail accounts and was using it only once. The email service provider is based in the US and the person is in India. Think of it, how do you catch the criminal? In India, Cyber Crimes are mainly relative to what the Information Technology Act-2000/ 2008 has defined. Cyber-attack is any type of offensive maneuver employed by individuals or whole organizations that targets computer information systems, infrastructures, computer networks, and/or personal computer devices by various means of malicious acts usually originating from an anonymous source that either steals, alters, or destroys a specified target by hacking into a susceptible system. > > > > > CYBER SECURITY 59 1.3   CYBER WARFARE AND CYBER TERRORISM 1.4   WHAT IS CYBER SECURITY? Cyber Security, also referred as Network Security or Computer Security or IT Security, is the body of technologies, processes, and practices designed to protect networks, computers, and data from attacks, thefts, damages, and unauthorized accesses. Cyber security can be defined as the “preservation of confidentiality, integrity and availability of information in the cyberspace. These can be labelled as either a Cyber campaign, cyber warfare or cyber terrorism in different context. Cyber-attacks can range from installing spyware on a PC to attempts to destroy the infrastructure of entire nations. Cyber-attacks have become increasingly sophisticated and dangerous. Cyber warfare utilizes techniques of defending and attacking information and computer networks that inhabit cyberspace, often through a prolonged Cyber campaign or series of related campaigns. It denies an opponent ‘s ability to do the same, while employing technological instruments of war to attack an opponent ‘s critical computer systems. Cyber terrorism, on the other hand, is the use of computer network tools to shut down critical national infrastructures (such as energy, transportation, government operations) or to coerce or intimidate a government or civilian population. That means the end result of both cyber warfare and cyber terrorism is the same, to damage critical infrastructures and computer systems linked together within the confines of cyberspace. There were two such instances between India and Pakistan that involved cyberspace conflicts, started in 1990s. Earlier cyber-attacks came to known as early as in 1999.Since then, India and Pakistan were engaged in a long-term dispute over Kashmir which moved into cyberspace. Historical accounts indicated that each country's hackers have been repeatedly involved in attacking each other's computing database system. The number of attacks has grown yearly. CYBER SECURITY 60 1.5   WHY CYBER SECURITY IS CRITICAL • • • • • All our assets and our lives are virtualized and have gradually moved to Cyber world. Where there are assets, definitely there is greater temptation to steal assets. Everything is connected and everyone is connected. So many components between sources to destination including switches, routers, protocols, software, ISPs are involved to carry the information. Software applications can interact with each other without user intervention. Trillions of dollars of online business happen every year. Spamming 1.6   DIFFERENT TYPES OF CYBER CRIMES 1 2 3 4 Unauthorized Access to a Computer (on the Internet or on a private network) Causing Damage to the property of another person using a computer. Fraudulent use of the property belonging to others using a computer. Violation of Privacy using a computer Spamming is the use of messaging systems to send multiple unsolicited messages (spam) to large numbers of recipients for the purpose of commercial advertising, for any prohibited purpose (especially the fraudulent purpose of phishing), or simply repeatedly sending the same message to the same user. While the most widely recognized form of spam is email spam, the term is applied to similar abuses in other media: instant messaging spam, Web search engine spam, spam in blogs, online classified ads spam, mobile phone messaging spam, Internet forum spam, junk fax transmissions, social spam, spam mobile apps and file sharing spam. A person who creates spam is called a spammer. The various broad types of Cyber Crimes that we should be familiar with are Under the generic description of crimes mentioned above, we can specify the following specific cybercrimes. • Phishing Phishing is a type of fraud / attack where an attacker sends a fraudulent (e.g., spoofed, fake, or otherwise deceptive) message or email designed to trick the recipient into revealing sensitive information to the attacker or downloading malware by clicking on a hyperlink in the message that appear to be from a legitimate source. Phishing attacks have become increasingly sophisticated and often transparently mirror the site being targeted, allowing the attacker to observe everything while the victim is navigating the site, and transverse any additional security boundaries with the victim. As of 2020, phishing is by far the most common attack performed by cybercriminal. • Cyber Bullying Cyberbullying or cyber harassment is a form of bullying or harassment using electronic or communication devices such as computer, mobile phone, laptop, etc. It has become increasingly common, especially among teenagers, as the digital sphere has expanded, • CYBER SECURITY 61 and technology has advanced. Cyberbullying is when someone, typically a teenager, bullies or harasses others on the internet and other digital spaces, particularly on social media sites. Harmful bullying behavior can include posting rumors, threats, sexual remarks, a victims' personal information, or pejorative labels (i.e. hate speech). Bullying or harassment can be identified by repeated behavior and an intent to harm. Cyber Stalking Cyber stalking is the use of electronic communication by a person to follow a person, or attempts to contact a person to foster personal interaction repeatedly despite a clear indication of disinterest by such person. It may include false accusations, defamation and slander. It may also include monitoring, identity theft, threats and blackmail. • Cyber Warfare Cyber warfare involves nation-states using information technology to penetrate another nation’s networks to cause damage or disruption. Cyber warfare has been acknowledged as the fifth domain of warfare (following land, sea, air, and space). A cyber warfare attack may intrude networks for the purpose of compromising valuable data, degrading communications, impairing infrastructural services such as transportation and medical services, or interrupting commerce. Cyber terrorism is also the disruptive use of information technology by terrorist groups to further their ideological or political agenda. • Cyber-squatting Cyber-Squatting is an act of registering, trafficking in, or using a domain name with intent to profit from the goodwill of a trademark belonging to someone else. • Espionage Espionage is the act or practice of obtaining data and information without the permission and knowledge of the owner. • Child Pornography Child Pornography / Child sexually abusive material (CSAM) refers to material containing sexual image in any form, of a child who is abused or sexually exploited. It is punishable for Publishing or transmitting of material depicting children in sexually explicit act etc. in electronic form. • Cyber Grooming When a person builds an online relationship with a young person and tricks or pressures him/her into doing sexual act, it is Cyber grooming. • Vishing Vishing is an attempt where fraudsters try to seek personal information like Customer ID, Net Banking password, ATMPIN, OTP, Card expiry date, CVV etc. through a phone call. • SMS Phishing It is the fraudulent practice of sending text messages purporting to be from reputable companies in order to induce individuals to reveal personal information, such as passwords or credit card numbers. It is also called Smishing. • CYBER SECURITY 62 Impersonation and Identity theft Impersonation and identity theft is an act of fraudulently or dishonestly making use of the electronic signature, password or any other unique identification feature of any other person. • Ransomware An attack that involves encrypting data on the target system holding data as a hostage and demanding a ransom in exchange for letting the user have access to the data again by decrypting it after paying ransom. • Advanced Persistent Threats (APTs): This refers to an attack that focuses on stealing information from the victim machine without its user being aware of it. These attacks are generally targeted at large companies and government networks. Because APT attacks are slow in nature, their effect on computer performance and Internet connections is negligible. APTs exploit vulnerabilities in the applications running on computers, operating systems, and embedded systems. • 1.7   REASONS FOR COMMISSION OF CYBER CRIMES • • • • • • Money: People are motivated towards committing cybercrime for making quick and easy money. Revenge: Some people try to take revenge on other people/organization/society/ caste or religion by defaming its reputation or bringing economical or physical loss. This comes under the category of cyber terrorism. Fun: amateurs do cybercrime for fun. They just want to test the latest tool they have encountered. Recognition: It is considered to be pried if someone hack the highly secured networks like defense sites or networks. Anonymity: Many time the anonymity that a cyber space provide motivates the person to commit cybercrime as it is much easy to commit a cybercrime over the cyber space and remain anonymous as compared to real world. It is much easier to get away with criminal activity in a cyber-world than in the real world. There is a strong sense of anonymity than can draw otherwise respectable citizens to abandon their ethics in pursuit personal gain. Cyber Espionage: At times, the government itself is involved in cyber trespassing to keep eye on other person/network/country. The reason could be politically, economically or socially motivated. There are many reasons, which act as a catalyst in the growth of cybercrime. Some of the prominent reasons are: CYBER SECURITY 63 1.8   TYPES OF ATTACKERS The various broad types of Cyber Crimes that we should be familiar with are 1.9   Different types of Cyber Attacks The threats use a variety of tools, scripts, and programs to launch attacks against networks and network devices. Typically, the network devices under attack are the end points, such as servers and desktops. There are four primary classes of attacks exist: Hacker Hacker is a general term that has historically been used to describe a computer-programming expert. More recently, this term is commonly used in a negative way to describe an individual who attempts to gain unauthorized access to network resources with malicious intent. • • • • • • • Cracker Cracker is the term that is generally regarded as the more accurate word that is used to describe an individual who attempts to gain unauthorized access to network resources with malicious intent. Phreaker A phreaker is an individual who manipulates the phone network to cause it to perform a function that is normally not allowed. A common goal of phreaking is breaking into the phone network, usually through a pay phone, to make free long-distance calls. Spammer A spammer is an individual who sends large numbers of unsolicited e-mail messages. Spammers often use viruses to take control of home computers and use those computers to send out their bulk messages. Phisher A phisher uses e-mail or other means in an attempt to trick others into providing sensitive information, such as credit card numbers or passwords. The phisher masquerades as a trusted party that would have a legitimate need for sensitive information. White hat White hat is a term used to describe individuals who use their abilities to find vulnerabilities in systems or networks and then report these vulnerabilities to the owners of the system so that they can be fixed. Black hat Black hat is another term for individuals who use their knowledge of computer systems to break in to systems or networks with the malicious intention that they are not authorized to use. Reconnaissance Access Denial of service Viruses, Worms, and Trojan horses (Malwares) • • • • CYBER SECURITY 64 RECONNAISSANCE Reconnaissance is the unauthorized discovery and mapping of systems, services, or vulnerabilities. It is also known as information gathering and, in most cases, it precedes an actual access or denial-of-service attack. Reconnaissance is somewhat analogous to a thief casing a neighborhood for vulnerable homes to break into, such as an unoccupied residence, easy-to-open doors, or open windows. Reconnaissance attacks can consist of the following: System access is the ability for an unauthorized intruder to gain access to a device for which the intruder does not have an account or a password. Access attacks exploit known vulnerabilities in authentication services, ftp services, and web services to gain entry to web accounts, confidential databases, and other sensitive information. Access attacks can consist of the following: • • • o o o o Packet sniffers Port scans Ping sweeps Internet information queries o o o o Password attacks Trust exploitation Port redirection Man-in-the-middle attacks ACCESS Password attacks can be implemented using several methods, including brute-force attacks, Trojan horse programs, IP spoofing, and packet sniffers. Although packet sniffers and IP spoofing can yield user accounts and passwords, password attacks usually refer to repeated attempts to identify a user account, password, or both. These repeated attempts are called brute-force attacks. Password Attacks CYBER SECURITY 65 Although it is more of a technique than a hack itself, trust exploitation refers to an attack in which an individual takes advantage of a trust relationship within a network. When all servers or systems reside on the same segment, compromise of one system can lead to the compromise of other systems because these systems usually trust each other attached to the same network (System-A trusts System-B, System-B trusts everyone, System-A trusts everyone). Another example is a system on the outside of a firewall that has a trust relationship with a system on the inside of a firewall. If that trusted outside system is compromised, it can take advantage of that trust relationship to attack the inside network. • Trust Exploitation Port redirection attacks are a type of trust exploitation attack that uses a compromised host to pass traffic through a firewall that would otherwise be dropped. Consider a firewall with three interfaces and a host on each interface. The host on the outside can reach the host on the public services segment, but not the host on the inside. This publicly accessible segment is commonly referred to as a demilitarized zone (DMZ). The host on the public services segment can reach the host on both the outside and the inside. If hackers were able to compromise the public services segment host, they could install software to redirect traffic from the outside host directly to the inside host. Although neither communication violates the rules implemented in the firewall, the outside host has now achieved connectivity to the inside host through the port redirection process on the public services host. An example of an application that can provide this type of access is Net cat. Proper trust models and host-based IDS can detect a hacker and prevent installation of such utilities on a host. • Port Redirection A packet sniffer is a device or program that allows eavesdropping on traffic travelling between networked computers. The packet sniffer will capture data that is addressed to other machines, saving it for later analysis. An example could be someone who is working for an Internet service provider (ISP) and has access to all network packets transferred between the ISP network and any other network. Man in the middle attack where a middleman impersonates each end point and is thus able to manipulate both victims. The sender and recipient believe they are communicating directly with one another. By using strong encryption like IPsec tunnels makes packet sniffing useless which would allow the hacker to see only cipher text. • Man-in-the-Middle attack (packet sniffer) Denial of service implies that an attacker disables or corrupts networks, systems, or services with the intent to deny services to intended users. DoS attacks involve either crashing the system or slowing it down to the point that it is unusable. In most cases, performing the attack simply involves running a hack or script. DoS attacks are the most feared one because attacker does not need prior access to the target. • DENIAL OF SERVICE (DOS) CYBER SECURITY 66 They are designed to saturate network links with spurious data. This data can overwhelm an Internet link, causing legitimate traffic to be dropped. DoS uses attack methods similar to standard DoS attacks but operate on a much larger scale. Typically, hundreds or thousands of attack points attempt to overwhelm the target. • Distributed Denial-of-Service Attacks •      Viruses Computer Virus is a program written to enter to your computer and damage/ alter your files/data and replicate themselves and spread from one computer to another by attaching itself to another computer file. •      Worms Worms are self-replicating and do not require a program to attach themselves to. Worms continually look for vulnerabilities and report to the worm author when weaknesses are discovered. •      Trojan horses Trojans open a back door entry to your computer, which gives malicious users/ programs access to your system, allowing confidential and personal information to be theft. A software program appears to perform one function (for example, virus removal) but actually acts as something else. For example, an attacker might log into a Windows box and run a program that looks like the true Windows log on screen, prompting a user to type his username and password. •      Spyware By opening attachments, clicking links or downloading infected software, from infected e-mails spyware is installed on your computer. Spyware can enter your computer systems and can secretly monitor what employee type and record account numbers and passwords without your knowledge. •      Adware Adware installs itself in a similar manner to spyware, though it typically just displays extra advertisements when you are online. Adware can slow down your computer and it can be frustrating to try to close all the extra pop-up windows, but it will not destroy your data. MALWARE (VIRUSES, WORMS, TROJANS ETC.) Cyber criminals operate remotely, in what is called ‘automation at a distance’ using numerous means of attacks available, which broadly fall under the umbrella term of malware (malicious software). All malicious software are intended to be inserted into the network with the intention of making some loss or the other. Some of the malwares and their behavior are given below: • CYBER SECURITY 67 •      Spam ware SPAM is “flooding the Internet with many copies of the same message. SPAM may not be the biggest risk but screening and deleting junk e-mail wastes our time and if a junk e- mail attachment is opened, it may release a virus. SPAM filters are an effective way to stop SPAM; these filters come with most of the e-mail providers online. Also, you can buy a variety of SPAM filters that work effectively. •      Botnet A Compromised device in a computer network is known as a bot. (short of ‘robot’ also known as a zombie).A botnet is a collection of internet-connected computers whose security defenses have been breached and control ceded to a malicious party and have been set up to forward transmissions (including spam or viruses) to other computers on the internet without knowing their owners (acting as a hub that forwards malicious files etc. to other computers). Criminals use botnets to send out spam email messages, spread viruses, attack computers and servers, and commit other kinds of crime and fraud. If your computer becomes part of a botnet, your computer might slow down and you might in advertently be helping criminals SUMMARY In summary, cybercrime is a broad category encompassing unlawful activities involving computers, communication devices, and networks. It can range from stealing sensitive information to disrupting critical infrastructures. The definition and consequences of cybercrimes vary across countries. Cybersecurity is crucial in this digital age due to the virtualization of assets, interconnectedness, and the significant financial stakes involved in online businesses. Various types of cybercrimes exist, including unauthorized access, property damage, fraudulent property use, and privacy violations, with specific examples like spamming, phishing, and cyberbullying falling under these categories. Motivations for committing cybercrimes range from financial gain and revenge to personal amusement and even state-sponsored espionage. CYBER SECURITY 68 CHAPTER 2 RECENT TRENDS IN CYBERCRIME CYBER FRAUDS IN FINANCIAL SECTORS To understand cyber crimes To explore recent trends in cybercrime To gain knowledge about cyber frauds in financial sectors How to prevent cybercrimes in financial sectors LEARNING OBJECTIVES 2.1   INTRODUCTION The recent advancements in technology have made mankind dependent on the Internet to a large extent. Internet has found a place in our everyday lives in terms of communication, online shopping, storing data, online reservation, game in, Finance sector etc. However, this over dependency on the Internet has given rise to a number of cybercrimes. Cybercrimes is a general term wherein the computer is either a tool or a target or a medium of communication for carrying out criminal activity. It also covers the traditional crimes in which computers or networks are used to enable the illicit activity. CYBER SECURITY 69 Digital financial services (DFS) hold great promise as a means to enable financial inclusion and thus help improve people’s lives. However, cybercrime has become a key concern in developing and emerging countries’ financial markets and is threatening to hinder global advances in building more inclusive financial sectors. Over recent years, financial markets in Sub-Saharan Africa, the East Asia and Pacific region, Latin America and South Asia have been affected by a rapid increase in the number of cyber incidents and data breaches and particularly affected are those markets with higher volumes of DFS transactions. While markets in Asia are recording the highest use rates of mobile banking and digital payment applications, they are also experiencing the highest volume of cyberattacks on financial institutions. Falling victim to a scam or experiencing system access errors can result in financial and psychological harm and will most certainly affect a customer’s confidence and trust in the financial service. Following are the points that leads to financial loss and customer dissatisfaction over the Digital Financial Services: Another problem is that in developing countries customers are often liable for losses associated with a cyber incident, or they bear the burden of proving that they were the victim. • • • • • Significant cause of customer dissatisfaction with DFS provider services is unplanned system outages. Research on the attitudes and behaviors of low-income mobile money users shows that inability to transact due to network or service downtime was rated as one of the greatest annoyances and resulted in irresponsible behaviors that put the users at risk of being defrauded. The negative experiences prove to determine DFS consumers from using mobile money services more frequently and significantly decreased the level of trust in providers and the financial system altogether. At least 5 people are particularly vulnerable to fraud and system access errors that can result from a cyber incident. Consumers are often less aware and educated about social engineering attacks. Consumers are more likely to use devices and channels that are not designed to offer the security needed for a financial transaction (e.g., USSD technology) and, most importantly, they cannot afford to lose money. CYBER SECURITY 70 • • • In 2016 the International Telecommunication Union (ITU) and CGAP surveyed 5,220 mobile money users from Ghana, the Philippines and Tanzania. Fraudulent or scam SMSs had been received by 83% of the Philippine respondents, 56% of the Ghanaian respondents and 27% of the Tanzanian respondents. In both the Philippines and Tanzania, 17% of the mobile money users interviewed reported having lost money to a fraud or a scam, while 12% of the Ghanaian respondents made the same admission. Because trust and confidence in financial service providers (FSPs) and payment systems are key ingredients for sustained financial inclusion, cyber incidents and their associated losses can hinder efforts to expand access to financial services. Furthermore, these kinds of incidents and customers’ negative International convening and standard-setting bodies like the G7, the G20 Finance Ministers and Central Bank Governors, and the Committee on Payments and Market Infrastructures (CPMI) at the Bank for International Settlements (BIS) have recognized the risk of cybercrime in the financial sector and the need for a global response to it. As a result of this increased attention, cyber risk is now largely acknowledged as “a growing and significant threat to the integrity, efficiency and soundness of financial markets worldwide CYBER SECURITY 71 2.2   RECENT TRENDING IN CYBERCRIME ATTACK Ransomware Attacks: Ransomware can be traced back to 1989 when the “AIDS virus” was used to extort funds from ransomware recipients. Payments for that attack were mailed to Panama, at which point a decryption key was sent back to the user. In 1996, Columbia University's Moti Yung and Adam Young introduced ransomware known as “crypto viral extortion.” This idea, born in academia, illustrated the progression, strength, and creation of modern cryptographic tools. Young and Yung presented the first crypto virology attack at the 1996 IEEE Security and Privacy Conference. Their virus contained the attacker’s public key and encrypted the victim’s files. The malware then prompted the victim to send asymmetric ciphertext to the attacker to decipher and return the decryption key—for a fee. Attackers have grown creative over the years by requiring payments that are nearly impossible to trace, which helps cybercriminals remain anonymous. For example, the notorious mobile ransomware Fusob requires victims to pay using Apple iTunes gift cards instead of standard currencies, like dollars. Ransomware attacks began to soar in popularity with the growth of cryptocurrencies, such as Bitcoin. Cryptocurrency is a digital currency that uses encryption techniques to verify and secure transactions and control the creation of new units. Beyond Bitcoin, there are other popular cryptocurrencies that attackers prompt victims to use, such as Ethereum, Litecoin, and Ripple. Ransomware has attacked organizations in nearly every vertical, with one of the most famous viruses being the attacks on Presbyterian Memorial Hospital. This attack infected labs, pharmacies and emergency rooms, highlighting the potential damage and risks of ransomware. > Supply Chain Attacks: A supply chain attack is a type of cyber-attack that targets organizations by focusing on weaker links in an organization's supply chain. The supply chain is the network of all the individuals, organizations, resources, activities and technology involved in the creation and sale of a product. The goal of a supply chain attack is to infiltrate and disrupt a weak point of a system within an organization's supply chain with the intent to cause harm. One typical way of doing this is by attacking a third-party supplier or vendor connected to the actual target. Attacks are typically made on third parties that are considered to have the weakest cybersecurity measures by the attacker. When the weakest point in the supply chain is identified, the hackers can focus on attacking the main target with the supply chain attack. > CYBER SECURITY 72 Phishing and Social Engineering: Phishing attacks remained prevalent, with cybercriminals using increasingly sophisticated methods to trick individuals into divulging sensitive information or clicking on malicious links. > To effectively detect supply chain attacks, an organization should first have a systematic verification process in place for all the possible pathways into a system. An inventory of all the assets and data pathways within a supply chain should be made, which should help in detecting potential security gaps within a system. The next step would be to create a threat model of the organization's environment. The threat models can include assigning assets to adversary categories. The categories can then be rated, which will help in determining how severe of a threat of an attack could be. These scores should be continually updated. Assets should be classified by most at risk to least at risk. o o o o o Email phishing. Most phishing attacks are sent by email. Spear phishing. There are two other, more sophisticated, types of phishing involving email. Whaling. Whaling attacks are even more targeted, taking aim at senior executives. Smising and vishing. Angler phishing. CYBER SECURITY 73 Remote Work Vulnerabilities: The COVID-19 pandemic forced many organizations to shift to remote work, creating new opportunities for cybercriminals to exploit vulnerabilities in remote work setups. > o o o o o o Weaker security controls. ... Sensitive data accessed through unsecured Wi-Fi networks. Personal devices used for work. ... The public places issue. ... Weak passwords. ... The practice of unencrypted file sharing. o o o o o o Espionage Terrorism Unauthorized disclosure of information Corruption, including participation in transnational organized crime Sabotage Workplace violence Insider Threats: Insider threats, where employees or trusted individuals intentionally or unintentionally compromise data or systems, continued to be a concern. This harm can include malicious, complacent, or unintentional acts that negatively affect the integrity, confidentiality, and availability of the organization, its data, personnel, or facilities. External stakeholders and customers of the Cybersecurity and Infrastructure Security CISA defines insider threat as the threat that an insider will use their authorized access, wittingly or unwittingly, to do harm to the department’s mission, resources, personnel, facilities, information, equipment, networks, or systems. This threat can manifest as damage to the department through the following insider behaviors: Intentional or unintentional loss or degradation of departmental resources or capabilities > T H R E A T S CYBER SECURITY 74 2.3   HOW TO PREVENT FINANCE SECTOR FROM CYBER ATTACK • • • • • • • • • Financial institutions experienced a 74% increase in cyber threats. Limited staffing and investment in cyber security contributed to security struggles. Financial sector groups can benefit from rethinking cyber security frameworks. Current digital data protections may enable organizations to meet regulatory requirements, however, additional methodologies can also provide a high degree of utility. Although there’s no “silver bullet” when it comes to stopping threats, here are easy-to-implement security protocols that you can quickly layer in order to mitigate risk for financial institutions. How to secure financial institutions’ accounts. Multi-factor authentication (MFA). Organizations can implement multi-factor authentication protocols to help thwart threats. MFA systems function as core elements of identity and access management models. Consider dual and triple controls. In some organizations, one person creates a financial transaction, a second person approves it and a third person hits “send” to enable the transaction to go through. This allows for organizations to maintain a greater level of control over interactions. Raise fraud awareness. Provide employees with greater levels of education surrounding financial fraud. Corporate accounts can be taken over, employees’ desktops can be accessed remotely, and ransomware represents a very clear and present risk. Reconcile transactions regularly. By reconciling accounts either at the start of the day or at the close of the day, organizations can more easily spot activity that may not be legitimate. Experts state that the longer the length of time between the fraud attempt and identification of the issue, the less likely you are to be able to recover stolen funds. Transaction limits. Your banking institution may retain daily limits for card users. However, in recent years, some institutions have done away with this measure. Consider calling your banking institution and requesting for them to monitor transactions either above or below a certain dollar amount. How to secure financial institutions’ data & Monitor security. Ensure that your organization retains tools that allow for comprehensive visibility into systems. This will allow IT admins to effectively monitor security. PCI DSS requires security solution implementation; however, organizations can always seek out higher-quality tools. Enable your IT personnel to do more. Threat detection tools. Consider a more robust set of endpoint security tools. Tracking endpoint security can be a huge hassle without the right types of security solutions. Talk to your CIO about reassessing existing tools and investing in new ones. CYBER SECURITY 75 • • • Incident response. Your organization obviously maintains an incident response plan. But has it been updated recently? Tested in “drill mode” at different times of day, with different staff members on-hand? Zero-trust network model. While zero-trust has existed for quite some time by now, not all organizations have adopted it. Layering zero-trust policies into your security architecture can limit liabilities in the event of a network intrusion. Third-party risk management. Accurately assessing third-party cyber security and compliance measures is tough. Ensure that your organization engages in due diligence. This can reduce account takeovers, corporate data theft, vendor bankruptcy and other destructive debacles. CASE STUDIES Case Study : 1 The fraud of ABG Shipyard (2022) ABG Shipyard Limited has been accused of participating in one of the largest bank fraud to date in the nation by CBI. The defendants are accused of stealing Rs 228.42 billion from 27 other lenders, including SBI and several arrests have been made by CBI has made in relation to this case. The proprietors of the business are allegedly responsible for misappropriation, mischief, embezzlement, and abuse of public trust for the period 2012-17. In July 2016, the loan account was identified as a non-performing asset, and fraud was discovered in 2019. On November 8, 2019, SBI filed its initial grievance. The bank re-filed their case in August 2020. Case Study : 2 Scam at Punjab National Bank (2018) The Punjab National Bank received a scam notice in 2018 involving Rs 114 billion. The heist was at the time described as the biggest in the history of Indian banking. Jeweler Nirav Modi, Ami Modi, Nishant Modi, Mehul Choksi and several staff members of PNB, were some of the primary defaulters that were found. A junior PNB staff members illegally fabricated \"letters of undertaking\" in order to obtain short-term loans from foreign branches of banks in to reimburse the vendors. Hence, the payments were never recorded in the bank's primary system as a result and PNB's higher management failed to notify the fraud. A total of Rs 114 billion was stolen from 30 Indian banks' overseas branches by the Nirav Modi and Gitanjali businesses. Investigation by CBI led to the discovery of the scam. Just few days before the theft was revealed, Modi departed India. He was charged with criminal conspiracy by the Indian government, along with financial fraud, embezzlement, fraud, and contract violation in the PNB case in August 2018. In southwest London's Wandsworth Prison, Modi is now detained. CYBER SECURITY 76 SUMMARY The growing dependence on technology and the Internet has led to increased cybercrime threats, particularly in the financial sector. Cyberattacks such as ransomware, supply chain attacks, phishing, and insider threats are on the rise. To safeguard financial institutions, it is essential to implement measures like multi-factor authentication, transaction limits, fraud awareness, and robust data security practices. Monitoring, threat detection tools, and incident response plans are crucial for timely threat identification and mitigation. Embracing a zero-trust network model and conducting thorough third-party risk assessments can further enhance security. These measures are imperative in an environment where cyber incidents can disrupt services, erode trust, and have far-reaching economic implications, as evidenced by recent cyberattacks on financial entities. REFERENCES 1 2 3 4 5 6 7 https://www.findevgateway.org/sites/default/files/publications/files/cyber_security_pap er_november2019.pdf https://www.imf.org/external/pubs/ft/fandd/2021/03/global-cyber-threat-to-financial-s ystems-maurer.htm https://www.researchgate.net/publication/326774451_Recent_Trends_in_the_Era_of_C ybercrime_and_the_Measures_to_Control_Them https://vc.bridgew.edu/cgi/viewcontent.cgi?article=1154&context=ijcic https://www.proofpoint.com/us/threat-reference/ransomware https://www.techtarget.com/searchsecurity/definition/supply-chain-attack https://www.cisa.gov/topics/physical-security/insider-threat-mitigation/defining-insider -threats CYBER SECURITY 77 CHAPTER 3 MODUS OPERANDI IN CYBER CRIMES To understand modus operandi cybersecurity To understand the Case study To understand the type of attack-vector in cyber-Crime To understand the type of attack-vector in cyber fraud To understand scenario of cyber attempt LEARNING OBJECTIVES 3.1   INTRODUCTION Modus Operandi the typical or characteristic methods that cybercriminals or threat actors employ to execute their attacks and achieve their malicious objectives. Some of the modus operandi followed by the fraudsters and criminals through investment / part time job / Ponzi schemes, wherein the transactions are routed through the Finance/banking channels are given here under: At a minimum, every Modus Operandi will contain elements that involve the following: It is a learned behavior like any other behavior, and involves things like experience, education, and maturity. This study analyzed cyber-crime, highlighting the wide spectrum of cyberattacks that occurred around the world. The modus operandi of cyberattack campaigns was revealed by analyzing and considering cyberattacks in the context of major world events. Following what appeared to be substantial gaps between the initial breakout of the virus and social engineering cyber-attack, the investigation indicates how attacks became significantly more frequent over time, to the point where three or four different cyber-attacks were reported on certain days. 1 2 3 Ensure success of the crime; Protect and identity Effect Escape 3.2   CASE STUDY > > > > > CYBER SECURITY 78 This study contributes in the direction of fifteen types of cyber-attacks which were identified as the most common pattern and its ensuing devastating events during the global Cyber fraud crisis. The data was generated between March 2020 and December 2021, from a global survey through online contact and responses, especially from different organizations and business executives. The results show differences in cyber-attack techniques; as hacking attacks were the most frequent with a record of 330 out of 895 attacks, accounting for 37%. Next was Spam emails attack with 13%; emails with 13%; followed by malicious domains with 9%. Mobile apps followed with 8%, Phishing was 7%, Malware 7%, Browsing apps with 6%, DDoS has 6%, Website apps with 6%, and MSMM with 6%. BEC frequency was 4%, Ransomware with 2%, Botnet scored 2% and APT recorded 1%. The study recommends that it will continue to be necessary for governments and organizations to be resilient and innovative in cybersecurity decisions to overcome the current and future effects of the pandemic or similar crisis, which could be long-lasting. Hence, this study's findings will guide the creation, development, and implementation of more secure systems to safeguard people from cyber-attacks. In the year 2020, there was about 1001 frequency of data breaches in the United States. As a result, over 155.8 million people were affected by data breaches in the same year. According to the Identity Theft Resource Center's (ITRC) data breach study, there were 1,291 data breaches between September 2020 and September 2021. Compared to the 1,108 data breaches reported in 2019, this statistic represents an 8 percent rise. The trend of compromise between 2016 and 2021 is highlighted in In the year 2020, in the wake of the COVID-19 crisis, there were about 1,872 breaches, compared to 1,108 in 2019. However, in the first quarter of 2022, data compromises caused by physical attacks such as document or device theft and skimming devices fell to single digits (3), totaling 404. In the aftermath of the COVID-19 pandemic, cyber security concerns have arisen from various quarters. In the past two years, the COVID-19 pandemic has been making headlines worldwide. In this context, on April 8, 2020, the US Department of Homeland Security (DHS), the UK's National Cyber Security Centre (NCSC), and the Cybersecurity & Infrastructure Security Agency (CISA) issued a joint advisory describing how the COVID-19 pandemic was being exploited by cybercriminals and APT organizations (Deloitte, 2020). CYBER SECURITY 79 Concerns about phishing, malware and other attacks on communication networks were addressed in this advisory from organizations, such as Microsoft Teams and Zoom. In recent years, industrial espionage has grown with the help of the internet and lax cybersecurity practices, though such acts have become easier to detect. Social media is a new frontier for industrial espionage and its full impact and utility are still being measured. Penalties for industrial espionage can be significant, as seen in 1993 when Volkswagen stole trade secrets from General Motors which led to a $100 million fine. Introduction The Dani Data app scam is a cautionary tale about the dangers of investing in unregulated apps and websites. The app promised users high returns on their investments in football betting, but it was actually a Ponzi scheme that defrauded thousands of people out of their money. The scam began in December 2021, when the Dani Data app was launched by a Chinese national named Woo Uyanbe. The app claimed to use artificial intelligence to predict the outcomes of football matches, and it offered users the opportunity to invest in these predictions. The app quickly gained popularity, and by June 2022, it had over 1,200 users who had invested a total of Rs. 1,400 crore (about US$180 million). How the Scam Worked The Dani Data app scam worked like a typical Ponzi scheme. The operators of the app would use the money from new investors to pay out profits to existing investors, creating the illusion of a successful investment. This allowed them to attract even more investors, who would then be used to pay out the profits to the earlier investors. The scam eventually collapsed when the number of new investors dwindled. The operators of the app then disappeared with the money, leaving the investors with nothing. The Victims of the Scam The Dani Data app scam affected thousands of people across India. The victims were from all walks of life, including young people, professionals, and retirees. Many of the victims had saved their life savings for retirement, and they were left devastated by the loss. The Lessons Learned The Dani Data app scam is a reminder of the importance of doing your research before investing your money. Investors should always be wary of any investment that promises high returns with little or no risk. They should also only invest in regulated apps and websites. Dani Data App Scam Case Study CYBER SECURITY 80 The following are some of the key lessons that can be learned from the Dani Data app scam: • • • • • Be wary of any investment that promises high returns with little or no risk. Do your research before investing your money. Only invest in regulated apps and websites. Be suspicious of any investment that requires you to make a large upfront payment. Be aware of the signs of a Ponzi scheme, such as the use of fake testimonials and the promise of guaranteed returns. How to Protect Yourself There are a few things you can do to protect yourself from becoming a victim of a Ponzi scheme: • • • • Do your research. Before investing in any app or website, make sure to do your research and understand the risks involved. Only invest in regulated apps and websites. This means that the app or website has been registered with the appropriate authorities and is subject to their regulations. Be suspicious of any investment that requires you to make a large upfront payment. Ponzi schemes often require investors to make large upfront payments, which is a red flag. Be aware of the signs of a Ponzi scheme. These include the promise of high returns with little or no risk, the use of fake testimonials, and the lack of transparency about how the investment works. Conclusion The Dani Data app scam is a reminder of the dangers of investing in unregulated apps and websites. By learning from this scam, we can help to protect ourselves and others from becoming victims of this type of fraud. In addition to the above, here are some other things to keep in mind when investing: • • • • Never invest money that you cannot afford to lose. Be patient. Don't expect to get rich quick. Diversify your investments. Don't put all your eggs in one basket. Get professional advice. If you're not sure about an investment, talk to a financial advisor. CYBER SECURITY 81 3.3   MODUS OPERANDI IN CYBER CRIMES 3.3.1 THE METHOD ACQUIRED BY ANY CRIMINAL FOR THE SUCCESSFUL COMMISSION OF A CRIME The advertisements / SMS messages usually contain a link, prompting for chat. Mobile applications, bulk SMS messages, SIM-box-based Virtual Private Network (VPNs), phishing websites, cloud services, virtual accounts in banks, Application Programming Interfaces (APIs), etc. are used to carry out financial frauds. • • • • • • A Infringement of Privacy: Mishandling private information, such as customer passwords or social security numbers, can compromise user privacy, and is often illegal. Privacy violations occur when: Private user information enters the program. The data is written to an external location, such as the console, file system, or network. Private data can enter a program in a variety of ways. Directly from the user in the form of a password or personal information. Accessed from a database or other data store by the application Indirectly from a partner or other third party CYBER SECURITY Economic & industrial Espionage Industrial espionage describes a series of covert activities in the corporate world such as the theft of trade secrets by the removal, copying, or recording of confidential or valuable information in a company. The information obtained is meant for use by a competitor. Industrial espionage may also involve bribery, blackmail, and technological surveillance. Also referred to as corporate spying or espionage or economic espionage, industrial espionage is most associated with technology-heavy industries—particularly the computer, biotechnology, aerospace, chemical, energy, and auto sectors—in which a significant amount of money is spent on research and development (R&D). The world's biggest practitioners of industrial espionage correspond to companies in countries with the biggest economies. One of the reasons why corporations engage in industrial espionage is to save time as well as huge sums of money. After all, it can take years to bring products and services to market—and the costs can add up. Computer Sabotage and Computer Extortion Sabotage is deliberate damage to equipment. Infecting a website with malware is an example of information sabotage. A more extreme example is causing the power grid in a nation to go down. Cyber extortion is a crime involving an attack or threat of an attack coupled with a demand for money or some other response in return for stopping or remediating the attack. Cyber extortion attacks are about gaining access to an organization's systems and identifying points of weakness or targets of value B C 82 Electronic Money Laundering & Tax Evasion Electronic funds transfers have assisted in concealing and in moving the proceeds of crime. Emerging technologies will greatly assist in concealing the origin of ill-gotten gains. Legitimately derived income may also be more easily concealed from taxation authorities. Large financial institutions will no longer be the only ones with the ability to achieve electronic funds transfers transiting numerous jurisdictions at the speed of light. The development of informal banking institutions and parallel banking systems may permit central bank supervision to be bypassed but can also facilitate the evasion of cash transaction reporting requirements in those nations which have them. Traditional underground banks, which have flourished in Asian countries for centuries, will enjoy even greater capacity using telecommunications. With the emergence and proliferation of various technologies of electronic commerce, one can easily envisage how traditional countermeasures against money laundering and tax evasion may soon be of limited value. I may soon be able to sell you a quantity of heroin, in return for an untraceable transfer of stored value to my \"smart card\", which I then download anonymously to my account in a financial institution situated in an overseas jurisdiction which protects the privacy of banking clients. I can discreetly draw upon these funds as and when I may require, downloading them back to my stored value card (Wahlert 1996).\" D • • • • • • Child Pornography Child pornography is a form of child sexual exploitation. Federal law defines child pornography as any visual depiction of sexually explicit conduct involving a minor (persons less than 18 years old). Images of child pornography are also referred to as child sexual abuse images. Federal law prohibits the production, distribution, importation, reception, or possession of any image of child pornography. A violation of federal child pornography laws is a serious crime, and convicted offenders face fines severe statutory penalties. E • • • • CYBER SECURITY 83 F Unauthorized access Unauthorized Access is when a person who does not have permission to connect to or use a system gains entry in a manner unintended by the system owner. The popular term for this is “hacking”. How did this happen? The specifics are different for each individual event, but it could happen in any number of ways. Usually, access is gained via unpatched software or other known vulnerabilities. What should I do? The University will notify you in some manner of the incident and provide you with more detailed information about the incident. The university encourages all persons impacted by an Unauthorized Access incident to contact one of the three credit reporting agencies to place a 90-day fraud alert on their credit report. If there is reason to believe more stringent action should be taken, it will be noted in the letter (or other notification) you receive. 3.3.2 THE METHOD ACQUIRED BY ANY CRIMINAL FOR THE SUCCESSFUL COMMISSION OF A FRAUD • • Sending Annoying Messages: With the advent of technology and globalization smartphones and computers have become very handy. But each and every coin is two faced. The beneficiary side of technology is better communication, time harvesting and many more but at the same time often people are exploited by others by sending annoying and harassing messages either in the form of text i.e., SMS or in the form of multimedia content i.e., MMS. Text Message: Annoying, Insulting, Misleading, Defaming messages are often sent using mobile phones in bulk. Hence the actual source could not be fixed. o o o Such messages are often a cause of misperception among people of different races, cultures and traditions many times, often resulting in fights or riots. Unaware and innocent people often fall in traps of cyber criminals for SMS of lottery, Emails of prize money, false promise of jobs, and false mail for admission in reputed colleges. Frequently Credit card details of the victim along with other credentials are gathered by the cyber-criminal by falsely luring them on the grounds of winning a huge amount of money CYBER SECURITY 84 • • • • • • • Making Offensive Calls: Offenders can also harass others by making offensive calls to them and annoying them. Many a time anonymous calls are used by the criminals as an effective tool in making extortion or threatening calls. Females are often harassed by stalkers by this means of communication. WEB Based Calls: Calls can be made by spoofing the mobile number using various sites. Such calls are intended to hide the actual location of the caller and any fake or annoying calls are made. Such calls are often used for terrorist activity and for trafficking illegal goods or for any ransom or blackmailing purposes. Identity Theft: It involves stealing the identity of a person by dishonest use of someone’s electronic signature, password, or other unique identifying features. It includes credit card fraud, Online Share trading scams, e-banking crimes, fraudulent transactions, etc. Financial Attack Offenders often clones the web page of a bank or any organizing or social site in the name of enhancing their security or updating their services or creating a fake webpage in the place of genuine, which is a look alike page of original, in order to collect personnel information at various stage and abuses the information and abuse the information for causing wrongful loss, fraudulent transfer of funds in internet banking. WEB Page Hacking Hacking can be termed as unauthorized access to any electronic media of communication. In this method the genuine page of a web site is mutilated by altering the content of the file and appearance causing embarrassment to any reputed firm and may lead to denial of service, causing a heavy loss. Phishing: Cybercriminals send deceptive emails or messages to trick recipients into revealing sensitive information or clicking on malicious links. These emails often impersonate legitimate entities, such as banks or trusted organizations. Malware Attacks: Malicious software (malware) is used to compromise systems, steal data, or gain unauthorized access. Malware may be delivered via infected attachments, malicious websites, or compromised software. CYBER SECURITY 85 • • • • • • Ransomware: Cybercriminals use ransomware to encrypt a victim's data, demanding a ransom for decryption. Typically, ransomware is delivered through phishing emails or exploiting vulnerabilities. Denial of Service (DoS) and Distributed Denial of Service (DDoS) Attacks: Attackers flood a target system or network with an overwhelming amount of traffic, rendering it unavailable to users. DDoS attacks involve multiple compromised devices working together. Insider Threats: Malicious or negligent insiders within an organization can pose significant security risks. These insiders may steal data, intentionally compromise systems, or inadvertently cause security incidents. Credential Theft: Cybercriminals steal usernames and passwords, often through phishing or credential stuffing attacks. Once obtained, these credentials can be used for unauthorized access to various accounts. Zero-Day Exploits: Exploiting unpatched vulnerabilities in software or hardware that are not yet known to the vendor or public. Attackers use these vulnerabilities to gain unauthorized access or deliver malware. Social Engineering: Manipulating individuals into divulging confidential information or performing actions that compromise security. Tactics may include pretexting, baiting, or tailgating. CYBER SECURITY 86 • • • • Supply Chain Attacks: Cybercriminals target a supplier or third-party partner to compromise the security of the target organization. This can involve injecting malware into software updates or compromising the supply chain. Advanced Persistent Threats (APTs): APTs are long-term, highly sophisticated attacks often associated with nation-state actors. Attackers maintain persistence in the target network, gather intelligence, and stealthily exfiltrate data. IoT and Botnet Attacks: Attackers compromise Internet of Things (IoT) devices to create botnets for various malicious purposes, such as DDoS attacks. Weak security in IoT devices is often exploited. Crypto Jacking: Cybercriminals secretly use victims' computing resources to mine cryptocurrencies. This can slow down the victim's system and increase energy costs. 3.3.3    SCENARIO Earn Online’, ‘Part Time Job’, etc. are the key words used by fraudsters and criminals to match their advertisements. Such advertisements are generally displayed from 10 am to 7 pm, i.e., the peak time for internet use by Indian public. Multiple Indian numbers were used for communications with victims. On analysis, it was observed that the mobile number holder was not aware of the messaging platform being operated in his / her name. In some cases, the mobile number holder knowingly shares OTP in return for some money from the fraudsters. The fraudster sends an investment link over chat. Each person has a referral code. Fraudster generally communicates in English. Google Translate is also used to communicate with the victims. A B C The report even throws light on the status of account for the past one year-a detailed view on the present status of the applicant – Diagram below depicts the same o These websites used by fraudsters generally have domains – ‘xyz’ and ‘Wix site’. These sites either redirect to a messaging platform or to a website which has embedded messaging platform link which, on clicking, again redirects to a chat. CYBER SECURITY 87 A screenshot needs to be sent to the person over the messaging platform to activate the account. Once the account is activated, a task is given to the user to gain confidence of the person. Once the task is completed, the victim is asked to withdraw the money. Money is withdrawn through various Payment Aggregators. On getting the first refund, the victim is now lured to do more tasks which involve loading more money. Bank accounts opened by money mules using real / fake identification are used to receive stolen funds from compromised bank accounts, through sharing of OTPs, etc. Rented accounts are sourced by agents and account owners (money mules) are given fixed rent or commission or lumpsum amount for the account. Layering of transactions is carried out by account-to-account transfers. Bulk payments / APIs are also used for this. From the intermediate account, money is diverted to multiple sources / assets like crypto currencies, bullion, payout accounts (for gaining confidence and hiding laundering), foreign money transfer, person-to-person transfer, etc. Instances have been observed where Shell Companies with dummy directors, rented companies with MCA registration certificates, fintech companies, payment gateways, SMS aggregators are reported to be involved in carrying out such financial frauds, mostly using UPI as payment mode. Main objective of opening Shell Companies is to create a current account or a fintech company for accepting or paying out proceeds of frauds. Most of these Shell Companies appear to be Technology Companies. D E F G H I J o o Mandatory condition to do a task is to load money through Payment Gateways which are not authorized to operate in India. All payments are made through UPI. Some of the UPI addresses belong to companies registered with the Ministry of Corporate Affairs (MCA). Generally, a call center is used to interact with the victims for communication regarding tasks. For instance, on failure to load funds on investment website, the call center executive initiates a call. o o The process continues and once a big amount is loaded by the victim, the person (fraudster) stops responding over chat. UPI details are updated daily on fraudulent websites. Investment websites keep changing. Source code remains the same but domain changes. CYBER SECURITY 88 UPI addresses are used to create layering behind Payment Aggregators thereby facilitating end of day settlement. Aggregator on aggregator concept is used by these players (fraudsters) in order to conceal their identities. Gold, crypto currencies, international money transfers are observed by LAW Enforcement Agencies (LEAs) to be usual termination points of the fraud trials. K L M o o o o o The merchants onboarded on the fintech players (E.g., ABC company onboarded on Payment Aggregator) are frauds. The network of fraudsters starts creating Payment Aggregator business in collaboration with banks directly or with other fintech companies. The fraudster would be sitting behind the payment aggregator as sub-aggregator or directly as a merchant. The money collected by the fraudsters, as sub-aggregator and / or as merchant, is remitted to the Payment Aggregator wherefrom the API (app) based payouts take place. After the aggregator network is set-up, the accounts are operated for making the payouts by the fraudsters based outside India. The Federal Bureau of Investigation (FBI) refers to this type of scam as “BEC,” or “Business Email Compromise.” It defines it as “a sophisticated scam targeting firms that engage with international suppliers and/or make frequent wire transfer payments.” The fraud is carried out by using computer intrusion or social engineering tactics to compromise legitimate company email accounts to make illicit financial transfers”. • • • Deceptive phishing: The most common phishing fraud is deceptive phishing. Fraudsters pose as a real company to obtain people's personal information or login passwords. Attacks and a sense of urgency are used in these emails to terrify recipients into doing what the attackers want. Phishing based on malware. This technique occurs when a thief attaches a destructive computer program that appears to be useful to websites, emails, and other electronic documents on the Internet.Phishing based on malware or Malware based phishing is a form of a computer program that is also known as malware. Phone phishing or voice phishing is the practice of making false phone calls in order to dupe individuals into donating money or divulging personal information. It's a new label for a problem that's been around for a long time: phone scams. A common phishing method is for a criminal to pose as a trustworthy institution, organization, or government agency. CYBER SECURITY 89 • • Pharming attack is a type of cyberattack in which users are directed to a false website that appears to be a genuine website. When users type in a legitimate web URL, they are led to a false website that looks exactly like the original one. Phishing websites: A phishing website is a domain with a name and appearance similar to an official website. They are designed to deceive someone into thinking it's real. Some pointers on how to spot a phishing website include Remediation: a b c d e f visiting the website directly, avoiding pop-ups and insecure sites. keeping a close eye on the URL or web address. entering a fictitious password. examine the website's content and design. looking at online reviews and the payment options available on a website. SUMMARY The introduction delves into the concept of modus operandi, the characteristic methods employed by cybercriminals to execute their attacks. It emphasizes the importance of understanding these methods for combating cybercrime, highlighting that modus operandi involves factors like experience, education, and maturity. The case study section discusses the rise in cyberattacks, especially during the COVID-19 pandemic, and identifies fifteen common types of cyberattacks. The data is drawn from a global survey conducted between March 2020 and December 2021, showing that hacking attacks were the most prevalent at 37%, followed by spam emails, phishing, and malware. The study emphasizes the need for resilient and innovative cybersecurity measures in the face of ongoing and future crises. The Dani Data app scam case study serves as a cautionary tale about the dangers of investing in unregulated apps, detailing how a Ponzi scheme defrauded thousands of people out of their money. It emphasizes the importance of research, regulation, and vigilance when considering investments. In the modus operandi in cybercrimes section, various methods used by cybercriminals for successful commission of crimes and frauds are outlined. These include computer viruses, identity theft, economic and industrial espionage, computer sabotage, electronic money laundering, and more. CYBER SECURITY 90 The scenario section provides a detailed overview of how cybercriminals conduct financial frauds through deceptive practices, including messaging platforms, UPI payments, shell companies, and aggregator networks. It sheds light on the complex web of operations these criminals employ to hide their identities and launder money. Overall, this comprehensive summary highlights the diverse methods and challenges associated with combating cybercrime and underscores the importance of cybersecurity measures and awareness for individuals and organizations. REFERENCES 1 2 3 4 5 6 7 8 9 10 11 https://www.digicert.com/faq/vulnerability-management/ https://www.justice.gov/criminal-ceos https://owasp.org/www-community/vulnerabilities/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9367180/ http://epgp.inflibnet.ac.in/ https://www.indusind.com/ https://www.igi-global.com/chapter/modus-operandi-in-cybercrime/248041 https://security.tennessee.edu/ https://www.swift.com/news-events/news/modus-operandi-cyber-attack https://www.investopedia.com/terms/i/industrial-espionage.asp http://g32cybercrimecomp1220uwi.weebly.com/ CYBER SECURITY 91 CHAPTER 4 IMPORTANCE OF DIGITAL FORENSICS & ETHICAL HACKING Understanding of Digital Forensics Understanding the importance of Digital Forensics Exploring Ethical Hacking Understanding Ethical hacking Fundamentals LEARNING OBJECTIVES 4.1   DIGITAL FORENSIC Digital forensics or digital forensic science is a branch of cybersecurity focused on the recovery and investigation of material found in digital devices and cybercrimes. Digital forensics was originally used as a synonym for computer forensics but has expanded to cover the investigation of all devices that store digital data. As society increases reliance on computer systems and cloud computing, digital forensics becomes a crucial aspect of law enforcement agencies and businesses. Digital forensics is concerned with the identification, preservation, examination and analysis of digital evidence, using scientifically accepted and validated processes, to be used in and outside of a court of law. Today, the technical aspect of an investigation is divided into five branches that encompass the seizure, forensic imaging and analysis of digital media. > > > > CYBER SECURITY 92 4.2   PURPOSE OF DIGITAL FORENSICS The most common use of digital forensics is to support or refute a hypothesis in a criminal or civil court: Digital forensics experts are also hired by the private sector as part of cybersecurity and information security teams to identify the cause of data breaches, data leaks, cyber-attacks and other cyber threats. Digital forensic analysis may also be part of incident response to help recover or identify any sensitive data or personally identifiable information (PII) that was lost or stolen in a cybercrime. 4.3   USE OF DIGITAL FORENSICS Digital forensics is used in both criminal and private investigations. Traditionally, it is associated with criminal law where evidence is collected to support or negate a hypothesis before the court. Collected evidence may be used as part of intelligence gathering or to locate, identify or halt other crimes. As a result, data gathered may be held to a less strict standard than traditional forensics. In civil cases, digital forensics may help with electronic discovery (eDiscovery). A common example is following unauthorized network intrusion. A forensics examiner will attempt to understand the nature and extent of the attack, as well as try to identify the attacker. As encryption becomes more widespread, forensic investigation becomes harder, due to the limited laws compelling individuals to disclose encryption keys. 4.4   DIGITAL FORENSIC INVESTIGATION PROCESS There are a number of process models for digital forensics, which define how forensic examiners should gather, process and analyze data. That said, digital forensics investigations commonly consist of four stages: • • Criminal cases: Involve the alleged breaking of laws and law enforcement agencies and their digital forensic examiners. Civil cases: Involve the protection of rights and property of individuals or contractual disputes between commercial entities where a form of digital forensics called electronic discovery (eDiscovery) may be involved. • • Quick sorting - You can quickly sort your data by using the A-Z and Z-A Sort buttons on the Ribbon's Data tab Sort Dialog Box – You can also sort on various criteria through Sort Dialog Box 1 2 Seizure: Prior to actual examination digital media is seized. In criminal cases, this will be performed by law enforcement personnel to preserve the chain of custody. Acquisition: Once exhibits are seized, a forensic duplicate of the data is created. Once created using a hard drive duplicator or software imaging tool, then the original drive is CYBER SECURITY 93 returned to secure storage to prevent tampering. The acquired image is verified with SHA1 or MD5 hash functions and will be verified again throughout analysis to verify the evidence is still in its original state. 3 4 Analysis:  After acquisition, files are analyzed to identify evidence to support or contradict a hypothesis. The forensic analyst usually recovers evidence material using a number of methods (and tools), often beginning with the recovery of deleted information. The type of data analyzed varies but will generally include email, chat logs, images, internet history and documents. The data can be recovered from accessible disk space, deleted space or from the operating system cache. Reporting: Once the investigation is complete, the information is collated into a report that is accessible to non-technical individuals. It may include audit information or other meta documentation. • • Integrity:  Ensuring the act of seizing and acquiring digital media does not modify the evidence (either the original or the copy). Authenticity: The ability to confirm the integrity of information. The chain of custody from crime scene through analysis and ultimately to the court, in the form of an audit trail, is an important part of establishing the authenticity of evidence. Each of the branches of digital forensics have their own guidelines on how to conduct investigations and handle data. 4.5   THE LEGAL CONSIDERATIONS OF DIGITAL FORENSICS The examination of digital media is covered by national and international legislation. For civil investigations, laws may restrict what can be examined. Restrictions against network monitoring or reading personal communications are common. Likewise, criminal investigations may be restricted by national laws that dictate how much information can be seized. As an example, seizure of evidence by law enforcement is governed by the PACE act in the United Kingdom. The 1990 computer misuse act legislates against unauthorized access to computer material which makes it hard for civil investigators in the UK. One of the common considerations which is largely undecided is an individual's right to privacy. The US Electronic Communications Privacy Act places limitations on the ability for law enforcement and civil investigators to intercept and access evidence. The act makes a distinction between stored communication (e.g., email archives) and transmitted communication (e.g., VOIP). Transmitted communication is considered more of a privacy invasion and is harder to obtain a warrant for. Digital evidence falls into the same legal guidelines as other evidence. In general, laws dealing with digital evidence are concerned with: CYBER SECURITY 94 4.6   DIFFERENT BRANCHES OF DIGITAL FORENSICS Digital forensics is no longer synonymous with computer forensics. It is increasingly concerned with data from other digital devices such as tablets, smart phones, flash drives and even cloud computing. In general, we can break digital forensics into five branches: 1 2 3 4 5 Computer Forensics Mobile Device Forensics Network Forensics Forensic Data Analysis Database Forensics Computer Forensics Computer forensics or computer forensic science is a branch of digital forensics concerned with evidence found in computers and digital storage media. The goal of computer forensics is to examine digital data with the aim of identifying, preserving, recovering, analyzing and presenting facts and opinions about digital information. It is used in both computer crime and civil proceedings. The discipline has similar techniques and principles to data recovery, with additional guidelines and practices designed to create a legal audit trail with a clear chain of custody.Evidence from computer forensics investigations is subjected to the same guidelines and practices as other digital evidence. Mobile Device Forensics Mobile device forensics is a branch of digital forensics focused on the recovery of digital evidence from mobile devices using forensically sound methods. While the phrase mobile device generally refers to mobile phones, it can relate to any device that has internal memory and communication ability including PDA devices, GPS devices and tablets. While the use of mobile phones in crime has been widely recognized for years, the forensic study of mobile phones is a new field, beginning in the late 1990s. The growing need for mobile device forensics is driven by: 1 2 o o o o o o o Use of mobile phones to store and transmit personal and corporate information Use of mobile phones in online transactions That said, mobile device forensics is particularly challenging due to: Evidential and technical challenges such as cell site analysis which makes it possible to determine roughly the cell site zone from which a call was made or received but not a specific location such as an address Changes in mobile phone form factors, operating systems, data storage, services, peripherals and even pin connectors and cables Storage capacity growth Their proprietary nature CYBER SECURITY 95 Network forensics is a branch of digital forensics focused on monitoring and analyzing computer network traffic for information gathering, legal evidence or intrusion detection. Unlike other branches of digital forensics, network data is volatile and dynamic. Once transmitted, it is gone so network forensics is often a proactive investigation. Network forensics has two general uses: Forensic Data Analysis Forensic data analysis (FDA) is a branch of digital forensics that examines structured data in regard to incidents of financial crime. The aim is to discover and analyze patterns of fraudulent activities. Structured data is data from application systems or their databases. This can be contrasted to unstructured data that is taken from communication, office applications and mobile devices. Unstructured data has no overarching structure and analysis therefore means applying keywords or mapping patterns. Analysis of unstructured data is usually done by computer forensics or mobile device forensics experts. Database Forensics Database forensics is a branch of digital forensics related to databases and their related metadata. Cached information may also exist in a server's RAM requiring live analysis techniques. A forensic examination of a database may relate to timestamps that apply to the update time of a row in a relational database that is being inspected and tested for validity to verify the actions of a database user. Alternatively, it may focus on identifying transactions within a database or application that indicates evidence of wrongdoing, such as fraud. o Hibernation behavior where processes are suspended when the device is off or idle as a result of these challenges, many tools exist to extract evidence from mobile devices. But no one tool or method can acquire all evidence from all devices. This has forced forensic examiners, especially those who wish to be expert witnesses, to undergo extensive training to understand how each tool and method acquires evidence, how it maintains forensic soundness and how it meets legal requirements. o o Monitoring a network for anomalous traffic and identifying intrusions. Law enforcement may analyze capture network traffic as part of criminal investigations. Network Forensics 4 5 6 CYBER SECURITY 96 The emergence of smart phones that increasingly utilize encryption renders the acquisition of digital evidence an intricate task. Also, advancements in cybercrime have culminated in substantial challenges, such as Crime as a Service (CaaS), which provides the attackers with easy access to the tools, programming frameworks, and services needed to conduct cyber-attacks Digital forensics has become an important tool in the investigation/identification of computer based and computer-assisted crime. Eric Holder (Deputy Attorney General of the United States Subcommittee on Criminal Oversight for the Senate) has classified the challenges into three categories • • • • 1 2 3 Technical challenges Legal challenges Resource challenge Legal challenges: Resource challenges: It is severely challenged by the growing popularity of digital devices and the heterogeneous hardware and software platforms being utilized. o o o o o Different Media format Encryption Anti-forensics Steganography. Live acquisition and analysis o o o o o Jurisdictional issue. Lack of standard legislation creates the legal challenges. Status as scientific evidence. what is the known or potential rate of error of the method used. whether the theory or method has been generally accepted by the scientific. o o o Volume of data. Time taken to acquire and analyze forensic media. To ensure to satisfied critical investigative and prosecutorial needs at all levels of government Technical challenges: Finding the forensics evidence have been hindered by: 4.7   CHALLENGES FACED BY DIGITAL FORENSICS Development is severely challenged by the growing popularity of digital devices and the heterogeneous hardware and software being utilized. The increasing variety of file formats and OSs hampers the development of standardized DF tools and processes. • 1 2 3 CYBER SECURITY 97"
       },
-      "correct_answer": null,
+      "correct_answer": "c",
       "model_answer": "",
       "source": "aicitss_module_1.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Weak internal controls within the organisation promoting a fraud [google-verified]"
     },
     {
       "id": "Q1413",
@@ -27032,10 +27316,11 @@
         "a": "Excel Data Connector",
         "b": "SharePoint Integration"
       },
-      "correct_answer": null,
+      "correct_answer": "a",
       "model_answer": "",
       "source": "aicitss_module_1.pdf",
-      "tags": []
+      "tags": [],
+      "explanation": "Excel Data Connector [google-verified]"
     },
     {
       "id": "Q1415",
